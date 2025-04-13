@@ -30,6 +30,13 @@ Global $g_sBotTitle = "" ;~ Don't assign any title here, use Func UpdateBotTitle
 Global $g_hFrmBot = 0 ; The main GUI window
 Global $g_bHaltAttack = False ; Flag to control halting attacks based on storage levels
 Global $g_aiHeroHallPos[2] = [-1, -1] ; Hero Hall position
+Global $g_hChkAutoLabUpgrades = 0
+Global $g_hCmbLaboratory = 0
+Global $g_bAutoLabUpgradeEnable = False
+Global $g_iCmbLaboratory = 0
+Global $g_sLabUpgradeTime = ""
+Global $g_iLaboratoryElixirCost = 0
+Global $g_iLaboratoryDElixirCost = 0
 
 ; MBR includes
 #include "COCBot\MBR Global Variables.au3"
@@ -1137,68 +1144,181 @@ Func FirstCheck()
     ; Add a small delay to ensure the Laboratory upgrade has time to process
     If _Sleep(2000) Then Return
 
-        ; Fallback: Manually open the Laboratory and check for upgrades if the standard function didn't work
-    If Not $g_bRunState Then Return
-    If $g_bRestart Then Return
-    SetLog("Manually verifying Laboratory upgrade...", $COLOR_INFO)
-    If isInsideDiamond($g_aiLaboratoryPos) Then
-        SetLog("Opening Laboratory at position: " & $g_aiLaboratoryPos[0] & "," & $g_aiLaboratoryPos[1], $COLOR_ACTION)
-        Click($g_aiLaboratoryPos[0], $g_aiLaboratoryPos[1], 1, 0, "Click Laboratory")
-        ; Wait for the Laboratory window to open
-        If _Sleep(2000) Then Return
-        SetLog("Assuming Laboratory window opened.", $COLOR_INFO)
+; Laboratory auto-upgrade
+If Not $g_bRunState Then Return
+If $g_bRestart Then Return
+SetLog("Checking Laboratory for auto-upgrade...", $COLOR_INFO)
+If isInsideDiamond($g_aiLaboratoryPos) Then
+    ; Try native Laboratory() function
+    Local $bWasAutoLabUpgradeEnable = $g_bAutoLabUpgradeEnable
+    Local $iWasCmbLaboratory = $g_iCmbLaboratory
+    $g_bAutoLabUpgradeEnable = (GUICtrlRead($g_hChkAutoLabUpgrades) = $GUI_CHECKED)
+    Local $sTroopSelected = GUICtrlRead($g_hCmbLaboratory)
+    If $sTroopSelected <> GetTranslatedFileIni("MBR Global GUI Design", "Any", "Any") Then
+        ; Map troop name to index (1-based, matching $sTxtNames order)
+        Local $aTroopNames = StringSplit(GetTranslatedFileIni("MBR Global GUI Design", "Any", "Any") & "|" & _
+            "Barbarian|Archer|Giant|Goblin|Wall Breaker|Balloon|Wizard|Healer|Dragon|Pekka|Baby Dragon|Miner|" & _
+            "Electro Dragon|Yeti|Dragon Rider|Electro Titan|Root Rider|Thrower|Lightning Spell|Healing Spell|" & _
+            "Rage Spell|Jump Spell|Freeze Spell|Clone Spell|Invisibility Spell|Recall Spell|Revive Spell|" & _
+            "Poison Spell|EarthQuake Spell|Haste Spell|Skeleton Spell|Bat Spell|Overgrowth Spell|Minion|" & _
+            "Hog Rider|Valkyrie|Golem|Witch|Lava Hound|Bowler|Ice Golem|Headhunter|App. Warden|Druid|" & _
+            "Wall Wrecker|Battle Blimp|Stone Slammer|Siege Barrack|Log Launcher|Flame Flinger|Battle Drill", "|", 2)
+        For $i = 1 To UBound($aTroopNames) - 1
+            If $aTroopNames[$i] = $sTroopSelected Then
+                $g_iCmbLaboratory = $i
+                ExitLoop
+            EndIf
+        Next
+    Else
+        $g_iCmbLaboratory = 0 ; "Any"
+    EndIf
 
-        ; Perform the auto-upgrade
-        If $g_bAutoLabUpgradeEnable Then
-            SetLog("Attempting to auto-upgrade in Laboratory...", $COLOR_ACTION)
+    ; Temporarily suppress Village Report logging during Laboratory()
+    Local $bWasSilentSetLog = $g_bSilentSetLog
+    $g_bSilentSetLog = True
+    Local $bUpgradeStarted = Laboratory()
+    $g_bSilentSetLog = $bWasSilentSetLog
 
-            ; Click the "Research" button to open the upgrade interface
-            ; Coordinates are approximate, adjust based on your setup
-            Local $aResearchButton = [400, 500] ; Example coordinates for the "Research" button
-            SetLog("Clicking Research button in Laboratory...", $COLOR_ACTION)
-            ClickP($aResearchButton, 1, 0, "Click Research Button")
-            If _Sleep(1000) Then Return
+    $g_bAutoLabUpgradeEnable = $bWasAutoLabUpgradeEnable
+    $g_iCmbLaboratory = $iWasCmbLaboratory
 
-            ; Check for ongoing upgrades
-            Local $bUpgradeInProgress = False
-            ; Simplified check: Look for a timer or progress indicator (adjust coordinates based on your setup)
-            ; Example: Check for a timer in the upgrade window
-            Local $aTimer = getBuilderCount(True, 300, 400, 500, 450) ; Example coordinates for timer detection
-            If IsArray($aTimer) And UBound($aTimer) > 0 Then
-                SetLog("Laboratory is currently upgrading: " & $aTimer[0], $COLOR_INFO)
+    If $bUpgradeStarted Then
+        SetLog("Laboratory upgrade successful.", $COLOR_SUCCESS)
+    Else
+        ; Check if Laboratory() failed due to an ongoing upgrade
+        Local $bUpgradeInProgress = False
+        If $g_sLabUpgradeTime <> "" Then
+            Local $iTimeDiff = _DateDiff("n", _NowCalc(), $g_sLabUpgradeTime)
+            If $iTimeDiff > 0 Then
+                SetLog("Laboratory upgrade already in progress, skipping manual upgrade.", $COLOR_INFO)
                 $bUpgradeInProgress = True
             EndIf
-
-            ; If no upgrade is in progress, start a new one
-            If Not $bUpgradeInProgress Then
-                ; Select a troop to upgrade based on GUI settings
-                ; In the main village, this is typically $g_iCmbLaboratory (adjust based on your setup)
-                Local $iTroopIndex = $g_iCmbLaboratory ; Troop selection from GUI (may need to adjust variable name)
-                If $iTroopIndex > 0 Then
-                    SetLog("Selecting troop to upgrade: " & $iTroopIndex, $COLOR_INFO)
-                    ; Click on the troop (adjust coordinates based on troop index and layout)
-                    Local $xTroop = 300 + ($iTroopIndex * 100) ; Example: Adjust X coordinate based on troop index
-                    Local $yTroop = 350 ; Example Y coordinate
-                    Click($xTroop, $yTroop, 1, 0, "Select Troop")
-                    If _Sleep(1000) Then Return
-                    ; Click the "Upgrade" button (adjust coordinates based on your setup)
-                    Click(450, 550, 1, 0, "Start Upgrade")
-                    If _Sleep(1000) Then Return
-                    SetLog("Laboratory upgrade started.", $COLOR_SUCCESS)
-                Else
-                    SetLog("No troop selected for Laboratory upgrade.", $COLOR_WARNING)
-                EndIf
-            EndIf
-        Else
-            SetLog("Auto-upgrade not enabled, skipping.", $COLOR_INFO)
         EndIf
 
-        ; Close the Laboratory window
-        Click(820, 60, 1, 0, "Close Laboratory Window")
-        If _Sleep(1000) Then Return
-    Else
-        SetLog("Laboratory position invalid, cannot open.", $COLOR_ERROR)
+        ; Only proceed with manual upgrade if no upgrade is in progress
+        If Not $bUpgradeInProgress Then
+            SetLog("Attempting manual Laboratory upgrade...", $COLOR_WARNING)
+            SetLog("Opening Laboratory at position: " & $g_aiLaboratoryPos[0] & "," & $g_aiLaboratoryPos[1], $COLOR_ACTION)
+            Click($g_aiLaboratoryPos[0], $g_aiLaboratoryPos[1], 1, 0, "Click Laboratory")
+            If _Sleep(2000) Then Return
+            SetLog("Laboratory window opened.", $COLOR_INFO)
+
+            If GUICtrlRead($g_hChkAutoLabUpgrades) = $GUI_CHECKED Then
+                SetLog("Attempting to auto-upgrade in Laboratory...", $COLOR_ACTION)
+
+                ; Double-check for ongoing upgrades
+                Local $iGobBuilderOffset = 0 ; Assume no Goblin Builder for simplicity
+                Local $iMidOffsetY = 0 ; Adjust if your setup uses a different offset
+                If _ColorCheck(_GetPixelColor(775 - $iGobBuilderOffset, 135 + $iMidOffsetY, True), Hex(0xA1CA6B, 6), 20) Then
+                    SetLog("Laboratory is currently upgrading, cannot start a new upgrade.", $COLOR_INFO)
+                    $bUpgradeInProgress = True
+                    Local $sLabTimeOCR = getRemainTLaboratory2(250, 210 + $iMidOffsetY)
+                    Local $iLabFinishTime = ConvertOCRTime("Lab Time", $sLabTimeOCR, False) + 1
+                    If $iLabFinishTime > 0 Then
+                        $g_sLabUpgradeTime = _DateAdd('n', Ceiling($iLabFinishTime), _NowCalc())
+                        SetLog("Research will finish in " & $sLabTimeOCR & " (" & $g_sLabUpgradeTime & ")")
+                    EndIf
+                    Click(820, 40, 1, 0, "Close Laboratory Window")
+                    If _Sleep(1000) Then Return
+                    ClearScreen()
+                    If _Sleep(1000) Then Return
+                    CheckMainScreen(True)
+                    Return
+                EndIf
+
+                ; Click the "Research" button
+                Local $aResearchButton = [430, 600] ; Adjusted for 860x732
+                SetLog("Clicking Research button at: " & $aResearchButton[0] & "," & $aResearchButton[1], $COLOR_ACTION)
+                ClickP($aResearchButton, 1, 0, "Click Research Button")
+                If _Sleep(3000) Then Return ; 3-second delay to ensure troop list loads
+
+                ; Check if the troop list opened
+                Local $bTroopListOpened = _ColorCheck(_GetPixelColor(150, 400, True), Hex(0xD8D8D0, 6), 20) Or _
+                                         _ColorCheck(_GetPixelColor(580, 400, True), Hex(0xD8D8D0, 6), 20)
+                If Not $bTroopListOpened Then
+                    SetLog("Failed to open troop list, aborting upgrade.", $COLOR_ERROR)
+                    Click(820, 40, 1, 0, "Close Laboratory Window")
+                    If _Sleep(1000) Then Return
+                    ClearScreen()
+                    If _Sleep(1000) Then Return
+                    CheckMainScreen(True)
+                    Return
+                EndIf
+                SetLog("Troop list opened successfully.", $COLOR_SUCCESS)
+
+                ; Start a new upgrade
+                Local $bUpgradeAttempted = False
+                If $sTroopSelected <> GetTranslatedFileIni("MBR Global GUI Design", "Any", "Any") Then
+                    ; Specific troop selected
+                    SetLog("Selected troop for upgrade: " & $sTroopSelected, $COLOR_INFO)
+                    Local $iTroopIndex = $g_iCmbLaboratory
+                    If $iTroopIndex > 0 Then
+                        Local $iPage = Ceiling($iTroopIndex / 12) ; 12 items per page
+                        Local $iSlot = Mod($iTroopIndex - 1, 12) ; 0-based slot on page
+                        Local $iRow = ($iSlot < 6) ? 420 : 543 ; Row 1 or 2
+                        Local $iCol = 70 + ($iSlot - ($iRow = 420 ? 0 : 6)) * 122 ; X position
+                        For $i = 1 To $iPage - 1
+                            ClickDrag(720, 475, 83, 475, 300) ; Drag to next page
+                            If _Sleep(2000) Then Return
+                        Next
+                        SetLog("Clicking troop at: " & $iCol & "," & $iRow, $COLOR_ACTION)
+                        Click($iCol, $iRow, 1, 0, "Select Troop")
+                        $bUpgradeAttempted = True
+                    Else
+                        SetLog("Troop index invalid.", $COLOR_ERROR)
+                    EndIf
+                Else
+                    ; "Any" selected - iterate through troops on the first page
+                    SetLog("No specific troop selected, attempting to find any available upgrade...", $COLOR_INFO)
+                    Local $aTroopSlots[12][2] = [[70, 420], [192, 420], [314, 420], [436, 420], [558, 420], [680, 420], _
+                                                [70, 543], [192, 543], [314, 543], [436, 543], [558, 543], [680, 543]]
+                    For $i = 0 To UBound($aTroopSlots) - 1
+                        SetLog("Checking troop slot " & ($i + 1) & " at: " & $aTroopSlots[$i][0] & "," & $aTroopSlots[$i][1], $COLOR_ACTION)
+                        Click($aTroopSlots[$i][0], $aTroopSlots[$i][1], 1, 0, "Select Troop")
+                        If _Sleep(1000) Then Return
+                        ; Check if the "Upgrade" button is clickable (look for green pixel)
+                        If _ColorCheck(_GetPixelColor(630, 545, True), Hex(0xA1CA6B, 6), 20) Then
+                            SetLog("Found an available upgrade at slot " & ($i + 1), $COLOR_SUCCESS)
+                            $bUpgradeAttempted = True
+                            ExitLoop
+                        EndIf
+                    Next
+                    If Not $bUpgradeAttempted Then
+                        SetLog("No available upgrades found on the first page.", $COLOR_WARNING)
+                    EndIf
+                EndIf
+
+                ; If an upgrade was attempted, click the "Upgrade" button
+                If $bUpgradeAttempted Then
+                    Local $aUpgradeButton = [630, 545] ; From Laboratory()
+                    SetLog("Clicking Upgrade button at: " & $aUpgradeButton[0] & "," & $aUpgradeButton[1], $COLOR_ACTION)
+                    ClickP($aUpgradeButton, 1, 0, "Start Upgrade")
+                    If _Sleep(1000) Then Return
+                    If $sTroopSelected <> GetTranslatedFileIni("MBR Global GUI Design", "Any", "Any") Then
+                        SetLog("Laboratory upgrade started for " & $sTroopSelected, $COLOR_SUCCESS)
+                    Else
+                        SetLog("Laboratory upgrade started for an available troop.", $COLOR_SUCCESS)
+                    EndIf
+                EndIf
+            Else
+                SetLog("Auto Laboratory upgrades not enabled, skipping.", $COLOR_INFO)
+            EndIf
+
+            ; Close the Laboratory window
+            Click(820, 40, 1, 0, "Close Laboratory Window")
+            If _Sleep(1000) Then Return
+            ClearScreen()
+            If _Sleep(1000) Then Return
+            CheckMainScreen(True)
+        EndIf
     EndIf
+Else
+    SetLog("Laboratory position invalid, cannot open.", $COLOR_ERROR)
+EndIf
+
+; Log Village Report after the entire Laboratory process
+VillageReport()
+SetLog("Laboratory upgrade attempt completed.", $COLOR_INFO)
 
     If $g_iCommandStop <> 0 And $g_iCommandStop <> 3 Then
         SetDebugLog("-- FirstCheck on Train --")

@@ -2545,3 +2545,153 @@ add device 7: /dev/input/event3
 2: D [2025-04-13 23:14:40.863] ADB shell already terminated, PID = 92436
 2: D [2025-04-13 23:14:40.921] ADB minitouch shell terminated, PID = 83020
 2: D [2025-04-13 23:14:40.922] Release Mutex for Profile: MyVillage
+0: D [2025-04-13 23:51:51.046] Append to log file: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\Logs\2025-04-13_22.07.35.log
+0: D [2025-04-13 23:51:51.047] Full Command Line: 0
+0: D [2025-04-13 23:51:51.047] @AutoItExe: C:\Program Files (x86)\AutoIt3\AutoIt3.exe
+0: D [2025-04-13 23:51:51.047] @ScriptFullPath: Z:\Games\coc\MyBot-MBR_v8.1.9r4\MyBot.run.au3
+0: D [2025-04-13 23:51:51.047] @WorkingDir: Z:\Games\coc\MyBot-MBR_v8.1.9r4
+0: D [2025-04-13 23:51:51.048] @AutoItPID: 252936
+0: D [2025-04-13 23:51:51.048] @OSArch: X64
+0: D [2025-04-13 23:51:51.048] @OSVersion: WIN_10
+0: D [2025-04-13 23:51:51.048] @OSBuild: 26100
+0: D [2025-04-13 23:51:51.049] @OSServicePack: 
+0: D [2025-04-13 23:51:51.049] Primary Display: 2560 x 1440 - 32bit
+0: D [2025-04-13 23:51:51.042] MyBot.run/API/1.1 Message ID = 49809
+0: D [2025-04-13 23:51:51.043] MyBot.run/STATE/1.1 Message ID = 49810
+0: D [2025-04-13 23:51:51.044] SetupProfileFolder: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage
+0: L [2025-04-13 23:51:51.045] ====================== BOT LOG ======================
+0: D [2025-04-13 23:51:51.050] Created switch log file: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\SwitchAccLog-2025-04.log
+0: D [2025-04-13 23:51:51.051] readConfig(), call number 1
+0: D [2025-04-13 23:51:51.075] Read Building Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\building.ini
+0: D [2025-04-13 23:51:51.087] Read Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\config.ini
+0: D [2025-04-13 23:51:51.209] Read Clan Games Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\clangames.ini
+0: D [2025-04-13 23:51:51.249] Bot title updated to: My Bot v8.1.9
+0: D [2025-04-13 23:51:51.253] Aquired mutex ticket: Launching.1, 0x00000398
+0: L [2025-04-13 23:51:51.283] Watchdog launched
+0: D [2025-04-13 23:51:56.461] SplashStep 1 of 10: Initializing Android...(5.17 sec)
+0: D [2025-04-13 23:51:56.463] SplashStep 2 of 10: Detecting Android...(5.17 sec)
+0: D [2025-04-13 23:51:56.464] Retrieving CoC distributors
+0: L [2025-04-13 23:51:56.464] Unrecognized COC Package: 0
+0: D [2025-04-13 23:51:56.465] Bot title updated to: My Bot v8.1.9 (Pie64)
+0: D [2025-04-13 23:51:56.466] UpdateSplashTitle: My Bot v8.1.9 (Pie64), Profile: MyVillage
+0: D [2025-04-13 23:51:56.470] Aquire Mutex for Profile: MyVillage
+0: D [2025-04-13 23:51:56.470] My Bot is the only running instance
+0: D [2025-04-13 23:51:56.471] SplashStep 3 of 10: Loading Main GUI...(5.19 sec)
+0: D [2025-04-13 23:51:56.512] SplashStep 4 of 10: Loading GUI Bottom...(5.22 sec)
+0: D [2025-04-13 23:51:56.541] AndroidToFront: Source chkBackground
+0: D [2025-04-13 23:51:56.679] SplashStep 5 of 10: Loading Log tab...(5.39 sec)
+0: D [2025-04-13 23:51:57.237] SplashStep 6 of 10: Loading Village tab...(5.95 sec)
+0: D [2025-04-13 23:52:08.058] SplashStep 7 of 10: Loading Attack tab...(16.77 sec)
+0: D [2025-04-13 23:52:25.203] SplashStep 8 of 10: Loading Bot tab...(33.92 sec)
+0: D [2025-04-13 23:52:25.661] Profiles found: 2ndVill|Main|MyVillage
+0: D [2025-04-13 23:52:28.384] SplashStep 9 of 10: Loading About Us tab...(37.09 sec)
+0: D [2025-04-13 23:52:28.409] SplashStep 10 of 10: Initializing GUI...(37.13 sec)
+0: D [2025-04-13 23:52:28.546] Redraw MyBot ControlIds (forced): 0x000C4F54, 0x000C53A0
+0: D [2025-04-13 23:52:28.546] Control ID 0x000C4F54 handle: 0x000C4F54 parent: 0x000C4F58 $g_hFrmBot: 0x001B559E $g_hFrmBotEx: 0x001505BC Pos: 10, 133, 452, 298
+0: D [2025-04-13 23:52:28.546] Control ID 0x000C4F54 RedrawWindow Pos: 10, 133, 462, 431
+0: D [2025-04-13 23:52:28.547] Control ID 0x000C53A0 handle: 0x000C53A0 parent: 0x000C4F58 $g_hFrmBot: 0x001B559E $g_hFrmBotEx: 0x001505BC Pos: 10, 435, 452, 106
+0: D [2025-04-13 23:52:28.547] Control ID 0x000C53A0 RedrawWindow Pos: 10, 435, 462, 541
+0: D [2025-04-13 23:52:28.547] $g_hFrmBot=0x001B559E
+0: D [2025-04-13 23:52:28.548] $g_hFrmBotEx=0x001505BC
+0: D [2025-04-13 23:52:28.548] $g_hFrmBotBottom=0x000F50E2
+0: D [2025-04-13 23:52:28.548] $g_hFrmBotEmbeddedShield=0
+0: D [2025-04-13 23:52:28.548] $g_hFrmBotEmbeddedShieldInput=19
+0: D [2025-04-13 23:52:28.548] $g_hFrmBotEmbeddedGraphics=0
+0: D [2025-04-13 23:52:28.550] Created attack log file: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\Logs\AttackLog-2025-04.log
+0: D [2025-04-13 23:52:28.552] readConfig(), call number 2
+0: D [2025-04-13 23:52:28.572] Read Building Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\building.ini
+0: D [2025-04-13 23:52:28.582] Read Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\config.ini
+0: D [2025-04-13 23:52:28.699] Read Clan Games Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\clangames.ini
+0: D [2025-04-13 23:52:28.701] applyConfig(), call number 1
+0: D [2025-04-13 23:52:28.701] Threading: Using 0 threads for parallelism
+0: D [2025-04-13 23:52:28.701] Threading: Using 0 threads shared across all bot instances
+0: D [2025-04-13 23:52:28.703] HideAndroidWindow: False, False, True, applyConfig
+0: D [2025-04-13 23:52:28.703] Disable MyBot Window Redraw: applyConfig
+0: D [2025-04-13 23:52:28.705] Bot title updated to: My Bot v8.1.9 (Pie64)
+0: D [2025-04-13 23:52:28.730] BB Attack Count: 2
+0: D [2025-04-13 23:52:30.157] Redraw MyBot Window: applyConfig
+0: D [2025-04-13 23:52:30.173] $g_sProfilePath = Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles
+0: D [2025-04-13 23:52:30.173] $g_sProfileCurrentName = MyVillage
+0: D [2025-04-13 23:52:30.173] $g_sProfileLogsPath = Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\Logs\
+2: D [2025-04-13 23:52:30.191] Restore bot window to -479, 864, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-13 23:52:30.316] MyBot.run.dll opened.
+2: D [2025-04-13 23:52:30.316] Threading: Using 0 threads shared across all bot instances
+2: D [2025-04-13 23:52:30.424] Threading: Using 0 threads for parallelism
+2: D [2025-04-13 23:52:30.424] Searching BlueStacks5 Window: Title = 'BlueStacks5 ', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.W'
+2: D [2025-04-13 23:52:30.424] BlueStacks5 (Pie64) Window not found in list
+2: D [2025-04-13 23:52:30.424] Android Emulator not launched
+2: D [2025-04-13 23:52:30.430] setAndroidPID: $pid=0
+2: D [2025-04-13 23:52:30.610] Android PID=0 initialized: , Idle
+2: D [2025-04-13 23:52:30.610] debugMBRFunctions: $iDebugSearchArea=0, $iDebugRedArea=0, $giDebugOcr=0
+2: D [2025-04-13 23:52:31.113] SetBotGuiPID: $pid=252936
+2: D [2025-04-13 23:52:31.227] Bot GUI PID=252936 initialized: 252936
+2: L [2025-04-13 23:52:31.229] Android Emulator Configuration: BlueStacks5 (instance Pie64)
+2: D [2025-04-13 23:52:31.770] Last GitHub version is 8.1.9
+2: D [2025-04-13 23:52:31.770] Your version is 8.1.9
+2: L [2025-04-13 23:52:31.771] WELCOME CHIEF, YOU HAVE THE LATEST MYBOT VERSION
+2: D [2025-04-13 23:52:31.784] Maximum of 2 bots running at same time configured
+2: D [2025-04-13 23:52:31.784] MyBot.run launch time 40250 ms.
+2: D [2025-04-13 23:52:31.793] Nox version not found
+2: L [2025-04-13 23:52:31.794] Emulator Found In Your Machine :
+2: L [2025-04-13 23:52:31.795]   - BlueStacks5 version: 5.21.580.1017
+2: D [2025-04-13 23:52:31.835] Notify | NotifyGetLastMessageFromTelegram()
+2: D [2025-04-13 23:52:36.513] New Bot Host Window Handle registered: 0x001155B4
+2: D [2025-04-13 23:52:51.792] 1 running bot instances detected
+2: D [2025-04-13 23:53:03.694] Restore bot window to -479, 864, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-13 23:53:13.204] Minimize bot window, caller: GUIEvents
+2: D [2025-04-13 23:53:13.208] HideAndroidWindow: True, False, True, BotMinimizeRestore
+2: D [2025-04-13 23:53:14.716] Restore bot window to -479, 864, caller: GUIEvents
+2: D [2025-04-13 23:59:20.043] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-13 23:59:20.044] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-13 23:59:20.044] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-13 23:59:20.044] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-13 23:59:20.045] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-13 23:59:20.045] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-13 23:59:20.047] Restore bot window to -479, 864, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-14 00:05:19.387] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:05:19.387] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:05:19.387] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:05:19.388] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:05:19.388] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:05:19.388] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:05:19.390] Restore bot window to -479, 864, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-14 00:09:31.526] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:09:31.527] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:09:31.527] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:09:31.527] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:09:31.528] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:09:31.528] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:09:31.530] Restore bot window to -479, 864, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-14 00:30:49.160] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:30:49.161] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:30:49.161] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:30:49.162] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:30:49.163] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:30:49.163] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 00:30:49.167] Restore bot window to -479, 864, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-14 01:01:13.459] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 01:01:13.459] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 01:01:13.459] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 01:01:13.460] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 01:01:13.460] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 01:01:13.460] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-14 01:01:13.462] Restore bot window to -479, 864, caller: GUIControl_WM_NCACTIVATE
+2: L [2025-04-14 01:01:14.639] Closing My Bot v8.1.9 (Pie64), please wait ...
+2: L [2025-04-14 01:01:15.459] Closing My Bot v8.1.9 (Pie64) now ...
+2: D [2025-04-14 01:01:15.461] SetupProfileFolder: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage
+2: D [2025-04-14 01:01:15.463] saveConfig(), call number 1
+2: D [2025-04-14 01:01:15.473] Save Building Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\building.ini
+2: D [2025-04-14 01:01:15.484] Save Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\config.ini
+2: D [2025-04-14 01:01:15.496] GlRenderMode = gl
+2: D [2025-04-14 01:01:15.496] BlueStacks5 (Pie64) is using OpenGL, disable WinAPI for Background Mode
+2: D [2025-04-14 01:01:15.496] Enable ADB screencap for Background Mode
+2: D [2025-04-14 01:01:15.574] Save Clan Games Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\clangames.ini
+2: D [2025-04-14 01:01:15.578] SaveConfig(), time = 0.13 sec
+2: D [2025-04-14 01:01:15.578] Searching BlueStacks5 Window: Title = 'BlueStacks5 ', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.W'
+2: D [2025-04-14 01:01:15.578] BlueStacks5 (Pie64) Window not found in list
+2: D [2025-04-14 01:01:15.579] Android Emulator not launched
+2: D [2025-04-14 01:01:15.579] Android Emulator not launched
+2: D [2025-04-14 01:01:15.580] AndroidInvalidState: No Window Handle
+2: D [2025-04-14 01:01:15.580] AndroidToFront: Source BotClose
+2: D [2025-04-14 01:01:15.581] Release Mutex for Profile: MyVillage
+0: D [2025-04-14 01:01:16.885] Bot Host Window Handle un-registered: 0x001155B4
