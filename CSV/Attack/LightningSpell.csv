@@ -1,0 +1,40 @@
+
+NOTE  |Townhall 		TH07-16
+NOTE  |LSpell           4
+NOTE  |Use 2 LSpell per Air Defense found randomly.
+NOTE  |"Use External Edges"
+      |                                                                                                                                               			  |
+      |----------------------------------------------------------------------Lightning Spell----------------------------------------------------------------------|
+      |                                                                                                                                      		  			  |
+      |                                                                                                                                               			  |
+      |_TROOPNAME_|__FLEXIBLE_|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|____TH13___|____TH14___|____TH15___|____TH16___|
+TRAIN |LSpell     |0          |0          |4          |4          |4          |4          |4          |4          |4          |4          |4          |4          |                                                                                                                                            |           |
+      |                                                                                                                                                           |
+	  |___________|___________|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|____TH13___|____TH14___|____TH15___|____TH16___|
+REDLN |0          |0          |0          |4          |4		  |4		  |4		  |4		  |4		  |4		  |4		  |4		  |4		  |
+DRPLN |0          |0          |0          |0          |0		  |0		  |0		  |0		  |0		  |0		  |0		  |0		  |0		  |																										  |
+
+      |EXTR. GOLD |EXTR.ELIXIR|EXTR. DARK |DEPO. GOLD |DEPO.ELIXIR|DEPO. DARK |TOWNHALL   |FORCED SIDE|___________|___________|___________|___________|___________|
+SIDE  |0          |0          |0          |0          |0          |0          |20         |           |           |           |           |           |           |
+      |EAGLE      |INFERNO    |XBOW       |WIZTOWER   |MORTAR     |AIRDEFENSE |GEMBOX     |GEMBOX     |           |           |           |           |           |
+SIDEB |0          |0          |0          |0          |0          |0          |0          |           |           |           |           |           |           |
+
+NOTE  |"Get Air Defense location randomly."
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|___________|___________|___________|___________|
+MAKE  |A          |RANDOM     |1          |0          |IGNORE     |           |           |AIRDEFENSE |           |           |			  |           |		      |
+
+NOTE  |"Drop 2x LSpell on Air Defense location."
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|___________|___________|___________|___________|
+DROP  |A          |1          |2          |LSpell     |0          |0          |100-150    |           |           |           |			  |           |           |
+WAIT  |2000-3000  |           |           |           |           |           |           |           |           |           |			  |           |           |
+
+NOTE  |"Get Air Defense location randomly."
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|___________|___________|___________|___________|
+MAKE  |A          |RANDOM     |1          |0          |IGNORE     |           |           |AIRDEFENSE |           |           |			  |           |		      |
+
+NOTE  |"Drop 2x LSpell on Air Defense location."
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|___________|___________|___________|___________|
+DROP  |A          |1          |2          |LSpell     |0          |0          |100-150    |           |           |           |			  |           |           |
+WAIT  |2000-3000  |           |           |           |           |           |           |           |           |           |			  |           |           |
+
+      |--------------------------------------------------------------------------------Lightning Spell------------------------------------------------------------|   

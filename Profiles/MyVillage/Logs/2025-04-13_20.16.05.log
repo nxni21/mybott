@@ -1,0 +1,638 @@
+2: D [2025-04-13 20:16:05.131] Created log file: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\Logs\2025-04-13_20.16.05.log
+2: D [2025-04-13 20:16:05.131] Android: BlueStacks5
+2: D [2025-04-13 20:16:05.131] Android Instance: Pie64
+2: D [2025-04-13 20:16:05.132] Android Version: 5.21.580.1017
+2: D [2025-04-13 20:16:05.132] Android Version API: 28
+2: D [2025-04-13 20:16:05.132] Android ADB Device: 127.0.0.1:5555
+2: D [2025-04-13 20:16:05.133] Android Program Path: C:\Program Files\BlueStacks_nxt\HD-Player.exe
+2: D [2025-04-13 20:16:05.133] Android Program FileVersionInfo: 1033,,BlueStack Systems,BlueStacks,5.21.580.1017,,Copyright 2011 BlueStack Systems, Inc.  All Rights Reserved.,,HD-Player,BlueStacks,5.21.580.1017,,
+2: D [2025-04-13 20:16:05.134] Android ADB Path: C:\Program Files\BlueStacks_nxt\HD-Adb.exe
+2: D [2025-04-13 20:16:05.134] Android ADB Global Options: 
+2: D [2025-04-13 20:16:05.134] Android VBoxManage Path: C:\Program Files\BlueStacks_nxt\BstkVMMgr.exe
+2: D [2025-04-13 20:16:05.135] Android ADB Shared Folder: /mnt/windows/BstSharedFolder/
+2: D [2025-04-13 20:16:05.135] Full Command Line: 0
+2: D [2025-04-13 20:16:05.135] @AutoItExe: C:\Program Files (x86)\AutoIt3\AutoIt3.exe
+2: D [2025-04-13 20:16:05.136] @ScriptFullPath: Z:\Games\coc\MyBot-MBR_v8.1.9r4\MyBot.run.au3
+2: D [2025-04-13 20:16:05.136] @WorkingDir: Z:\Games\coc\MyBot-MBR_v8.1.9r4\lib
+2: D [2025-04-13 20:16:05.136] @AutoItPID: 28384
+2: D [2025-04-13 20:16:05.137] @OSArch: X64
+2: D [2025-04-13 20:16:05.137] @OSVersion: WIN_10
+2: D [2025-04-13 20:16:05.137] @OSBuild: 26100
+2: D [2025-04-13 20:16:05.137] @OSServicePack: 
+2: D [2025-04-13 20:16:05.146] Primary Display: 2560 x 1440 - 32bit
+2: D [2025-04-13 20:16:05.157] Created attack log file: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\Logs\AttackLog-2025-04.log
+2: L [2025-04-13 20:16:05.158] ====================== BOT LOG ======================
+2: D [2025-04-13 20:16:05.204] saveConfig(), call number 16
+2: D [2025-04-13 20:16:05.220] Save Building Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\building.ini
+2: D [2025-04-13 20:16:05.240] Save Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\config.ini
+2: D [2025-04-13 20:16:05.241] Updating Android Window 'BlueStacks5-Pie64' position: -1066, 799
+2: D [2025-04-13 20:16:05.243] GlRenderMode = gl
+2: D [2025-04-13 20:16:05.244] BlueStacks5 (Pie64) is using OpenGL, disable WinAPI for Background Mode
+2: D [2025-04-13 20:16:05.244] Enable ADB screencap for Background Mode
+2: D [2025-04-13 20:16:05.385] Save Clan Games Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\clangames.ini
+2: D [2025-04-13 20:16:05.391] SaveConfig(), time = 0.19 sec
+2: D [2025-04-13 20:16:05.391] readConfig(), call number 12
+2: D [2025-04-13 20:16:05.419] Read Building Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\building.ini
+2: D [2025-04-13 20:16:05.430] Read Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\config.ini
+2: D [2025-04-13 20:16:05.558] Read Clan Games Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\clangames.ini
+2: D [2025-04-13 20:16:05.562] applyConfig(), call number 11
+2: D [2025-04-13 20:16:05.562] Threading: Using 0 threads for parallelism
+2: D [2025-04-13 20:16:05.563] Threading: Using 0 threads shared across all bot instances
+2: D [2025-04-13 20:16:05.564] HideAndroidWindow: False, False, True, applyConfig
+2: D [2025-04-13 20:16:05.564] AndroidToFront: Source applyConfig->HideAndroidWindow
+2: D [2025-04-13 20:16:05.568] Disable MyBot Window Redraw: applyConfig
+2: D [2025-04-13 20:16:05.571] Bot title updated to: My Bot v8.1.9 (Pie64)
+2: D [2025-04-13 20:16:05.600] BB Attack Count: 2
+2: D [2025-04-13 20:16:07.938] Disable GUI Controls
+2: D [2025-04-13 20:16:08.882] Redraw MyBot Window: BotStart
+2: D [2025-04-13 20:16:08.902] Aquired mutex ticket: ActiveBot.1, 0x00000B80
+2: D [2025-04-13 20:16:08.902] Android Window Handle: 0x000C0610
+2: D [2025-04-13 20:16:08.903] InitiateLayout: BlueStacks5-Pie64 Android-ClientSize: 860 x 732
+2: D [2025-04-13 20:16:08.904] CheckScreenAndroid: Window size 861 x 765 <> 860 x 732
+2: D [2025-04-13 20:16:08.908] bst.instance.Pie64.display_name="BlueStacks5-Pie64"
+2: D [2025-04-13 20:16:08.909] bst.instance.Pie64.dpi="160"
+2: D [2025-04-13 20:16:08.909] bst.instance.Pie64.fb_height="732"
+2: D [2025-04-13 20:16:08.910] bst.instance.Pie64.fb_width="860"
+2: D [2025-04-13 20:16:08.910] bst.instance.Pie64.gl_win_height="732"
+2: D [2025-04-13 20:16:08.924] BlueStacks5 font_scale = 1
+2: D [2025-04-13 20:16:09.326] Restore bot window to -479, 864, caller: GUIControl_WM_SHELLHOOK
+2: D [2025-04-13 20:16:09.365] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-13 20:16:09.366] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-13 20:16:09.368] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-13 20:16:09.368] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-13 20:16:09.369] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-13 20:16:09.369] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-13 20:16:09.370] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-13 20:16:09.370] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-13 20:16:09.371] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-13 20:16:09.371] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-13 20:16:09.371] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-13 20:16:09.372] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-13 20:16:09.374] Restore bot window to -479, 864, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-13 20:16:09.377] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-13 20:16:09.378] AndroidToFront: Source BotMinimizeRestore->HideAndroidWindow
+2: L [2025-04-13 20:16:09.636] ~~~~ My Bot v8.1.9 (Pie64) Powered by MyBot.run ~~~~~
+2: L [2025-04-13 20:16:09.652] MyBot.run.au3 Script running on WIN_10  X64
+2: D [2025-04-13 20:16:09.682] Clash of Clans Game App = versionName=17.126.20
+2: L [2025-04-13 20:16:09.683] >>  CoC Game App Version = 17.126.20
+2: L [2025-04-13 20:16:09.683] ===================== Bot Start =====================
+2: L [2025-04-13 20:16:09.684] ------------  Current Profile: MyVillage ------------
+2: L [2025-04-13 20:16:09.685] BlueStacks5 (Pie64) will be automatically rebooted in 0d 3h 39m
+2: D [2025-04-13 20:16:09.696] Closed BlueStacks5 System Bar: False
+2: L [2025-04-13 20:16:09.698] Trying to locate Main Screen
+2: D [2025-04-13 20:16:09.958] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:16:09.959] GetAndroidProcessPID StdOut :
+2: D [2025-04-13 20:16:10.073] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:16:10.074] GetAndroidProcessPID StdOut :
+2: D [2025-04-13 20:16:10.189] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:16:10.189] GetAndroidProcessPID StdOut :
+2: D [2025-04-13 20:16:10.304] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:16:10.304] GetAndroidProcessPID StdOut :
+2: D [2025-04-13 20:16:10.418] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:16:10.419] GetAndroidProcessPID StdOut :
+2: D [2025-04-13 20:16:10.533] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:16:10.534] GetAndroidProcessPID StdOut :
+2: L [2025-04-13 20:16:10.534] Android process com.supercell.clashofclans not running
+2: L [2025-04-13 20:16:10.560] Please wait for CoC restart......
+2: L [2025-04-13 20:16:14.083] Launch Clash of Clans now...
+2: D [2025-04-13 20:16:14.085] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe connect 127.0.0.1:5555
+2: D [2025-04-13 20:16:14.576] Func LaunchConsole Output: already connected to 127.0.0.1:5555
+2: D [2025-04-13 20:16:14.577] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe -s 127.0.0.1:5555 shell /data/anr/../../system/xbin/bstk/su root echo $USER:$USER_ID
+2: D [2025-04-13 20:16:14.940] Func LaunchConsole Output: shell:2000
+2: D [2025-04-13 20:16:18.112] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:16:18.112] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:16:18.706] CheckObstacles[1] Result = True
+2: L [2025-04-13 20:16:18.707] Waiting for Main Screen
+2: D [2025-04-13 20:16:18.708] Updating Android Window 'BlueStacks5-Pie64' position: -1326, 799
+2: D [2025-04-13 20:16:21.754] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:16:21.755] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:16:22.481] No Obstacle Window found! (in 0.06 seconds)
+2: D [2025-04-13 20:16:23.104] Main 1 Pixel Color #1: 3CA8C9, #2: 3BA8C9, #3: 3CAACA
+2: D [2025-04-13 20:16:23.148] Main 2 Pixel Color #1: 3CA8C9, #2: 3BA8C9, #3: 3CAACA
+2: D [2025-04-13 20:16:23.168] Main 3 Pixel Color #1: 3CA8C9, #2: 3BA8C9, #3: 3CAACA
+2: D [2025-04-13 20:16:23.196] BB 1 Pixel Color #1: 5DC8DB, #2: 58C6DA, #3: 57C5D9, #4: 56C4D9
+2: D [2025-04-13 20:16:23.223] BB 2 Pixel Color #1: 5DC8DB, #2: 58C6DA, #3: 57C5D9, #4: 56C4D9
+2: D [2025-04-13 20:16:23.251] BB 3 Pixel Color #1: 5DC8DB, #2: 58C6DA, #3: 57C5D9, #4: 56C4D9
+2: D [2025-04-13 20:16:25.728] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:16:25.728] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:16:26.590] No Obstacle Window found! (in 0.05 seconds)
+2: D [2025-04-13 20:16:26.733] Main Village detected
+2: D [2025-04-13 20:16:26.759] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:26.782] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:26.804] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:26.828] BB 1 Pixel Color #1: 272B0B, #2: 2E310D, #3: 414613, #4: 373B0F
+2: D [2025-04-13 20:16:26.853] BB 2 Pixel Color #1: 272B0B, #2: 2E310D, #3: 414613, #4: 373B0F
+2: D [2025-04-13 20:16:26.880] BB 3 Pixel Color #1: 272B0B, #2: 2E310D, #3: 414613, #4: 373B0F
+2: D [2025-04-13 20:16:27.288] Checking chat tab pixel exists to ensure images have loaded correctly
+2: D [2025-04-13 20:16:27.797] ChatTabPixel found
+2: D [2025-04-13 20:16:28.047] Main Village detected
+2: D [2025-04-13 20:16:28.216] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-13 20:16:28.549] No Sceneries Found
+2: D [2025-04-13 20:16:29.094] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-13 20:16:29.204] Scenery search (in 0.99 seconds)
+2: D [2025-04-13 20:16:29.205] No sceneries found and zoomoutcount : 0
+2: L [2025-04-13 20:16:29.206] Zooming Out
+2: D [2025-04-13 20:16:30.704] Running minitouch script Normal6
+2: D [2025-04-13 20:16:31.381] Main Village detected
+2: D [2025-04-13 20:16:31.540] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-13 20:16:31.864] Sceneries Search find : villageDS-350-656
+2: D [2025-04-13 20:16:31.865] Coords : 503, 684
+2: D [2025-04-13 20:16:31.866] Ref Coord : 350, 656
+2: D [2025-04-13 20:16:31.867] Village Scenery Found: DS
+2: D [2025-04-13 20:16:31.867] Village Scenery FP X is off by more than 75 pixels
+2: D [2025-04-13 20:16:31.957] Main Village detected
+2: D [2025-04-13 20:16:31.957] Testing Coords : 503,684
+2: D [2025-04-13 20:16:32.200] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:32.227] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:32.265] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:34.208] Scenery search (in 2.67 seconds)
+2: D [2025-04-13 20:16:34.209] Scenery routines completed (in 0 seconds)
+2: D [2025-04-13 20:16:34.209] Loading Stone Scenery: DS
+2: D [2025-04-13 20:16:34.210] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:16:34.437] Found stone image at 90, 482: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:16:34.438] Found Stone scenery : DS
+2: D [2025-04-13 20:16:34.438] Stone search (in 0.23 seconds)
+2: D [2025-04-13 20:16:34.439] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-13 20:16:34.501] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-13 20:16:34.595] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-13 20:16:34.654] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-13 20:16:34.687] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-13 20:16:34.791] Found tree image at 650, 102: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-13 20:16:34.791] Tree search (in 0.34 seconds)
+2: D [2025-04-13 20:16:34.792] Found Stone and Tree!
+2: D [2025-04-13 20:16:34.792] Village Size : 515.422988819962
+2: D [2025-04-13 20:16:34.793] Zoom Factor : 1.03164590038586
+2: D [2025-04-13 20:16:34.793] Offset : 1, -9
+2: D [2025-04-13 20:16:34.794] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-13 20:16:34.886] Main Village detected
+2: D [2025-04-13 20:16:34.887] Testing Coords : 90,482
+2: D [2025-04-13 20:16:35.202] Main Village detected
+2: D [2025-04-13 20:16:35.228] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:35.254] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:35.277] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:37.389] Main Village detected
+2: D [2025-04-13 20:16:37.559] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-13 20:16:37.984] Sceneries Search find : villageDS-350-656
+2: D [2025-04-13 20:16:37.984] Coords : 346, 663
+2: D [2025-04-13 20:16:37.985] Ref Coord : 350, 656
+2: D [2025-04-13 20:16:37.985] Village Scenery Found: DS
+2: D [2025-04-13 20:16:37.985] Scenery search (in 0.44 seconds)
+2: D [2025-04-13 20:16:37.986] Scenery routines completed (in 0 seconds)
+2: D [2025-04-13 20:16:37.986] Loading Stone Scenery: DS
+2: D [2025-04-13 20:16:37.988] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:16:38.087] Found stone image at 89, 490: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:16:38.088] Found Stone scenery : DS
+2: D [2025-04-13 20:16:38.088] Stone search (in 0.09 seconds)
+2: D [2025-04-13 20:16:38.088] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-13 20:16:38.170] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-13 20:16:38.263] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-13 20:16:38.330] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-13 20:16:38.366] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-13 20:16:38.453] Found tree image at 649, 110: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-13 20:16:38.453] Tree search (in 0.38 seconds)
+2: D [2025-04-13 20:16:38.454] Found Stone and Tree!
+2: D [2025-04-13 20:16:38.454] Village Size : 515.422988819962
+2: D [2025-04-13 20:16:38.454] Zoom Factor : 1.03164590038586
+2: D [2025-04-13 20:16:38.455] Offset : 0, -1
+2: D [2025-04-13 20:16:38.455] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-13 20:16:38.667] Main Village detected
+2: D [2025-04-13 20:16:38.668] ZoomOut Completed(in 73755.33 seconds)
+2: L [2025-04-13 20:16:38.669] Main Screen located
+2: D [2025-04-13 20:16:38.677] Notify | NotifyPendingActions()
+2: D [2025-04-13 20:16:38.855] Main Village detected
+2: D [2025-04-13 20:16:39.016] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-13 20:16:39.457] Sceneries Search find : villageDS-350-656
+2: D [2025-04-13 20:16:39.457] Coords : 346, 663
+2: D [2025-04-13 20:16:39.458] Ref Coord : 350, 656
+2: D [2025-04-13 20:16:39.458] Village Scenery Found: DS
+2: D [2025-04-13 20:16:39.459] Scenery search (in 0.44 seconds)
+2: D [2025-04-13 20:16:39.459] Scenery routines completed (in 0 seconds)
+2: D [2025-04-13 20:16:39.459] Loading Stone Scenery: DS
+2: D [2025-04-13 20:16:39.460] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:16:39.548] Found stone image at 89, 490: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:16:39.548] Found Stone scenery : DS
+2: D [2025-04-13 20:16:39.549] Stone search (in 0.09 seconds)
+2: D [2025-04-13 20:16:39.549] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-13 20:16:39.623] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-13 20:16:39.710] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-13 20:16:39.773] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-13 20:16:39.810] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-13 20:16:39.902] Found tree image at 649, 110: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-13 20:16:39.903] Tree search (in 0.34 seconds)
+2: D [2025-04-13 20:16:39.903] Found Stone and Tree!
+2: D [2025-04-13 20:16:39.904] Village Size : 515.422988819962
+2: D [2025-04-13 20:16:39.904] Zoom Factor : 1.03164590038586
+2: D [2025-04-13 20:16:39.904] Offset : 0, -1
+2: D [2025-04-13 20:16:39.904] GetVillageSize calculations (in 0.02 seconds)
+2: D [2025-04-13 20:16:40.098] Main Village detected
+2: D [2025-04-13 20:16:40.099] ZoomOut Completed(in 73756.76 seconds)
+2: D [2025-04-13 20:16:40.137] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:40.162] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:40.188] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: L [2025-04-13 20:16:41.484] Detecting your Buildings
+2: D [2025-04-13 20:16:41.682] Main Village detected
+2: D [2025-04-13 20:16:44.221] Select TH Level:10
+2: L [2025-04-13 20:16:44.376] Language setting is English: Correct.
+2: D [2025-04-13 20:16:44.376] -- FirstCheck Loop --
+2: D [2025-04-13 20:16:44.377] Detecting Town Hall level
+2: D [2025-04-13 20:16:44.377] Town Hall level is currently saved as 10
+2: D [2025-04-13 20:16:44.378] imgloc TH search Start
+2: D [2025-04-13 20:16:44.378] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-13 20:16:44.967] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-13 20:16:45.628] imgloc Found TH : 
+2: D [2025-04-13 20:16:45.628] imgloc Found : objectname - TownHall
+2: D [2025-04-13 20:16:45.628] imgloc Found : objectlevel - 10
+2: D [2025-04-13 20:16:45.629] imgloc Found : objectpoints - 133,376
+2: D [2025-04-13 20:16:45.630] imgloc Found : nearpoints - 
+2: D [2025-04-13 20:16:45.630] imgloc Found : farpoints - 
+2: D [2025-04-13 20:16:45.631] imgloc Found : redlinedistance - 
+2: D [2025-04-13 20:16:45.631] Detected Town Hall level is 10
+2: D [2025-04-13 20:16:45.631] Town Hall level has not changed
+2: D [2025-04-13 20:16:45.863] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:45.889] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:45.912] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: L [2025-04-13 20:16:46.711] Village Report
+2: L [2025-04-13 20:16:46.866]  [T]: 1 184
+2: L [2025-04-13 20:16:47.478]  [G]: 8 500 000 [E]: 1 690 929 [D]: 200 000 [GEM]: 924
+2: D [2025-04-13 20:16:47.590] Checking chat tab pixel exists to ensure images have loaded correctly
+2: D [2025-04-13 20:16:48.262] ChatTabPixel found
+2: D [2025-04-13 20:16:48.464] Main Village detected
+2: D [2025-04-13 20:16:48.625] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-13 20:16:49.067] Sceneries Search find : villageDS-350-656
+2: D [2025-04-13 20:16:49.068] Coords : 346, 663
+2: D [2025-04-13 20:16:49.068] Ref Coord : 350, 656
+2: D [2025-04-13 20:16:49.068] Village Scenery Found: DS
+2: D [2025-04-13 20:16:49.069] Scenery search (in 0.44 seconds)
+2: D [2025-04-13 20:16:49.069] Scenery routines completed (in 0 seconds)
+2: D [2025-04-13 20:16:49.070] Loading Stone Scenery: DS
+2: D [2025-04-13 20:16:49.070] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:16:49.160] Found stone image at 89, 490: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:16:49.161] Found Stone scenery : DS
+2: D [2025-04-13 20:16:49.161] Stone search (in 0.09 seconds)
+2: D [2025-04-13 20:16:49.162] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-13 20:16:49.228] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-13 20:16:49.321] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-13 20:16:49.393] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-13 20:16:49.430] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-13 20:16:49.521] Found tree image at 649, 110: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-13 20:16:49.522] Tree search (in 0.36 seconds)
+2: D [2025-04-13 20:16:49.522] Found Stone and Tree!
+2: D [2025-04-13 20:16:49.523] Village Size : 515.422988819962
+2: D [2025-04-13 20:16:49.523] Zoom Factor : 1.03164590038586
+2: D [2025-04-13 20:16:49.523] Offset : 0, -1
+2: D [2025-04-13 20:16:49.524] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-13 20:16:49.684] Main Village detected
+2: D [2025-04-13 20:16:50.041] ZoomOut Completed(in 73766.7 seconds)
+2: D [2025-04-13 20:16:50.049] Notify | NotifyPendingActions()
+2: L [2025-04-13 20:16:50.164] Gold Storages are full!
+2: D [2025-04-13 20:16:50.205] -- FirstCheck on Train --
+2: D [2025-04-13 20:16:50.229] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:50.239] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:50.258] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:50.723] Begin IsSearchAttackScheduled:
+2: D [2025-04-13 20:16:51.343] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:51.367] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:16:51.388] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: L [2025-04-13 20:16:51.685] Going to Attack
+2: D [2025-04-13 20:16:51.773] AdbScreencap: 91/119/78 ms (all/10/1),0,0,l=377,t=9,w=2,h=2, B56A5CF7DEAAC33C9447BD8F66983ECE0AA2D627: w=860,h=732,f=1
+2: D [2025-04-13 20:16:51.774] AdbScreencap HostPath: C:\ProgramData\BlueStacks_nxt\Engine\UserData\SharedFolder\
+2: D [2025-04-13 20:16:51.774] AdbScreencap AndroidPath: /mnt/windows/BstSharedFolder/
+2: D [2025-04-13 20:16:53.773] Multiplayer Tab is open
+2: D [2025-04-13 20:16:54.331] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-13 20:16:57.189] PrepareSearch exit check $g_bRestart= False, $g_bOutOfGold= False
+2: L [2025-04-13 20:16:59.300] =====================================================
+2: L [2025-04-13 20:16:59.302] Aim: [G]: 300000 [E]: 300000 [D]:    0 [TH]:10 for: Dead Base
+2: L [2025-04-13 20:16:59.302] Aim: [G]: 300000 [E]: 300000 [D]:    0 [TH]:10 for: Live Base
+2: L [2025-04-13 20:16:59.303] =====================================================
+2: D [2025-04-13 20:16:59.304] Begin WaitForClouds:
+2: L [2025-04-13 20:18:01.872] Cloud wait time 1.0 minute(s)
+2: D [2025-04-13 20:18:03.043] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:18:03.043] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: L [2025-04-13 20:19:00.135] Cloud wait time 2.0 minute(s)
+2: D [2025-04-13 20:19:01.258] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:19:01.259] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:19:01.307] Disable MyBot Window Redraw: ToggleGuiControls
+2: D [2025-04-13 20:19:01.307] Enable GUI Controls
+2: D [2025-04-13 20:19:02.278] Redraw MyBot Window: ToggleGuiControls
+2: L [2025-04-13 20:19:02.306] Enabled bot controls due to long wait time
+2: D [2025-04-13 20:19:07.714] AdbScreencap: 91/92/78 ms (all/10/1),0,0,l=252,t=424,w=2,h=2, B56A5CF7DEAAC33C9447BD8F66983ECE0AA2D627: w=860,h=732,f=1
+2: D [2025-04-13 20:19:07.715] AdbScreencap HostPath: C:\ProgramData\BlueStacks_nxt\Engine\UserData\SharedFolder\
+2: D [2025-04-13 20:19:07.715] AdbScreencap AndroidPath: /mnt/windows/BstSharedFolder/
+2: L [2025-04-13 20:19:59.529] Cloud wait time 3.0 minute(s)
+2: D [2025-04-13 20:20:00.682] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:20:00.683] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:20:17.579] Restore bot window to -479, 864, caller: GUIControl_WM_SHELLHOOK
+2: D [2025-04-13 20:20:33.877] Restore bot window to -479, 864, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-13 20:20:33.881] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-13 20:20:33.881] AndroidToFront: Source BotMinimizeRestore->HideAndroidWindow
+2: D [2025-04-13 20:20:35.965] Restore bot window to -479, 864, caller: GUIControl_WM_SHELLHOOK
+2: L [2025-04-13 20:21:00.654] Cloud wait time 4.0 minute(s)
+2: D [2025-04-13 20:21:01.821] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:21:01.821] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: L [2025-04-13 20:21:01.870] Strange error detected! 'WaitforClouds' returned to main base unexpectedly, OOS restart initiated
+2: L [2025-04-13 20:21:01.871] Trying to locate Main Screen
+2: D [2025-04-13 20:21:01.897] Checking chat tab pixel exists to ensure images have loaded correctly
+2: D [2025-04-13 20:21:02.525] ChatTabPixel found
+2: D [2025-04-13 20:21:02.746] Main Village detected
+2: D [2025-04-13 20:21:02.889] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-13 20:21:03.327] Sceneries Search find : villageDS-350-656
+2: D [2025-04-13 20:21:03.327] Coords : 396, 680
+2: D [2025-04-13 20:21:03.328] Ref Coord : 350, 656
+2: D [2025-04-13 20:21:03.328] Village Scenery Found: DS
+2: D [2025-04-13 20:21:03.328] Scenery search (in 0.44 seconds)
+2: D [2025-04-13 20:21:03.328] Scenery routines completed (in 0 seconds)
+2: D [2025-04-13 20:21:03.329] Loading Stone Scenery: DS
+2: D [2025-04-13 20:21:03.329] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:21:03.437] Found stone image at 141, 508: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:21:03.437] Found Stone scenery : DS
+2: D [2025-04-13 20:21:03.438] Stone search (in 0.11 seconds)
+2: D [2025-04-13 20:21:03.438] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-13 20:21:03.496] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-13 20:21:03.592] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-13 20:21:03.660] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-13 20:21:03.699] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-13 20:21:03.787] GetVillageSize cannot find tree
+2: D [2025-04-13 20:21:03.787] Tree search (in 0.34 seconds)
+2: D [2025-04-13 20:21:03.788] Found Stone! Offset : 42, 21
+2: D [2025-04-13 20:21:03.788] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-13 20:21:03.868] Main Village detected
+2: D [2025-04-13 20:21:03.869] Testing Coords : 141,508
+2: D [2025-04-13 20:21:04.109] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:21:04.131] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:21:04.156] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: L [2025-04-13 20:21:05.975] Zooming Out
+2: D [2025-04-13 20:21:07.472] Running minitouch script Normal3
+2: D [2025-04-13 20:21:08.074] Main Village detected
+2: D [2025-04-13 20:21:08.228] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-13 20:21:08.655] Sceneries Search find : villageDS-350-656
+2: D [2025-04-13 20:21:08.655] Coords : 360, 631
+2: D [2025-04-13 20:21:08.656] Ref Coord : 350, 656
+2: D [2025-04-13 20:21:08.656] Village Scenery Found: DS
+2: D [2025-04-13 20:21:08.656] Scenery search (in 0.44 seconds)
+2: D [2025-04-13 20:21:08.657] Scenery routines completed (in 0 seconds)
+2: D [2025-04-13 20:21:08.657] Loading Stone Scenery: DS
+2: D [2025-04-13 20:21:08.658] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:21:08.747] Found stone image at 122, 472: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:21:08.748] Found Stone scenery : DS
+2: D [2025-04-13 20:21:08.748] Stone search (in 0.09 seconds)
+2: D [2025-04-13 20:21:08.748] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-13 20:21:08.808] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-13 20:21:09.014] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-13 20:21:09.078] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-13 20:21:09.113] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-13 20:21:09.191] Found tree image at 640, 121: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-13 20:21:09.192] Tree search (in 0.44 seconds)
+2: D [2025-04-13 20:21:09.192] Found Stone and Tree!
+2: D [2025-04-13 20:21:09.192] Village Size : 464.385601949488
+2: D [2025-04-13 20:21:09.193] Zoom Factor : 0.929491917980304
+2: D [2025-04-13 20:21:09.193] Offset : 0, -5
+2: D [2025-04-13 20:21:09.194] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-13 20:21:09.271] Main Village detected
+2: D [2025-04-13 20:21:09.271] Testing Coords : 122,472
+2: D [2025-04-13 20:21:09.538] Main Village detected
+2: D [2025-04-13 20:21:09.560] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:21:09.591] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:21:09.618] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:21:11.757] Main Village detected
+2: D [2025-04-13 20:21:11.904] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-13 20:21:12.345] Sceneries Search find : villageDS-350-656
+2: D [2025-04-13 20:21:12.346] Coords : 360, 631
+2: D [2025-04-13 20:21:12.346] Ref Coord : 350, 656
+2: D [2025-04-13 20:21:12.347] Village Scenery Found: DS
+2: D [2025-04-13 20:21:12.347] Scenery search (in 0.44 seconds)
+2: D [2025-04-13 20:21:12.347] Scenery routines completed (in 0 seconds)
+2: D [2025-04-13 20:21:12.348] Loading Stone Scenery: DS
+2: D [2025-04-13 20:21:12.349] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:21:12.561] Found stone image at 122, 472: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-13 20:21:12.561] Found Stone scenery : DS
+2: D [2025-04-13 20:21:12.561] Stone search (in 0.22 seconds)
+2: D [2025-04-13 20:21:12.562] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-13 20:21:12.639] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-13 20:21:12.740] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-13 20:21:12.810] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-13 20:21:12.855] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-13 20:21:12.954] Found tree image at 640, 121: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-13 20:21:12.955] Tree search (in 0.39 seconds)
+2: D [2025-04-13 20:21:12.955] Found Stone and Tree!
+2: D [2025-04-13 20:21:12.956] Village Size : 464.385601949488
+2: D [2025-04-13 20:21:12.956] Zoom Factor : 0.929491917980304
+2: D [2025-04-13 20:21:12.957] Offset : 0, -5
+2: D [2025-04-13 20:21:12.957] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-13 20:21:13.128] Main Village detected
+2: D [2025-04-13 20:21:13.130] ZoomOut Completed(in 74029.77 seconds)
+2: L [2025-04-13 20:21:13.131] Main Screen located
+2: D [2025-04-13 20:21:13.141] Notify | NotifyPendingActions()
+2: L [2025-04-13 20:21:13.157] Disconnected At Search Clouds
+2: D [2025-04-13 20:21:13.158] Notify | PushMsg()
+2: L [2025-04-13 20:21:13.159] Disable bot controls after long wait time
+2: D [2025-04-13 20:21:13.162] Disable MyBot Window Redraw: ToggleGuiControls
+2: D [2025-04-13 20:21:13.162] Disable GUI Controls
+2: D [2025-04-13 20:21:14.570] Redraw MyBot Window: ToggleGuiControls
+2: D [2025-04-13 20:21:14.592] saveConfig(), call number 17
+2: D [2025-04-13 20:21:14.607] Save Building Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\building.ini
+2: D [2025-04-13 20:21:14.628] Save Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\config.ini
+2: D [2025-04-13 20:21:14.631] GlRenderMode = gl
+2: D [2025-04-13 20:21:14.632] BlueStacks5 (Pie64) is using OpenGL, disable WinAPI for Background Mode
+2: D [2025-04-13 20:21:14.632] Enable ADB screencap for Background Mode
+2: D [2025-04-13 20:21:14.809] Save Clan Games Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\clangames.ini
+2: D [2025-04-13 20:21:14.815] SaveConfig(), time = 0.22 sec
+2: D [2025-04-13 20:21:14.816] readConfig(), call number 13
+2: D [2025-04-13 20:21:14.843] Read Building Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\building.ini
+2: D [2025-04-13 20:21:14.854] Read Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\config.ini
+2: D [2025-04-13 20:21:14.987] Read Clan Games Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\MyVillage\clangames.ini
+2: D [2025-04-13 20:21:14.991] applyConfig(), call number 12
+2: D [2025-04-13 20:21:14.997] Threading: Using 0 threads for parallelism
+2: D [2025-04-13 20:21:14.997] Threading: Using 0 threads shared across all bot instances
+2: D [2025-04-13 20:21:14.999] HideAndroidWindow: False, False, True, applyConfig
+2: D [2025-04-13 20:21:14.999] AndroidToFront: Source applyConfig->HideAndroidWindow
+2: D [2025-04-13 20:21:15.004] Disable MyBot Window Redraw: applyConfig
+2: D [2025-04-13 20:21:15.011] Bot title updated to: My Bot v8.1.9 (Pie64)
+2: D [2025-04-13 20:21:15.059] BB Attack Count: 2
+2: D [2025-04-13 20:21:18.356] Redraw MyBot Window: applyConfig
+2: D [2025-04-13 20:21:19.500] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:21:19.522] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:21:19.545] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: L [2025-04-13 20:21:21.365] Checking Royal Champion Status
+2: D [2025-04-13 20:21:23.846] Read building Name String = Hero Hall (Level 4)
+2: L [2025-04-13 20:21:25.926] Royal Champion is not available
+2: D [2025-04-13 20:21:26.598] AdbScreencap: 91/95/93 ms (all/10/1),0,0,l=252,t=424,w=2,h=2, B56A5CF7DEAAC33C9447BD8F66983ECE0AA2D627: w=860,h=732,f=1
+2: D [2025-04-13 20:21:26.598] AdbScreencap HostPath: C:\ProgramData\BlueStacks_nxt\Engine\UserData\SharedFolder\
+2: D [2025-04-13 20:21:26.599] AdbScreencap AndroidPath: /mnt/windows/BstSharedFolder/
+2: D [2025-04-13 20:21:26.723] Window Closed!
+2: D [2025-04-13 20:21:28.140] Clearing Building Text
+2: D [2025-04-13 20:21:28.608] Are you ready? True
+2: D [2025-04-13 20:21:28.783] Main Village detected
+2: L [2025-04-13 20:21:28.785] Before any other routine let's attack!
+2: D [2025-04-13 20:21:28.808] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:21:28.830] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:21:28.855] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:21:29.256] Begin IsSearchAttackScheduled:
+2: D [2025-04-13 20:21:29.868] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:21:29.892] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-13 20:21:29.918] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: L [2025-04-13 20:21:30.252] Going to Attack
+2: D [2025-04-13 20:21:32.360] Multiplayer Tab is open
+2: D [2025-04-13 20:21:32.909] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-13 20:21:35.747] PrepareSearch exit check $g_bRestart= True, $g_bOutOfGold= False
+2: L [2025-04-13 20:21:35.748] Trying to locate Main Screen
+2: D [2025-04-13 20:21:35.921] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:21:35.922] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:21:36.628] No Obstacle Window found! (in 0.08 seconds)
+2: D [2025-04-13 20:21:36.921] Main 1 Pixel Color #1: C5CCA6, #2: C2C9A6, #3: C9CFA8
+2: D [2025-04-13 20:21:36.946] Main 2 Pixel Color #1: C5CCA6, #2: C2C9A6, #3: C9CFA8
+2: D [2025-04-13 20:21:36.974] Main 3 Pixel Color #1: C5CCA6, #2: C2C9A6, #3: C9CFA8
+2: D [2025-04-13 20:21:37.002] BB 1 Pixel Color #1: BBC2AA, #2: BEC2AB, #3: C2C6AC, #4: C6C4AC
+2: D [2025-04-13 20:21:37.024] BB 2 Pixel Color #1: BBC2AA, #2: BEC2AB, #3: C2C6AC, #4: C6C4AC
+2: D [2025-04-13 20:21:37.139] BB 3 Pixel Color #1: BBC2AA, #2: BEC2AB, #3: C2C6AC, #4: C6C4AC
+2: D [2025-04-13 20:21:37.360] CheckObstacles[1] Result = False
+2: D [2025-04-13 20:21:38.667] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:21:38.667] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:21:39.348] No Obstacle Window found! (in 0.08 seconds)
+2: D [2025-04-13 20:21:39.634] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:39.660] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:39.688] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:39.712] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:39.748] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:39.780] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:39.935] CheckObstacles[2] Result = False
+2: D [2025-04-13 20:21:41.210] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:21:41.210] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:21:42.127] Waiting for DLL async function FindTile ...
+2: D [2025-04-13 20:21:43.358] No Obstacle Window found! (in 0.11 seconds)
+2: D [2025-04-13 20:21:43.613] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:43.638] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:43.662] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:43.685] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:43.712] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:43.740] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:43.867] CheckObstacles[3] Result = False
+2: D [2025-04-13 20:21:45.156] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:21:45.157] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:21:45.813] No Obstacle Window found! (in 0.05 seconds)
+2: D [2025-04-13 20:21:46.104] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:46.127] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:46.147] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:46.173] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:46.197] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:46.225] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:46.361] CheckObstacles[4] Result = False
+2: D [2025-04-13 20:21:47.652] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:21:47.652] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:21:48.282] No Obstacle Window found! (in 0.05 seconds)
+2: D [2025-04-13 20:21:48.554] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:48.577] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:48.600] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:48.625] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:48.653] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:48.693] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:48.797] CheckObstacles[5] Result = False
+2: D [2025-04-13 20:21:50.103] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:21:50.103] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:21:50.802] No Obstacle Window found! (in 0.09 seconds)
+2: D [2025-04-13 20:21:51.122] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:51.146] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:51.170] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:51.197] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:51.219] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:51.243] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:51.383] CheckObstacles[6] Result = False
+2: D [2025-04-13 20:21:52.786] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:21:52.787] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:21:53.462] No Obstacle Window found! (in 0.06 seconds)
+2: D [2025-04-13 20:21:53.749] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:53.773] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:53.798] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:53.826] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:53.853] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:53.880] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:54.009] CheckObstacles[7] Result = False
+2: D [2025-04-13 20:21:55.290] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:21:55.290] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:21:55.915] No Obstacle Window found! (in 0.05 seconds)
+2: D [2025-04-13 20:21:56.180] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:56.204] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:56.228] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:56.254] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:56.278] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:56.302] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:56.428] CheckObstacles[8] Result = False
+2: D [2025-04-13 20:21:57.736] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:21:57.737] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:21:58.369] No Obstacle Window found! (in 0.06 seconds)
+2: D [2025-04-13 20:21:58.666] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:58.690] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:58.715] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:21:58.746] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:58.773] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:58.793] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:21:58.926] CheckObstacles[9] Result = False
+2: D [2025-04-13 20:22:00.219] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:22:00.220] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:22:00.876] No Obstacle Window found! (in 0.08 seconds)
+2: D [2025-04-13 20:22:01.147] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:01.158] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:01.194] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:01.221] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:01.249] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:01.273] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:01.522] CheckObstacles[10] Result = False
+2: D [2025-04-13 20:22:02.836] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:22:02.836] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:22:03.529] No Obstacle Window found! (in 0.08 seconds)
+2: D [2025-04-13 20:22:03.783] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:03.804] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:03.831] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:03.862] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:03.890] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:03.918] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:04.071] CheckObstacles[11] Result = False
+2: D [2025-04-13 20:22:05.193] Restore bot window to -479, 864, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-13 20:22:05.200] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-13 20:22:05.201] AndroidToFront: Source BotMinimizeRestore->HideAndroidWindow
+2: D [2025-04-13 20:22:05.380] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:22:05.380] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:22:06.028] No Obstacle Window found! (in 0.05 seconds)
+2: D [2025-04-13 20:22:06.289] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:06.311] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:06.335] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:06.361] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:06.387] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:06.413] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:06.541] CheckObstacles[12] Result = False
+2: D [2025-04-13 20:22:07.821] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:22:07.821] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:22:08.457] No Obstacle Window found! (in 0.05 seconds)
+2: D [2025-04-13 20:22:08.723] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:08.747] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:08.771] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:08.798] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:08.821] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:08.844] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:08.978] CheckObstacles[13] Result = False
+2: D [2025-04-13 20:22:10.250] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:22:10.250] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:22:10.944] No Obstacle Window found! (in 0.08 seconds)
+2: D [2025-04-13 20:22:11.214] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:11.250] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:11.273] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:11.298] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:11.321] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:11.349] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:11.479] CheckObstacles[14] Result = False
+2: D [2025-04-13 20:22:12.775] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-13 20:22:12.775] GetAndroidProcessPID StdOut :u0_a62        6262 com.supercell.clashofclans
+2: D [2025-04-13 20:22:13.426] No Obstacle Window found! (in 0.06 seconds)
+2: D [2025-04-13 20:22:13.711] Main 1 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:13.737] Main 2 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:13.760] Main 3 Pixel Color #1: 747F1F, #2: 6D781D, #3: 7C8824
+2: D [2025-04-13 20:22:13.790] BB 1 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:13.812] BB 2 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:13.839] BB 3 Pixel Color #1: 566528, #2: 5D682A, #3: 66712F, #4: 756C2E
+2: D [2025-04-13 20:22:14.057] CheckObstacles[15] Result = False
+2: D [2025-04-13 20:22:14.058] Page error count increased to 1, source: IsMainPage
+2: D [2025-04-13 20:22:14.160] Released Bot slot mutex: 0x00000B80
+2: D [2025-04-13 20:22:14.204] Disable MyBot Window Redraw: ToggleGuiControls
+2: D [2025-04-13 20:22:14.204] Enable GUI Controls
+2: D [2025-04-13 20:22:15.042] Redraw MyBot Window: ToggleGuiControls
+2: D [2025-04-13 20:22:15.083] Opened BlueStacks5 System Bar: True
+2: L [2025-04-13 20:22:15.175] ===================== Bot Stop ======================

@@ -1,0 +1,40 @@
+2: D [2025-04-11 13:05:05.697] Created log file: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\Logs\2025-04-11_13.05.05.log
+2: D [2025-04-11 13:05:05.697] Android: BlueStacks5
+2: D [2025-04-11 13:05:05.698] Android Instance: Pie64_5
+2: D [2025-04-11 13:05:05.698] Android Version: 5.21.580.1017
+2: D [2025-04-11 13:05:05.698] Android Version API: 28
+2: D [2025-04-11 13:05:05.698] Android ADB Device: 127.0.0.1:5605
+2: D [2025-04-11 13:05:05.699] Android Program Path: C:\Program Files\BlueStacks_nxt\HD-Player.exe
+2: D [2025-04-11 13:05:05.699] Android Program FileVersionInfo: 1033,,BlueStack Systems,BlueStacks,5.21.580.1017,,Copyright 2011 BlueStack Systems, Inc.  All Rights Reserved.,,HD-Player,BlueStacks,5.21.580.1017,,
+2: D [2025-04-11 13:05:05.700] Android ADB Path: C:\Program Files\BlueStacks_nxt\HD-Adb.exe
+2: D [2025-04-11 13:05:05.701] Android ADB Global Options: 
+2: D [2025-04-11 13:05:05.701] Android VBoxManage Path: C:\Program Files\BlueStacks_nxt\BstkVMMgr.exe
+2: D [2025-04-11 13:05:05.701] Android ADB Shared Folder: /mnt/windows/BstSharedFolder/
+2: D [2025-04-11 13:05:05.701] Full Command Line: 3 2ndVill BlueStacks5 Pie64_5
+2: D [2025-04-11 13:05:05.702] @AutoItExe: C:\Program Files (x86)\AutoIt3\AutoIt3.exe
+2: D [2025-04-11 13:05:05.702] @ScriptFullPath: Z:\Games\coc\MyBot-MBR_v8.1.9r4\MyBot.run.au3
+2: D [2025-04-11 13:05:05.702] @WorkingDir: Z:\Games\coc\MyBot-MBR_v8.1.9r4\lib
+2: D [2025-04-11 13:05:05.702] @AutoItPID: 31352
+2: D [2025-04-11 13:05:05.702] @OSArch: X64
+2: D [2025-04-11 13:05:05.703] @OSVersion: WIN_10
+2: D [2025-04-11 13:05:05.703] @OSBuild: 26100
+2: D [2025-04-11 13:05:05.703] @OSServicePack: 
+2: D [2025-04-11 13:05:05.705] Primary Display: 2560 x 1440 - 32bit
+2: L [2025-04-11 13:05:05.696] Closing My Bot v8.1.9 (Pie64_5), please wait ...
+2: L [2025-04-11 13:05:05.717] Closing My Bot v8.1.9 (Pie64_5) now ...
+2: D [2025-04-11 13:05:05.720] SetupProfileFolder: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill
+2: D [2025-04-11 13:05:05.731] saveConfig(), call number 11
+2: D [2025-04-11 13:05:05.749] Save Building Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\building.ini
+2: D [2025-04-11 13:05:05.766] Save Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\config.ini
+2: D [2025-04-11 13:05:05.769] GlRenderMode = gl
+2: D [2025-04-11 13:05:05.770] BlueStacks5 (Pie64_5) is using OpenGL, disable WinAPI for Background Mode
+2: D [2025-04-11 13:05:05.770] Enable ADB screencap for Background Mode
+2: L [2025-04-11 13:05:05.929] Closing My Bot v8.1.9 (Pie64_5) now ...
+2: D [2025-04-11 13:05:05.950] SetupProfileFolder: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill
+2: D [2025-04-11 13:05:05.952] saveConfig(), already running, exit
+2: D [2025-04-11 13:05:05.973] Opened BlueStacks5 System Bar: True
+2: D [2025-04-11 13:05:05.974] AndroidToFront: Source BotClose
+2: D [2025-04-11 13:05:06.059] ADB shell already terminated, PID = 29792
+2: D [2025-04-11 13:05:06.122] ADB minitouch shell terminated, PID = 31752
+2: D [2025-04-11 13:05:06.123] Release Mutex for Profile: 2ndVill
+0: D [2025-04-11 13:05:07.323] Bot Host Window Handle un-registered: 0x00040EC0

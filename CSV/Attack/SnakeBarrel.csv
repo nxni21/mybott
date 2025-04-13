@@ -1,0 +1,25 @@
+NOTE  |Snake Barrel Troop Script work on "EXTERNAL EDGES"
+
+	  |EXTR. GOLD |EXTR.ELIXIR|EXTR. DARK |DEPO. GOLD |DEPO.ELIXIR|DEPO. DARK |TOWNHALL   |FORCED SIDE|___________|
+SIDE  |5          |5          |0          |0          |0          |0          |           |           |           |
+      |EAGLE      |INFERNO    |XBOW       |WIZTOWER   |MORTAR     |AIRDEFENSE |AIRSWEEPER |GEMBOX     |           |
+SIDEB |0          |0          |0          |0          |0          |0          |0          |0          |           |
+
+      |-------------------------------------------------Snake Start-----------------------------------------------|
+
+      |___________|___________|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|
+REDLN |0          |0          |0          |4          |4          |4          |4          |4          |4          |
+DRPLN |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|
+MAKE  |A          |FRONT-LEFT |10         |0          |EXT-INT    |0          |0          |           |           |
+MAKE  |B          |FRONT-RIGHT|10         |0          |INT-EXT    |0          |0          |           |           |
+
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|
+DROP  |A-B        |1-8        |13         |REMAIN     |50-70      |100        |300-500    |           |           |
+WAIT  |2000-3000  |           |           |           |           |           |           |           |           |
+DROP  |A-B        |1-8        |13         |REMAIN     |50-70      |100        |300-500    |           |           |
+WAIT  |2000-3000  |           |           |           |           |           |           |           |           |
+
+      |                                                                                                           |
+      |--------------------------------------------------Snake End------------------------------------------------|

@@ -1,0 +1,79 @@
+NOTE  |Troops TH9: 8 Dragons 12 Balloons, and 9 Lighting Spells
+NOTE  |Spells TH10: 10 Dragons 8 Balloons, and 11 Lighting Spells 
+NOTE  |                    "Use External Edges"
+
+      |EXTR. GOLD |EXTR.ELIXIR|EXTR. DARK |DEPO. GOLD |DEPO.ELIXIR|DEPO. DARK |TOWNHALL   |FORCED SIDE|___________|
+SIDE  |0          |0          |0          |0          |0          |0          |10         |           |           |
+      |EAGLE      |INFERNO    |XBOW       |WIZTOWER   |MORTAR     |AIRDEFENSE |GEMBOX     |GEMBOX     |           |
+SIDEB |0          |0          |0          |0          |0          |20         |           |           |           |
+
+      |_TROOPNAME_|__FLEXIBLE_|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|
+TRAIN |Drag       |0          |0          |8          |0          |8          |10         |0          |0          |
+TRAIN |Ball       |0          |0          |8          |0          |12         |8          |0          |0          |
+TRAIN |LSpell     |0          |0          |6          |0          |9          |11         |0          |0          |
+
+      |_TROOPNAME_|___________|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|
+TRAIN |King       |0          |0          |1          |0          |1          |1          |0          |0          |
+TRAIN |Queen      |0          |0          |0          |0          |1          |1          |0          |0          |
+TRAIN |Prince     |0          |0          |0          |0          |1          |1          |0          |0          |
+
+      |___________|___________|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|
+REDLN |0          |0          |0          |4          |0          |4          |4          |0          |0          |
+DRPLN |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+      
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|
+MAKE  |A          |FRONT-RIGHT|10         |1          |EXT-INT    |10         |10         |           |           |
+MAKE  |B          |FRONT-LEFT |10         |1          |INT-EXT    |10         |10         |           |           |
+MAKE  |C          |FRONT-RIGHT|10         |1          |EXT-INT    |10         |10         |           |           |
+MAKE  |D          |BACK-LEFT  |10         |1          |INT-EXT    |10         |10         |           |           |
+MAKE  |E          |BACK-LEFT  |10         |1          |INT-EXT    |10         |10         |           |           |
+MAKE  |F          |BACK-LEFT  |10         |1          |INT-EXT    |10         |10         |           |           |
+
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|
+MAKE  |I          |RANDOM     |1          |1          |IGNORE     |5          |5          |AIRDEFENSE |           |
+DROP  |I          |1          |4          |LSpell     |200-400    |0          |0          |           |           |
+WAIT  |500-800    |           |           |           |           |           |           |           |           |	  
+MAKE  |I          |RANDOM     |1          |1          |IGNORE     |5          |5          |AIRDEFENSE |           |
+DROP  |I          |1          |4          |LSpell     |200-400    |0          |0          |           |           |
+WAIT  |500-800    |           |           |           |           |           |           |           |           |
+MAKE  |I          |RANDOM     |1          |1          |IGNORE     |5          |5          |AIRDEFENSE |           |
+DROP  |I          |1          |4          |LSpell     |200-400    |0          |0          |           |           |
+WAIT  |500-800    |           |           |           |           |           |           |           |           |
+MAKE  |I          |RANDOM     |1          |1          |IGNORE     |5          |5          |AIRDEFENSE |           |
+DROP  |I          |1          |4          |LSpell     |200-400    |0          |0          |           |           |
+WAIT  |500-800    |           |           |           |           |           |           |           |           |
+MAKE  |I          |RANDOM     |1          |1          |IGNORE     |5          |5          |AIRDEFENSE |           |
+DROP  |I          |1          |4          |LSpell     |200-400    |0          |0          |           |           |
+WAIT  |500-800    |           |           |           |           |           |           |           |           |
+MAKE  |I          |RANDOM     |1          |1          |IGNORE     |5          |5          |AIRDEFENSE |           |
+DROP  |I          |1          |4          |LSpell     |200-400    |0          |0          |           |           |
+WAIT  |500-800    |           |           |           |           |           |           |           |           |
+MAKE  |I          |RANDOM     |1          |1          |IGNORE     |5          |5          |AIRDEFENSE |           |
+DROP  |I          |1          |4          |LSpell     |200-400    |0          |0          |           |           |
+WAIT  |500-800    |           |           |           |           |           |           |           |           |
+MAKE  |I          |RANDOM     |1          |1          |IGNORE     |5          |5          |AIRDEFENSE |           |
+DROP  |I          |1          |4          |LSpell     |200-400    |0          |0          |           |           |
+WAIT  |500-800    |           |           |           |           |           |           |           |           |
+MAKE  |I          |RANDOM     |1          |1          |IGNORE     |5          |5          |AIRDEFENSE |           |
+DROP  |I          |1          |4          |LSpell     |200-400    |0          |0          |           |           |
+WAIT  |500-800    |           |           |           |           |           |           |           |           |
+MAKE  |I          |RANDOM     |1          |1          |IGNORE     |5          |5          |AIRDEFENSE |           |
+DROP  |I          |1          |4          |LSpell     |200-400    |0          |0          |           |           |       
+WAIT  |3000-4000  |           |           |           |           |           |           |           |           |
+
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|
+DROP  |A          |6,6,7,8,9  |5          |Drag       |50-70      |0          |100-300    |           |           |
+WAIT  |800-1500   |           |           |           |           |           |           |           |           |
+DROP  |B          |2,3,4,5,5  |5          |Drag       |50-70      |0          |100-300    |           |           |
+WAIT  |5000-7000  |           |           |           |           |           |           |           |           |
+DROP  |A          |8,9,9,10   |8          |Ball       |50-70      |0          |100-300    |           |           |
+WAIT  |800-1500   |           |           |           |           |           |           |           |           |
+DROP  |B          |1,1,2,2    |8          |Ball       |50-70      |0          |100-300    |           |           |
+WAIT  |3500-4500  |           |           |           |           |           |           |           |           | 
+RECALC|           |           |           |           |           |           |           |           |	          |        
+DROP  |A-B        |1-10       |1          |REMAIN     |50-70      |0          |100-300    |           |           |           
+WAIT  |6000-12000 |           |           |           |           |           |           |           |           |
+DROP  |D          |1          |1          |King       |50-70      |0          |4000-6000  |           |           |
+DROP  |E          |1          |1          |Queen      |50-70      |0          |4000-6000  |           |           |
+DROP  |F          |1          |1          |Prince     |50-70      |0          |4000-6000  |           |           |
+

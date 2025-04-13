@@ -1,0 +1,1563 @@
+2: D [2025-04-12 16:10:16.960] Created log file: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\Logs\2025-04-12_16.10.16.log
+2: D [2025-04-12 16:10:16.961] Android: BlueStacks5
+2: D [2025-04-12 16:10:16.961] Android Instance: Pie64_5
+2: D [2025-04-12 16:10:16.961] Android Version: 5.21.580.1017
+2: D [2025-04-12 16:10:16.961] Android Version API: 28
+2: D [2025-04-12 16:10:16.961] Android ADB Device: 127.0.0.1:5605
+2: D [2025-04-12 16:10:16.962] Android Program Path: C:\Program Files\BlueStacks_nxt\HD-Player.exe
+2: D [2025-04-12 16:10:16.962] Android Program FileVersionInfo: 1033,,BlueStack Systems,BlueStacks,5.21.580.1017,,Copyright 2011 BlueStack Systems, Inc.  All Rights Reserved.,,HD-Player,BlueStacks,5.21.580.1017,,
+2: D [2025-04-12 16:10:16.962] Android ADB Path: C:\Program Files\BlueStacks_nxt\HD-Adb.exe
+2: D [2025-04-12 16:10:16.963] Android ADB Global Options: 
+2: D [2025-04-12 16:10:16.963] Android VBoxManage Path: C:\Program Files\BlueStacks_nxt\BstkVMMgr.exe
+2: D [2025-04-12 16:10:16.963] Android ADB Shared Folder: /mnt/windows/BstSharedFolder/
+2: D [2025-04-12 16:10:16.963] Full Command Line: 3 2ndVill BlueStacks5 Pie64_5
+2: D [2025-04-12 16:10:16.964] @AutoItExe: C:\Program Files (x86)\AutoIt3\AutoIt3.exe
+2: D [2025-04-12 16:10:16.964] @ScriptFullPath: Z:\Games\coc\MyBot-MBR_v8.1.9r4\MyBot.run.au3
+2: D [2025-04-12 16:10:16.964] @WorkingDir: Z:\Games\coc\MyBot-MBR_v8.1.9r4\lib
+2: D [2025-04-12 16:10:16.964] @AutoItPID: 12264
+2: D [2025-04-12 16:10:16.965] @OSArch: X64
+2: D [2025-04-12 16:10:16.965] @OSVersion: WIN_10
+2: D [2025-04-12 16:10:16.965] @OSBuild: 26100
+2: D [2025-04-12 16:10:16.965] @OSServicePack: 
+2: D [2025-04-12 16:10:16.965] Primary Display: 2560 x 1440 - 32bit
+2: D [2025-04-12 16:10:16.959] Restore bot window to 998, 88, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-12 16:10:17.042] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-12 16:10:17.042] AndroidToFront: Source BotMinimizeRestore->HideAndroidWindow
+2: D [2025-04-12 16:10:42.351] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:10:42.352] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:10:42.355] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:10:42.356] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:10:42.358] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:10:42.358] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:10:42.359] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:10:42.359] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:10:42.360] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:10:42.360] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:10:42.360] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:10:42.361] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:10:42.376] Restore bot window to 998, 88, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-12 16:10:42.379] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-12 16:10:42.380] AndroidToFront: Source BotMinimizeRestore->HideAndroidWindow
+2: D [2025-04-12 16:11:16.690] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:11:16.691] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:11:16.697] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:11:16.697] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:11:16.702] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:11:16.703] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:11:16.704] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:11:16.705] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:11:16.705] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:11:16.706] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:11:16.706] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:11:16.707] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:11:16.715] Restore bot window to 998, 88, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-12 16:11:16.724] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-12 16:11:16.725] AndroidToFront: Source BotMinimizeRestore->HideAndroidWindow
+2: D [2025-04-12 16:13:50.516] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:13:50.517] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:13:50.519] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:13:50.519] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:13:50.520] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:13:50.521] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:13:50.521] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:13:50.521] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:13:50.522] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:13:50.522] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:13:50.522] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:13:50.523] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:13:50.524] Restore bot window to 998, 88, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-12 16:13:50.527] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-12 16:13:50.528] AndroidToFront: Source BotMinimizeRestore->HideAndroidWindow
+2: D [2025-04-12 16:13:51.834] Restore bot window to 998, 88, caller: GUIControl_WM_SHELLHOOK
+2: D [2025-04-12 16:14:28.495] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:14:28.496] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:14:28.499] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:14:28.500] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:14:28.500] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:14:28.501] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:14:28.501] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:14:28.502] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:14:28.503] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:14:28.503] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:14:28.503] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 16:14:28.504] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 16:14:28.507] Restore bot window to 998, 88, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-12 16:14:28.509] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-12 16:14:28.509] AndroidToFront: Source BotMinimizeRestore->HideAndroidWindow
+2: L [2025-04-12 16:14:34.243] Closing My Bot v8.1.9 (Pie64_5), please wait ...
+2: L [2025-04-12 16:14:34.250] Closing My Bot v8.1.9 (Pie64_5) now ...
+2: D [2025-04-12 16:14:34.251] SetupProfileFolder: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill
+2: D [2025-04-12 16:14:34.257] saveConfig(), call number 4
+2: D [2025-04-12 16:14:34.272] Save Building Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\building.ini
+2: D [2025-04-12 16:14:34.290] Save Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\config.ini
+2: D [2025-04-12 16:14:34.292] GlRenderMode = gl
+2: D [2025-04-12 16:14:34.292] BlueStacks5 (Pie64_5) is using OpenGL, disable WinAPI for Background Mode
+2: D [2025-04-12 16:14:34.293] Enable ADB screencap for Background Mode
+2: D [2025-04-12 16:14:34.423] Save Clan Games Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\clangames.ini
+2: D [2025-04-12 16:14:34.428] SaveConfig(), time = 0.17 sec
+2: D [2025-04-12 16:14:34.444] Opened BlueStacks5 System Bar: True
+2: D [2025-04-12 16:14:34.445] AndroidToFront: Source BotClose
+2: D [2025-04-12 16:14:34.478] ADB shell already terminated, PID = 12592
+2: D [2025-04-12 16:14:34.494] ADB minitouch shell terminated, PID = 27416
+2: D [2025-04-12 16:14:34.494] Release Mutex for Profile: 2ndVill
+0: D [2025-04-12 16:14:35.696] Bot Host Window Handle un-registered: 0x0002085E
+0: D [2025-04-12 17:56:21.678] Append to log file: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\Logs\2025-04-12_16.10.16.log
+0: D [2025-04-12 17:56:21.678] Full Command Line: 3 2ndVill BlueStacks5 Pie64_5
+0: D [2025-04-12 17:56:21.678] @AutoItExe: C:\Program Files (x86)\AutoIt3\AutoIt3.exe
+0: D [2025-04-12 17:56:21.678] @ScriptFullPath: Z:\Games\coc\MyBot-MBR_v8.1.9r4\MyBot.run.au3
+0: D [2025-04-12 17:56:21.679] @WorkingDir: Z:\Games\coc\MyBot-MBR_v8.1.9r4
+0: D [2025-04-12 17:56:21.679] @AutoItPID: 27044
+0: D [2025-04-12 17:56:21.679] @OSArch: X64
+0: D [2025-04-12 17:56:21.679] @OSVersion: WIN_10
+0: D [2025-04-12 17:56:21.680] @OSBuild: 26100
+0: D [2025-04-12 17:56:21.680] @OSServicePack: 
+0: D [2025-04-12 17:56:21.680] Primary Display: 2560 x 1440 - 32bit
+0: D [2025-04-12 17:56:21.674] MyBot.run/API/1.1 Message ID = 49833
+0: D [2025-04-12 17:56:21.675] MyBot.run/STATE/1.1 Message ID = 49834
+0: D [2025-04-12 17:56:21.676] SetupProfileFolder: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill
+0: L [2025-04-12 17:56:21.676] ====================== BOT LOG ======================
+0: D [2025-04-12 17:56:21.681] Created switch log file: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\SwitchAccLog-2025-04.log
+0: D [2025-04-12 17:56:21.683] readConfig(), call number 1
+0: D [2025-04-12 17:56:21.711] Read Building Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\building.ini
+0: D [2025-04-12 17:56:21.724] Read Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\config.ini
+0: D [2025-04-12 17:56:21.854] Read Clan Games Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\clangames.ini
+0: D [2025-04-12 17:56:21.901] Bot title updated to: My Bot v8.1.9
+0: D [2025-04-12 17:56:21.908] Wait mutex ticket: Launching.2
+0: L [2025-04-12 17:56:21.909] Waiting for slot to become available...
+0: D [2025-04-12 17:56:41.920] Aquired mutex ticket: Launching.1, 0x000003FC
+0: D [2025-04-12 17:56:41.942] Watchdog already running
+0: D [2025-04-12 17:56:46.637] SplashStep 1 of 10: Initializing Android...(4.7 sec)
+0: D [2025-04-12 17:56:46.639] SplashStep 1 of 10: Initializing Android...(BlueStacks5)...(4.7 sec)
+0: D [2025-04-12 17:56:46.640] UpdateAndroidConfig("Pie64_5")
+0: D [2025-04-12 17:56:46.640] InitAndroid(False): BlueStacks5
+0: D [2025-04-12 17:56:46.641] Using ADB Path C:\Program Files\BlueStacks_nxt\HD-Adb.exe
+0: D [2025-04-12 17:56:46.642] g_sAndroidPicturesHostPath = C:\ProgramData\BlueStacks_nxt\Engine\UserData\SharedFolder\
+0: D [2025-04-12 17:56:46.643] g_sAndroidPicturesPath = /mnt/windows/BstSharedFolder/
+0: D [2025-04-12 17:56:46.643] Searching BlueStacks5 Window: Title = 'BlueStacks5 ', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.W'
+0: D [2025-04-12 17:56:46.643] WMI Query: Select Handle,ExecutablePath,CommandLine from Win32_Process where ExecutablePath like '%C:\\Program Files\\BlueStacks_nxt\\HD-Player.exe%'
+0: D [2025-04-12 17:56:46.723] 280 = C:\Program Files\BlueStacks_nxt\HD-Player.exe ("C:\\Program Files\\BlueStacks_nxt\\HD-Player.exe" "--instance" "Pie64")
+0: D [2025-04-12 17:56:46.723] 2488 = C:\Program Files\BlueStacks_nxt\HD-Player.exe ("C:\\Program Files\\BlueStacks_nxt\\HD-Player.exe" "--instance" "Pie64_5")
+0: D [2025-04-12 17:56:46.724] Found Process 2488 by CommandLine: C:\Program Files\BlueStacks_nxt\HD-Player.exe "--instance" "Pie64_5"
+0: D [2025-04-12 17:56:46.827] Found Android window: BlueStacks5-Pie64_5, 0x00010BA8, Qt672QWindowIcon, 862, 766
+0: D [2025-04-12 17:56:46.827] Found 1 windows, searching for '_ctl.W' with class '[CLASS:BlueStacksApp; INSTANCE:1]'
+0: D [2025-04-12 17:56:46.828] Found BlueStacks5 Window 'BlueStacks5-Pie64_5' (0x00010BA8) by PID 2488 ('C:\Program Files\BlueStacks_nxt\HD-Player.exe "--instance" "Pie64_5"')
+0: D [2025-04-12 17:56:46.829] Move Android Window 'BlueStacks5-Pie64_5' to position: 111, 63
+0: D [2025-04-12 17:56:46.829] HideAndroidWindow: False, Default, True, WinGetAndroidHandle:1
+0: D [2025-04-12 17:56:46.830] AndroidToFront: Source WinGetAndroidHandle:1->HideAndroidWindow
+0: L [2025-04-12 17:56:46.830] BlueStacks5 (Pie64_5) running in window mode
+0: D [2025-04-12 17:56:46.832] abi_list="x86,x64,arm,arm64"
+0: D [2025-04-12 17:56:46.832] adb_port="5605"
+0: D [2025-04-12 17:56:46.832] ads_app_activity="com.uncube.gamevantage.ui.activities.MainActivity"
+0: D [2025-04-12 17:56:46.833] ads_app_package="com.uncube.gamevantage"
+0: D [2025-04-12 17:56:46.833] ads_display_time=""
+0: D [2025-04-12 17:56:46.833] ads_limit_min_pixels="900"
+0: D [2025-04-12 17:56:46.833] ads_screen_width="172"
+0: D [2025-04-12 17:56:46.833] ads_screen_width_percentage="20"
+0: D [2025-04-12 17:56:46.834] airplane_mode_active="0"
+0: D [2025-04-12 17:56:46.834] airplane_mode_active_time=""
+0: D [2025-04-12 17:56:46.834] android_google_ad_id="94af3f99-ea76-4c57-8f60-0f8c4e3ebb72"
+0: D [2025-04-12 17:56:46.834] android_id="87c95a4523c0cc2f"
+0: D [2025-04-12 17:56:46.834] android_sound_while_tapping="1"
+0: D [2025-04-12 17:56:46.834] app_launch_count="0"
+0: D [2025-04-12 17:56:46.835] astc_decoding_mode="software"
+0: D [2025-04-12 17:56:46.835] autohide_notifications="0"
+0: D [2025-04-12 17:56:46.835] boot_duration="7498"
+0: D [2025-04-12 17:56:46.835] camera_backend="qt"
+0: D [2025-04-12 17:56:46.835] camera_device="Windows default"
+0: D [2025-04-12 17:56:46.835] cpus="4"
+0: D [2025-04-12 17:56:46.836] custom_resolution_selected="1"
+0: D [2025-04-12 17:56:46.836] device_carrier_code="se_26202"
+0: D [2025-04-12 17:56:46.836] device_country_code="276"
+0: D [2025-04-12 17:56:46.836] device_custom_brand=""
+0: D [2025-04-12 17:56:46.836] device_custom_manufacturer=""
+0: D [2025-04-12 17:56:46.837] device_custom_model=""
+0: D [2025-04-12 17:56:46.837] device_profile_code="optp"
+0: D [2025-04-12 17:56:46.837] display_name="BlueStacks5-Pie64_5"
+0: D [2025-04-12 17:56:46.837] dpi="160"
+0: D [2025-04-12 17:56:46.837] eco_mode_max_fps="5"
+0: D [2025-04-12 17:56:46.837] enable_fps_display="1"
+0: D [2025-04-12 17:56:46.838] enable_fullscreen_all_apps="0"
+0: D [2025-04-12 17:56:46.838] enable_high_fps="0"
+0: D [2025-04-12 17:56:46.838] enable_logcat_redirection="0"
+0: D [2025-04-12 17:56:46.838] enable_notifications="1"
+0: D [2025-04-12 17:56:46.838] enable_root_access="0"
+0: D [2025-04-12 17:56:46.838] enable_vsync="0"
+0: D [2025-04-12 17:56:46.839] fb_height="732"
+0: D [2025-04-12 17:56:46.839] fb_width="860"
+0: D [2025-04-12 17:56:46.839] first_boot="0"
+0: D [2025-04-12 17:56:46.839] game_controls_enabled="1"
+0: D [2025-04-12 17:56:46.840] gl_win_height="732"
+0: D [2025-04-12 17:56:46.840] gl_win_screen="VG27AQML1A"
+0: D [2025-04-12 17:56:46.841] gl_win_x="112"
+0: D [2025-04-12 17:56:46.841] gl_win_y="96"
+0: D [2025-04-12 17:56:46.841] google_account_logins="ernestllido6@gmail.com"
+0: D [2025-04-12 17:56:46.842] google_login_popup_shown="0"
+0: D [2025-04-12 17:56:46.842] graphics_engine="aga"
+0: D [2025-04-12 17:56:46.842] graphics_renderer="gl"
+0: D [2025-04-12 17:56:46.843] grm_ignored_rules=""
+0: D [2025-04-12 17:56:46.843] launch_date=""
+0: D [2025-04-12 17:56:46.843] libc_mem_allocator="jem"
+0: D [2025-04-12 17:56:46.843] macro_win_height="-1"
+0: D [2025-04-12 17:56:46.843] macro_win_screen=""
+0: D [2025-04-12 17:56:46.844] macro_win_x="-1"
+0: D [2025-04-12 17:56:46.844] macro_win_y="-1"
+0: D [2025-04-12 17:56:46.844] max_fps="60"
+0: D [2025-04-12 17:56:46.845] nowbux_signin_completed="0"
+0: D [2025-04-12 17:56:46.845] nowgg_email=""
+0: D [2025-04-12 17:56:46.845] nowgg_userAvatarUrl=""
+0: D [2025-04-12 17:56:46.845] nowgg_userId=""
+0: D [2025-04-12 17:56:46.845] nowgg_username=""
+0: D [2025-04-12 17:56:46.846] pin_to_top="0"
+0: D [2025-04-12 17:56:46.846] ram="12288"
+0: D [2025-04-12 17:56:46.846] refresh_token=""
+0: D [2025-04-12 17:56:46.846] show_nowbux_rewards_red_dot_onboarding="1"
+0: D [2025-04-12 17:56:46.846] show_sidebar="0"
+0: D [2025-04-12 17:56:46.846] split_ad_enabled="0"
+0: D [2025-04-12 17:56:46.847] split_ad_show_times="-1"
+0: D [2025-04-12 17:56:46.847] status.adb_port="5605"
+0: D [2025-04-12 17:56:46.847] status.ip_addr_prefix_len="24"
+0: D [2025-04-12 17:56:46.847] status.ip_gateway_addr="10.0.2.2"
+0: D [2025-04-12 17:56:46.847] status.ip_guest_addr="10.0.2.15"
+0: D [2025-04-12 17:56:46.848] status.session_id="15"
+0: D [2025-04-12 17:56:46.848] token=""
+0: D [2025-04-12 17:56:46.848] vulkan_supported="1"
+0: D [2025-04-12 17:56:46.935] Using default ADB Daemon port, minitouch port is 6038
+0: D [2025-04-12 17:56:46.939] Disabled WerFault for HD-Player.exe
+0: D [2025-04-12 17:56:46.940] Disabled WerFault for HD-Adb.exe
+0: D [2025-04-12 17:56:46.940] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\BstkVMMgr.exe guestproperty enumerate Pie64_5
+0: D [2025-04-12 17:56:48.178] Func LaunchConsole Output: BstkVMMgr.exe: error: Code E_FAIL (0x80004005) (extended info not available)
+BstkVMMgr.exe: error: Context: "LockMachine(a->session, LockType_Shared)" at line 328 of file VBoxManageGuestProp.cpp
+0: D [2025-04-12 17:56:48.179] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\BstkVMMgr.exe getextradata Pie64_5 enumerate
+0: D [2025-04-12 17:56:49.317] Func LaunchConsole Output: Key: VBoxInternal/CPUM/HostCPUID/00000001/ecx, Value: 0x201
+Key: VBoxInternal/CPUM/IsaExts/AVX2, Value: 1
+Key: VBoxInternal/Devices/HvMem/0/PCIBusNo, Value: 0
+Key: VBoxInternal/Devices/HvMem/0/PCIDeviceNo, Value: 8
+Key: VBoxInternal/Devices/HvMem/0/PCIFunctionNo, Value: 0
+Key: VBoxInternal/Devices/bstaudio/0/PCIBusNo, Value: 0
+Key: VBoxInternal/Devices/bstaudio/0/PCIDeviceNo, Value: 9
+Key: VBoxInternal/Devices/bstaudio/0/PCIFunctionNo, Value: 0
+Key: VBoxInternal/Devices/bstcamera/0/PCIBusNo, Value: 0
+Key: VBoxInternal/Devices/bstcamera/0/PCIDeviceNo, Value: 16
+Key: VBoxInternal/Devices/bstcamera/0/PCIFunctionNo, Value: 0
+Key: VBoxInternal/Devices/bstpgaipc/0/PCIBusNo, Value: 0
+Key: VBoxInternal/Devices/bstpgaipc/0/PCIDeviceNo, Value: 14
+Key: VBoxInternal/Devices/bstpgaipc/0/PCIFunctionNo, Value: 0
+Key: VBoxInternal/Devices/bstserial/0/Junk, Value: 0
+Key: VBoxInternal/Devices/bstvmsg/0/PCIBusNo, Value: 0
+Key: VBoxInternal/Devices/bstvmsg/0/PCIDeviceNo, Value: 10
+Key: VBoxInternal/Devices/bstvmsg/0/PCIFunctionNo, Value: 0
+Key: VBoxInternal/Devices/virtio-net/0/LUN#0/Config/UseHostResolver, Value: 1
+Key: VBoxInternal/GIM/Provider, Value: KVM
+Key: VBoxInternal/HM/HMForced, Value: 1
+Key: VBoxInternal/PDM/Devices/bstdevices/Path, Value: C:\Program Files\BlueStacks_nxt\HD-Vdes-Service.dll
+Key: VBoxInternal2/SavestateOnBatteryLow, Value: 0
+0: D [2025-04-12 17:56:49.319] GlRenderMode = gl
+0: D [2025-04-12 17:56:49.319] BlueStacks5 (Pie64_5) is using OpenGL, disable WinAPI for Background Mode
+0: D [2025-04-12 17:56:49.319] Enable ADB screencap for Background Mode
+0: D [2025-04-12 17:56:49.320] Android: BlueStacks5
+0: D [2025-04-12 17:56:49.320] Android Config: 0
+0: D [2025-04-12 17:56:49.320] Android Version: 5.21.580.1017
+0: D [2025-04-12 17:56:49.320] Android Instance: Pie64_5
+0: D [2025-04-12 17:56:49.320] Android Window Title: BlueStacks5-Pie64_5
+0: D [2025-04-12 17:56:49.321] Android Program Path: C:\Program Files\BlueStacks_nxt\HD-Player.exe
+0: D [2025-04-12 17:56:49.321] Android Program Parameter: "--instance" "Pie64_5"
+0: D [2025-04-12 17:56:49.321] Android Program FileVersionInfo: 1033,,BlueStack Systems,BlueStacks,5.21.580.1017,,Copyright 2011 BlueStack Systems, Inc.  All Rights Reserved.,,HD-Player,BlueStacks,5.21.580.1017,,
+0: D [2025-04-12 17:56:49.321] Android SecureME setting: 3
+0: D [2025-04-12 17:56:49.322] Android ADB Path: C:\Program Files\BlueStacks_nxt\HD-Adb.exe
+0: D [2025-04-12 17:56:49.322] Android ADB Global Options: 
+0: D [2025-04-12 17:56:49.322] Android VBoxManage Path: C:\Program Files\BlueStacks_nxt\BstkVMMgr.exe
+0: D [2025-04-12 17:56:49.322] Android ADB Device: 127.0.0.1:5605
+0: D [2025-04-12 17:56:49.322] Android ADB Shared Folder: /mnt/windows/BstSharedFolder/
+0: D [2025-04-12 17:56:49.322] Android ADB Shared Folder on Host: C:\ProgramData\BlueStacks_nxt\Engine\UserData\SharedFolder\
+0: D [2025-04-12 17:56:49.323] Android ADB Shared SubFolder: 
+0: D [2025-04-12 17:56:49.323] Android Mouse Device: BlueStacks Virtual Touch
+0: D [2025-04-12 17:56:49.323] Android ADB screencap command enabled: True
+0: D [2025-04-12 17:56:49.323] Android ADB input command enabled: True
+0: D [2025-04-12 17:56:49.323] Android ADB Mouse Click enabled: True
+0: D [2025-04-12 17:56:49.324] Android ADB Click Drag enabled: True
+0: D [2025-04-12 17:56:49.324] Bot Background Mode for screen capture: disabled
+0: D [2025-04-12 17:56:49.324] No Focus Tampering: False
+0: D [2025-04-12 17:56:49.325] InitAndroid(False): BlueStacks5 END, initialization successful = True, result = True
+0: D [2025-04-12 17:56:49.325] UpdateAndroidConfig("Pie64_5") END
+0: D [2025-04-12 17:56:49.325] SplashStep 1 of 10: Initializing Android...(BlueStacks5)(7.39 sec)
+0: D [2025-04-12 17:56:49.327] SplashStep 2 of 10: Detecting Android...(7.39 sec)
+0: D [2025-04-12 17:56:49.328] Retrieving CoC distributors
+0: D [2025-04-12 17:56:49.329] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe connect 127.0.0.1:5605
+0: D [2025-04-12 17:56:54.584] Func LaunchConsole Output: * daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+connected to 127.0.0.1:5605
+0: D [2025-04-12 17:56:54.584] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe -s 127.0.0.1:5605 shell /data/anr/../../system/xbin/bstk/su root echo $USER:$USER_ID
+0: D [2025-04-12 17:56:54.663] Func LaunchConsole Output: shell:2000
+0: D [2025-04-12 17:56:54.664] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe -s 127.0.0.1:5605 shell /data/anr/../../system/xbin/bstk/su root mount|grep -E 'vboxsf|sharefolder'
+0: D [2025-04-12 17:56:54.740] Func LaunchConsole Output: Documents on /mnt/windows/Documents type vboxsf (ro,nosuid,nodev,relatime,iocharset=utf8,uid=1000,gid=1015,dmode=0777,fmode=0777,dmask=02,fmask=02)
+Pictures on /mnt/windows/Pictures type vboxsf (ro,nosuid,nodev,relatime,iocharset=utf8,uid=1000,gid=1015,dmode=0777,fmode=0777,dmask=02,fmask=02)
+InputMapper on /mnt/windows/InputMapper type vboxsf (rw,nosuid,nodev,relatime,iocharset=utf8,uid=1000,gid=1015,dmode=0777,fmode=0777,dmask=02,fmask=02)
+BstSharedFolder on /mnt/windows/BstSharedFolder type vboxsf (rw,nosuid,nodev,relatime,iocharset=utf8,uid=1000,gid=1015,dmode=0777,fmode=0777)
+0: D [2025-04-12 17:56:54.743] Created dummy file: C:\ProgramData\BlueStacks_nxt\Engine\UserData\SharedFolder\637BB28F69DC029630CE1B27EEDDC2CDF270DCE8
+0: D [2025-04-12 17:56:54.743] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe -s 127.0.0.1:5605 shell /data/anr/../../system/xbin/bstk/su root ls '/mnt/windows/BstSharedFolder/637BB28F69DC029630CE1B27EEDDC2CDF270DCE8'
+0: D [2025-04-12 17:56:54.815] Func LaunchConsole Output: /mnt/windows/BstSharedFolder/637BB28F69DC029630CE1B27EEDDC2CDF270DCE8
+0: D [2025-04-12 17:56:54.816] Using /mnt/windows/BstSharedFolder/ for Android shared folder
+0: D [2025-04-12 17:56:54.816] C:\ProgramData\BlueStacks_nxt\Engine\UserData\SharedFolder\ exists
+0: D [2025-04-12 17:56:54.817] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe connect 127.0.0.1:5605
+0: D [2025-04-12 17:56:54.887] Func LaunchConsole Output: already connected to 127.0.0.1:5605
+0: D [2025-04-12 17:56:54.888] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe -s 127.0.0.1:5605 shell /data/anr/../../system/xbin/bstk/su root echo $USER:$USER_ID
+0: D [2025-04-12 17:56:54.959] Func LaunchConsole Output: shell:2000
+0: D [2025-04-12 17:56:54.959] Run pipe ADB shell: "C:\Program Files\BlueStacks_nxt\HD-Adb.exe" -s 127.0.0.1:5605 shell -t -t /data/anr/../../system/xbin/bstk/su root
+0: D [2025-04-12 17:56:56.216] Initialize shell prompt with 'mybot.run:'
+0: D [2025-04-12 17:57:00.475] Initialize shell prompt with 'mybot.run:'
+0: D [2025-04-12 17:57:00.967] ADB shell launched, PID = 28332: Android Steady Shell PID=1832
+
+OP516FL1:/ # 
+0: D [2025-04-12 17:57:00.978] Android Version API = 28
+0: D [2025-04-12 17:57:00.978] Android Version 9.0
+0: D [2025-04-12 17:57:00.979] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe connect 127.0.0.1:5605
+0: D [2025-04-12 17:57:01.046] Func LaunchConsole Output: already connected to 127.0.0.1:5605
+0: D [2025-04-12 17:57:01.046] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe -s 127.0.0.1:5605 shell /data/anr/../../system/xbin/bstk/su root echo $USER:$USER_ID
+0: D [2025-04-12 17:57:01.121] Func LaunchConsole Output: shell:2000
+0: D [2025-04-12 17:57:01.568] BlueStacks5 getevent -p: add device 1: /dev/input/event6
+
+  name:     "Android Power Button"
+
+  events:
+
+    KEY (0001): 0074  008f 
+
+  input props:
+
+    <none>
+
+could not get driver version for /dev/input/mice, Not a typewriter
+
+could not get driver version for /dev/input/mouse0, Not a typewriter
+
+add device 2: /dev/input/event2
+
+  name:     "AT Translated Set 2 keyboard"
+
+  events:
+
+    KEY (0001): 0001  0002  0003  0004  0005  0006  0007  0008 
+
+                0009  000a  000b  000c  000d  000e  000f  0010 
+
+                0011  0012  0013  0014  0015  0016  0017  0018 
+
+                0019  001a  001b  001c  001d  001e  001f  0020 
+
+                0021  0022  0023  0024  0025  0026  0027  0028 
+
+                0029  002a  002b  002c  002d  002e  002f  0030 
+
+                0031  0032  0033  0034  0035  0036  0037  0038 
+
+                0039  003a  003b  003c  003d  003e  003f  0040 
+
+                0041  0042  0043  0044  0045  0046  0047  0048 
+
+                0049  004a  004b  004c  004d  004e  004f  0050 
+
+                0051  0052  0053  0055  0056  0057  0058  0059 
+
+                005a  005b  005c  005d  005e  005f  0060  0061 
+
+                0062  0063  0064  0066  0067  0068  0069  006a 
+
+                006b  006c  006d  006e  006f  0070  0071  0072 
+
+                0073  0074  0075  0076  0077  0079  007a  007b 
+
+                007c  007d  007e  007f  0080  008c  008e  008f 
+
+                009b  009c  009d  009e  009f  00a3  00a4  00a5 
+
+                00a6  00ac  00ad  00b7  00b8  00b9  00d9  00e2 
+
+    MSC (0004): 0004 
+
+    LED (0011): 0000  0001  0002 
+
+  input props:
+
+    <none>
+
+add device 3: /dev/input/event0
+
+  name:     "Power Button"
+
+  events:
+
+    KEY (0001): 0074 
+
+  input props:
+
+    <none>
+
+add device 4: /dev/input/event1
+
+  name:     "Sleep Button"
+
+  events:
+
+    KEY (0001): 008e 
+
+  input props:
+
+    <none>
+
+add device 5: /dev/input/event4
+
+  name:     "BlueStacks Virtual Touch"
+
+  events:
+
+    ABS (0003): 0035  : value 0, min 0, max 32767, fuzz 0, flat 0, resolution 0
+
+                0036  : value 0, min 0, max 32767, fuzz 0, flat 0, resolution 0
+
+  input props:
+
+    <none>
+
+add device 6: /dev/input/event5
+
+  name:     "VirtualBox mouse integration"
+
+  events:
+
+    KEY (0001): 0110  0111  0112  0113  0114 
+
+    REL (0002): 0006  0008 
+
+    ABS (0003): 0000  : value 0, min 0, max 65535, fuzz 0, flat 0, resolution 0
+
+                0001  : value 0, min 0, max 65535, fuzz 0, flat 0, resolution 0
+
+  input props:
+
+    <none>
+
+add device 7: /dev/input/event3
+
+  name:     "AT Translated Set 2 keyboard"
+
+  events:
+
+    KEY (0001): 0001  0002  0003  0004  0005  0006  0007  0008 
+
+                0009  000a  000b  000c  000d  000e  000f  0010 
+
+                0011  0012  0013  0014  0015  0016  0017  0018 
+
+                0019  001a  001b  001c  001d  001e  001f  0020 
+
+                0021  0022  0023  0024  0025  0026  0027  0028 
+
+                0029  002a  002b  002c  002d  002e  002f  0030 
+
+                0031  0032  0033  0034  0035  0036  0037  0038 
+
+                0039  003a  003b  003c  003d  003e  003f  0040 
+
+                0041  0042  0043  0044  0045  0046  0047  0048 
+
+                0049  004a  004b  004c  004d  004e  004f  0050 
+
+                0051  0052  0053  0055  0056  0057  0058  0059 
+
+                005a  005b  005c  005d  005e  005f  0060  0061 
+
+                0062  0063  0064  0066  0067  0068  0069  006a 
+
+                006b  006c  006d  006e  006f  0070  0071  0072 
+
+                0073  0074  0075  0076  0077  0079  007a  007b 
+
+                007c  007d  007e  007f  0080  008c  008e  008f 
+
+                009b  009c  009d  009e  009f  00a3  00a4  00a5 
+
+                00a6  00ac  00ad  00b7  00b8  00b9  00d9  00e2 
+
+    MSC (0004): 0004 
+
+  input props:
+
+    <none>
+0: D [2025-04-12 17:57:01.568] Using /dev/input/event4 for mouse events
+0: D [2025-04-12 17:57:01.569] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe connect 127.0.0.1:5605
+0: D [2025-04-12 17:57:01.637] Func LaunchConsole Output: already connected to 127.0.0.1:5605
+0: D [2025-04-12 17:57:01.638] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe -s 127.0.0.1:5605 shell /data/anr/../../system/xbin/bstk/su root echo $USER:$USER_ID
+0: D [2025-04-12 17:57:01.710] Func LaunchConsole Output: shell:2000
+0: D [2025-04-12 17:57:01.710] Run pipe ADB shell for minituch: "C:\Program Files\BlueStacks_nxt\HD-Adb.exe" -s 127.0.0.1:5605 shell -t -t /data/anr/../../system/xbin/bstk/su root /mnt/windows/BstSharedFolder/minitouch -d /dev/input/event4 -i
+0: D [2025-04-12 17:57:02.252] Bot title updated to: My Bot v8.1.9 (Pie64_5)
+0: D [2025-04-12 17:57:02.253] UpdateSplashTitle: My Bot v8.1.9 (Pie64_5), Profile: 2ndVill
+0: D [2025-04-12 17:57:02.257] Aquire Mutex for Profile: 2ndVill
+0: D [2025-04-12 17:57:02.258] My Bot is not the only running instance
+0: D [2025-04-12 17:57:02.258] SplashStep 3 of 10: Loading Main GUI...(20.31 sec)
+0: D [2025-04-12 17:57:02.298] SplashStep 4 of 10: Loading GUI Bottom...(20.36 sec)
+0: D [2025-04-12 17:57:02.326] AndroidToFront: Source chkBackground
+0: D [2025-04-12 17:57:02.469] SplashStep 5 of 10: Loading Log tab...(20.53 sec)
+0: D [2025-04-12 17:57:03.018] SplashStep 6 of 10: Loading Village tab...(21.08 sec)
+0: D [2025-04-12 17:57:04.536] 1 running bot instances detected
+0: D [2025-04-12 17:57:11.791] SplashStep 7 of 10: Loading Attack tab...(29.84 sec)
+0: D [2025-04-12 17:57:27.834] SplashStep 8 of 10: Loading Bot tab...(45.89 sec)
+0: D [2025-04-12 17:57:28.251] Profiles found: 2ndVill|Main|MyVillage
+0: D [2025-04-12 17:57:30.770] SplashStep 9 of 10: Loading About Us tab...(48.83 sec)
+0: D [2025-04-12 17:57:30.785] SplashStep 10 of 10: Initializing GUI...(48.84 sec)
+0: D [2025-04-12 17:57:30.882] Redraw MyBot ControlIds (forced): 0x00013596, 0x0001359E
+0: D [2025-04-12 17:57:30.882] Control ID 0x00013596 handle: 0x00013596 parent: 0x00013594 $g_hFrmBot: 0x00030E2C $g_hFrmBotEx: 0x000134D2 Pos: 10, 133, 452, 303
+0: D [2025-04-12 17:57:30.882] Control ID 0x00013596 RedrawWindow Pos: 10, 133, 462, 436
+0: D [2025-04-12 17:57:30.882] Control ID 0x0001359E handle: 0x0001359E parent: 0x00013594 $g_hFrmBot: 0x00030E2C $g_hFrmBotEx: 0x000134D2 Pos: 10, 440, 452, 101
+0: D [2025-04-12 17:57:30.883] Control ID 0x0001359E RedrawWindow Pos: 10, 440, 462, 541
+0: D [2025-04-12 17:57:30.883] $g_hFrmBot=0x00030E2C
+0: D [2025-04-12 17:57:30.883] $g_hFrmBotEx=0x000134D2
+0: D [2025-04-12 17:57:30.883] $g_hFrmBotBottom=0x000134F2
+0: D [2025-04-12 17:57:30.884] $g_hFrmBotEmbeddedShield=0
+0: D [2025-04-12 17:57:30.884] $g_hFrmBotEmbeddedShieldInput=19
+0: D [2025-04-12 17:57:30.884] $g_hFrmBotEmbeddedGraphics=0
+0: D [2025-04-12 17:57:30.887] Created attack log file: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\Logs\AttackLog-2025-04.log
+0: D [2025-04-12 17:57:30.888] readConfig(), call number 2
+0: D [2025-04-12 17:57:30.907] Read Building Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\building.ini
+0: D [2025-04-12 17:57:30.916] Read Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\config.ini
+0: D [2025-04-12 17:57:31.023] Read Clan Games Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\clangames.ini
+0: D [2025-04-12 17:57:31.025] applyConfig(), call number 1
+0: D [2025-04-12 17:57:31.025] Threading: Using 0 threads for parallelism
+0: D [2025-04-12 17:57:31.026] Threading: Using 0 threads shared across all bot instances
+0: D [2025-04-12 17:57:31.027] HideAndroidWindow: False, False, True, applyConfig
+0: D [2025-04-12 17:57:31.027] AndroidToFront: Source applyConfig->HideAndroidWindow
+0: D [2025-04-12 17:57:31.027] Disable MyBot Window Redraw: applyConfig
+0: D [2025-04-12 17:57:31.030] Bot title updated to: My Bot v8.1.9 (Pie64_5)
+0: D [2025-04-12 17:57:34.169] Redraw MyBot Window: applyConfig
+0: D [2025-04-12 17:57:34.178] $g_sProfilePath = Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles
+0: D [2025-04-12 17:57:34.179] $g_sProfileCurrentName = 2ndVill
+0: D [2025-04-12 17:57:34.179] $g_sProfileLogsPath = Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\Logs\
+2: D [2025-04-12 17:57:34.194] Restore bot window to 998, 88, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-12 17:57:34.198] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-12 17:57:34.198] AndroidToFront: Source BotMinimizeRestore->HideAndroidWindow
+2: D [2025-04-12 17:57:34.291] MyBot.run.dll opened.
+2: D [2025-04-12 17:57:34.291] Threading: Using 0 threads shared across all bot instances
+2: D [2025-04-12 17:57:34.366] Threading: Using 0 threads for parallelism
+2: D [2025-04-12 17:57:34.367] setAndroidPID: $pid=2488
+2: D [2025-04-12 17:57:34.385] Android PID=2488 initialized: BlueStacks5-Pie64_5, HD-Player
+2: D [2025-04-12 17:57:34.385] debugMBRFunctions: $iDebugSearchArea=0, $iDebugRedArea=0, $giDebugOcr=0
+2: D [2025-04-12 17:57:34.903] SetBotGuiPID: $pid=27044
+2: D [2025-04-12 17:57:34.909] Bot GUI PID=27044 initialized: 27044
+2: L [2025-04-12 17:57:34.910] Android Emulator Configuration: BlueStacks5 (instance Pie64_5)
+2: D [2025-04-12 17:57:34.952] Last GitHub version is 8.1.9
+2: D [2025-04-12 17:57:34.952] Your version is 8.1.9
+2: L [2025-04-12 17:57:34.953] WELCOME CHIEF, YOU HAVE THE LATEST MYBOT VERSION
+2: D [2025-04-12 17:57:34.954] Maximum of 2 bots running at same time configured
+2: D [2025-04-12 17:57:34.954] MyBot.run launch time 73297 ms.
+2: D [2025-04-12 17:57:34.959] Nox version not found
+2: L [2025-04-12 17:57:34.960] Emulator Found In Your Machine :
+2: L [2025-04-12 17:57:34.960]   - BlueStacks5 version: 5.21.580.1017
+2: D [2025-04-12 17:57:35.003] Notify | NotifyGetLastMessageFromTelegram()
+2: D [2025-04-12 17:57:43.343] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:43.343] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:43.345] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:43.346] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:43.346] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:43.347] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:43.347] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:43.347] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:43.348] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:43.348] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:43.348] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:43.348] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:43.350] Restore bot window to 998, 88, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-12 17:57:43.353] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-12 17:57:43.353] AndroidToFront: Source BotMinimizeRestore->HideAndroidWindow
+2: D [2025-04-12 17:57:46.969] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:46.969] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:46.971] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:46.971] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:46.972] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:46.972] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:46.972] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:46.973] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:46.973] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:46.973] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:46.974] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:46.974] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:46.976] Restore bot window to 998, 88, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-12 17:57:46.978] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-12 17:57:46.978] AndroidToFront: Source BotMinimizeRestore->HideAndroidWindow
+2: D [2025-04-12 17:57:47.026] Created attack log file: Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\Logs\AttackLog-2025-04.log
+2: L [2025-04-12 17:57:47.026] ====================== BOT LOG ======================
+2: D [2025-04-12 17:57:47.051] saveConfig(), call number 1
+2: D [2025-04-12 17:57:47.066] Save Building Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\building.ini
+2: D [2025-04-12 17:57:47.083] Save Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\config.ini
+2: D [2025-04-12 17:57:47.085] GlRenderMode = gl
+2: D [2025-04-12 17:57:47.085] BlueStacks5 (Pie64_5) is using OpenGL, disable WinAPI for Background Mode
+2: D [2025-04-12 17:57:47.085] Enable ADB screencap for Background Mode
+2: D [2025-04-12 17:57:47.220] Save Clan Games Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\clangames.ini
+2: D [2025-04-12 17:57:47.225] SaveConfig(), time = 0.17 sec
+2: D [2025-04-12 17:57:47.225] readConfig(), call number 3
+2: D [2025-04-12 17:57:47.250] Read Building Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\building.ini
+2: D [2025-04-12 17:57:47.260] Read Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\config.ini
+2: D [2025-04-12 17:57:47.366] Read Clan Games Config Z:\Games\coc\MyBot-MBR_v8.1.9r4\Profiles\2ndVill\clangames.ini
+2: D [2025-04-12 17:57:47.369] applyConfig(), call number 2
+2: D [2025-04-12 17:57:47.370] Threading: Using 0 threads for parallelism
+2: D [2025-04-12 17:57:47.370] Threading: Using 0 threads shared across all bot instances
+2: D [2025-04-12 17:57:47.371] HideAndroidWindow: False, False, True, applyConfig
+2: D [2025-04-12 17:57:47.372] AndroidToFront: Source applyConfig->HideAndroidWindow
+2: D [2025-04-12 17:57:47.374] Disable MyBot Window Redraw: applyConfig
+2: D [2025-04-12 17:57:47.376] Bot title updated to: My Bot v8.1.9 (Pie64_5)
+2: D [2025-04-12 17:57:50.100] New Bot Host Window Handle registered: 0x000D0C72
+2: D [2025-04-12 17:57:50.617] Disable GUI Controls
+2: D [2025-04-12 17:57:51.293] Redraw MyBot Window: BotStart
+2: D [2025-04-12 17:57:51.302] Aquired mutex ticket: ActiveBot.2, 0x00000950
+2: D [2025-04-12 17:57:51.303] Android Window Handle: 0x00010BA8
+2: D [2025-04-12 17:57:51.303] InitiateLayout: BlueStacks5-Pie64_5 Android-ClientSize: 860 x 732
+2: D [2025-04-12 17:57:51.304] CheckScreenAndroid: Window size 862 x 766 <> 860 x 732
+2: D [2025-04-12 17:57:51.308] bst.instance.Pie64_5.display_name="BlueStacks5-Pie64_5"
+2: D [2025-04-12 17:57:51.308] bst.instance.Pie64_5.dpi="160"
+2: D [2025-04-12 17:57:51.308] bst.instance.Pie64_5.fb_height="732"
+2: D [2025-04-12 17:57:51.309] bst.instance.Pie64_5.fb_width="860"
+2: D [2025-04-12 17:57:51.309] bst.instance.Pie64_5.gl_win_height="732"
+2: D [2025-04-12 17:57:51.332] BlueStacks5 font_scale = 1
+2: D [2025-04-12 17:57:51.714] Restore bot window to 998, 88, caller: GUIControl_WM_SHELLHOOK
+2: D [2025-04-12 17:57:51.734] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:51.734] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:51.737] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:51.737] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:51.738] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:51.738] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:51.739] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:51.739] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:51.740] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:51.740] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:51.741] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:57:51.741] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:57:51.743] Restore bot window to 998, 88, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-12 17:57:51.746] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-12 17:57:51.747] AndroidToFront: Source BotMinimizeRestore->HideAndroidWindow
+2: L [2025-04-12 17:57:52.021] ~~~ My Bot v8.1.9 (Pie64_5) Powered by MyBot.run ~~~~
+2: D [2025-04-12 17:57:52.033] Free disk space is 1036906.30859375 MB
+2: L [2025-04-12 17:57:52.034] MyBot.run.au3 Script running on WIN_10  X64
+2: D [2025-04-12 17:57:52.080] Clash of Clans Game App = versionName=17.126.20
+2: L [2025-04-12 17:57:52.080] >>  CoC Game App Version = 17.126.20
+2: L [2025-04-12 17:57:52.081] ===================== Bot Start =====================
+2: L [2025-04-12 17:57:52.082] -------------  Current Profile: 2ndVill -------------
+2: L [2025-04-12 17:57:52.083] BlueStacks5 (Pie64_5) will be automatically rebooted in 1d 0h 0m
+2: D [2025-04-12 17:57:52.095] Closed BlueStacks5 System Bar: False
+2: L [2025-04-12 17:57:52.096] Trying to locate Main Screen
+2: D [2025-04-12 17:57:53.073] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-12 17:57:53.073] GetAndroidProcessPID StdOut :
+2: D [2025-04-12 17:57:53.187] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-12 17:57:53.187] GetAndroidProcessPID StdOut :
+2: D [2025-04-12 17:57:53.301] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-12 17:57:53.301] GetAndroidProcessPID StdOut :
+2: D [2025-04-12 17:57:53.416] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-12 17:57:53.416] GetAndroidProcessPID StdOut :
+2: D [2025-04-12 17:57:53.530] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-12 17:57:53.530] GetAndroidProcessPID StdOut :
+2: D [2025-04-12 17:57:53.645] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-12 17:57:53.645] GetAndroidProcessPID StdOut :
+2: L [2025-04-12 17:57:53.646] Android process com.supercell.clashofclans not running
+2: L [2025-04-12 17:57:53.660] Please wait for CoC restart......
+2: L [2025-04-12 17:57:57.175] Launch Clash of Clans now...
+2: D [2025-04-12 17:57:57.176] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe connect 127.0.0.1:5605
+2: D [2025-04-12 17:57:57.261] Func LaunchConsole Output: already connected to 127.0.0.1:5605
+2: D [2025-04-12 17:57:57.262] Func LaunchConsole: C:\Program Files\BlueStacks_nxt\HD-Adb.exe -s 127.0.0.1:5605 shell /data/anr/../../system/xbin/bstk/su root echo $USER:$USER_ID
+2: D [2025-04-12 17:57:57.335] Func LaunchConsole Output: shell:2000
+2: D [2025-04-12 17:58:00.514] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-12 17:58:00.514] GetAndroidProcessPID StdOut :u0_a62        4322 com.supercell.clashofclans
+2: D [2025-04-12 17:58:01.120] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:58:01.120] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:58:01.123] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:58:01.123] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:58:01.124] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:58:01.124] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:58:01.125] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:58:01.125] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:58:01.125] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:58:01.126] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:58:01.126] HideAndroidWindow: False, False, True, GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow
+2: D [2025-04-12 17:58:01.127] AndroidToFront: Source GUIControl_WM_ACTIVATEAPP->ShowAndroidWindow->HideAndroidWindow
+2: D [2025-04-12 17:58:01.130] Restore bot window to 998, 88, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-12 17:58:01.133] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-12 17:58:01.134] AndroidToFront: Source BotMinimizeRestore->HideAndroidWindow
+2: D [2025-04-12 17:58:01.211] CheckObstacles[1] Result = True
+2: L [2025-04-12 17:58:01.212] Waiting for Main Screen
+2: D [2025-04-12 17:58:02.923] Docking Android Control...
+2: D [2025-04-12 17:58:02.925] Desktop Window Manager available
+2: D [2025-04-12 17:58:02.946] AndroidEmbed: $hCtrl=0x00010BF4, $hCtrlTarget=0x00040BAE, $hCtrlTargetParent=0x00010BA8, $g_hAndroidWindow=0x00010BA8
+0: D [2025-04-12 17:58:03.004] AndroidEmbed_GWL_STYLE=$WS_CLIPCHILDREN, $WS_CLIPSIBLINGS, $WS_VISIBLE, $WS_CHILD
+0: D [2025-04-12 17:58:03.077] Move Bot Buttons: 1234, 0
+0: D [2025-04-12 17:58:03.089] Redraw MyBot ControlIds (forced): 0x00013596, 0x0001359E
+0: D [2025-04-12 17:58:03.089] Control ID 0x00013596 handle: 0x00013596 parent: 0x00013594 $g_hFrmBot: 0x00030E2C $g_hFrmBotEx: 0x000134D2 Pos: 872, 133, 452, 315
+0: D [2025-04-12 17:58:03.090] Control ID 0x00013596 RedrawWindow Pos: 872, 133, 1324, 448
+0: D [2025-04-12 17:58:03.090] Control ID 0x0001359E handle: 0x0001359E parent: 0x00013594 $g_hFrmBot: 0x00030E2C $g_hFrmBotEx: 0x000134D2 Pos: 872, 452, 452, 105
+0: D [2025-04-12 17:58:03.090] Control ID 0x0001359E RedrawWindow Pos: 872, 452, 1324, 557
+2: D [2025-04-12 17:58:03.210] Android Window docked
+2: D [2025-04-12 17:58:03.211] CheckBotZOrder: Ajust docked Android Window
+2: D [2025-04-12 17:58:03.323] CheckBotZOrder: Ajust docked Android Window
+2: D [2025-04-12 17:58:03.328] AndroidShield updated to active(handle=0x00040B50, color=FFFFFF), caller: AndroidShieldCheck
+2: D [2025-04-12 17:58:03.802] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-12 17:58:03.802] GetAndroidProcessPID StdOut :u0_a62        4322 com.supercell.clashofclans
+2: D [2025-04-12 17:58:05.432] 2 running bot instances detected
+2: D [2025-04-12 17:58:05.734] No Obstacle Window found! (in 0.05 seconds)
+2: D [2025-04-12 17:58:05.904] BotShrinkExpandToggle: Bot collapsed
+2: D [2025-04-12 17:58:06.009] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:06.158] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:06.169] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:06.182] BB 1 Pixel Color #1: 566118, #2: 3C3F10, #3: 323B0F, #4: 424C15
+2: D [2025-04-12 17:58:06.195] BB 2 Pixel Color #1: 566118, #2: 3C3F10, #3: 323B0F, #4: 424C15
+2: D [2025-04-12 17:58:06.208] BB 3 Pixel Color #1: 566118, #2: 3C3F10, #3: 323B0F, #4: 424C15
+2: D [2025-04-12 17:58:06.343] Checking chat tab pixel exists to ensure images have loaded correctly
+2: D [2025-04-12 17:58:06.984] ChatTabPixel found
+2: D [2025-04-12 17:58:07.282] Main Village detected
+2: D [2025-04-12 17:58:07.419] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 17:58:07.860] Sceneries Search find : villageDS-350-656
+2: D [2025-04-12 17:58:07.860] Coords : 367, 680
+2: D [2025-04-12 17:58:07.861] Ref Coord : 350, 656
+2: D [2025-04-12 17:58:07.861] Village Scenery Found: DS
+2: D [2025-04-12 17:58:07.862] Scenery search (in 0.44 seconds)
+2: D [2025-04-12 17:58:07.862] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 17:58:07.863] Loading Stone Scenery: DS
+2: D [2025-04-12 17:58:07.863] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:58:07.962] Found stone image at 111, 508: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:58:07.963] Found Stone scenery : DS
+2: D [2025-04-12 17:58:07.964] Stone search (in 0.09 seconds)
+2: D [2025-04-12 17:58:07.965] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 17:58:08.026] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 17:58:08.117] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 17:58:08.181] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 17:58:08.218] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:58:08.306] Found tree image at 668, 130: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:58:08.307] Tree search (in 0.34 seconds)
+2: D [2025-04-12 17:58:08.309] Found Stone and Tree!
+2: D [2025-04-12 17:58:08.309] Village Size : 511.817559308824
+2: D [2025-04-12 17:58:08.310] Zoom Factor : 1.02442944583304
+2: D [2025-04-12 17:58:08.310] Offset : 20, 18
+2: D [2025-04-12 17:58:08.311] GetVillageSize calculations (in 0.02 seconds)
+2: D [2025-04-12 17:58:08.385] Main Village detected
+2: D [2025-04-12 17:58:08.386] Testing Coords : 111,508
+2: D [2025-04-12 17:58:08.693] Main Village detected
+2: D [2025-04-12 17:58:08.704] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:08.713] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:08.725] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:10.832] Main Village detected
+2: D [2025-04-12 17:58:10.977] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 17:58:11.409] Sceneries Search find : villageDS-350-656
+2: D [2025-04-12 17:58:11.409] Coords : 344, 658
+2: D [2025-04-12 17:58:11.410] Ref Coord : 350, 656
+2: D [2025-04-12 17:58:11.410] Village Scenery Found: DS
+2: D [2025-04-12 17:58:11.411] Scenery search (in 0.44 seconds)
+2: D [2025-04-12 17:58:11.411] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 17:58:11.411] Loading Stone Scenery: DS
+2: D [2025-04-12 17:58:11.412] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:58:11.510] Found stone image at 89, 486: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:58:11.511] Found Stone scenery : DS
+2: D [2025-04-12 17:58:11.512] Stone search (in 0.11 seconds)
+2: D [2025-04-12 17:58:11.512] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 17:58:11.580] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 17:58:11.680] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 17:58:11.749] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 17:58:11.791] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:58:11.884] Found tree image at 645, 108: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:58:11.884] Tree search (in 0.36 seconds)
+2: D [2025-04-12 17:58:11.885] Found Stone and Tree!
+2: D [2025-04-12 17:58:11.885] Village Size : 510.990342689681
+2: D [2025-04-12 17:58:11.886] Zoom Factor : 1.0227737287766
+2: D [2025-04-12 17:58:11.886] Offset : -3, -4
+2: D [2025-04-12 17:58:11.887] GetVillageSize calculations (in 0.02 seconds)
+2: D [2025-04-12 17:58:12.089] Main Village detected
+2: D [2025-04-12 17:58:12.091] ZoomOut Completed(in 2983.83 seconds)
+2: L [2025-04-12 17:58:12.092] Main Screen located
+2: D [2025-04-12 17:58:12.094] Notify | NotifyPendingActions()
+2: D [2025-04-12 17:58:12.261] Main Village detected
+2: D [2025-04-12 17:58:12.417] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 17:58:12.731] Sceneries Search find : villageDS-350-656
+2: D [2025-04-12 17:58:12.731] Coords : 344, 658
+2: D [2025-04-12 17:58:12.732] Ref Coord : 350, 656
+2: D [2025-04-12 17:58:12.732] Village Scenery Found: DS
+2: D [2025-04-12 17:58:12.732] Scenery search (in 0.33 seconds)
+2: D [2025-04-12 17:58:12.733] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 17:58:12.733] Loading Stone Scenery: DS
+2: D [2025-04-12 17:58:12.734] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:58:12.810] Found stone image at 89, 486: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:58:12.811] Found Stone scenery : DS
+2: D [2025-04-12 17:58:12.811] Stone search (in 0.08 seconds)
+2: D [2025-04-12 17:58:12.812] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 17:58:12.863] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 17:58:12.943] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 17:58:13.002] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 17:58:13.037] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:58:13.112] Found tree image at 645, 108: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:58:13.113] Tree search (in 0.3 seconds)
+2: D [2025-04-12 17:58:13.113] Found Stone and Tree!
+2: D [2025-04-12 17:58:13.114] Village Size : 510.990342689681
+2: D [2025-04-12 17:58:13.114] Zoom Factor : 1.0227737287766
+2: D [2025-04-12 17:58:13.114] Offset : -3, -4
+2: D [2025-04-12 17:58:13.115] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 17:58:13.268] Main Village detected
+2: D [2025-04-12 17:58:13.269] ZoomOut Completed(in 2985.01 seconds)
+2: D [2025-04-12 17:58:13.278] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:13.287] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:13.295] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: L [2025-04-12 17:58:14.592] Detecting your Buildings
+2: D [2025-04-12 17:58:14.746] Main Village detected
+2: D [2025-04-12 17:58:17.081] Select TH Level:7
+2: L [2025-04-12 17:58:17.207] Language setting is English: Correct.
+2: D [2025-04-12 17:58:17.207] -- FirstCheck Loop --
+2: D [2025-04-12 17:58:17.208] Detecting Town Hall level
+2: D [2025-04-12 17:58:17.209] Town Hall level is currently saved as 7
+2: D [2025-04-12 17:58:17.209] imgloc TH search Start
+2: D [2025-04-12 17:58:17.210] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 17:58:17.746] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 17:58:18.295] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 17:58:18.295] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 17:58:18.919] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 17:58:19.141] imgloc THSearch Notfound, Retry:  1
+2: D [2025-04-12 17:58:19.142] Detected Town Hall level is 7
+2: D [2025-04-12 17:58:19.142] Town Hall level has not changed
+2: D [2025-04-12 17:58:19.246] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:19.255] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:19.263] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: L [2025-04-12 17:58:20.032] Village Report
+2: L [2025-04-12 17:58:20.142]  [T]: 871
+2: L [2025-04-12 17:58:20.171]  [G]: 1 101 345 [E]: 3 881 160 [D]: 9 979 [GEM]: 131
+2: D [2025-04-12 17:58:20.205] Checking chat tab pixel exists to ensure images have loaded correctly
+2: D [2025-04-12 17:58:20.812] ChatTabPixel found
+2: D [2025-04-12 17:58:20.979] Main Village detected
+2: D [2025-04-12 17:58:21.103] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 17:58:21.420] Sceneries Search find : villageDS-350-656
+2: D [2025-04-12 17:58:21.420] Coords : 344, 658
+2: D [2025-04-12 17:58:21.421] Ref Coord : 350, 656
+2: D [2025-04-12 17:58:21.421] Village Scenery Found: DS
+2: D [2025-04-12 17:58:21.421] Scenery search (in 0.33 seconds)
+2: D [2025-04-12 17:58:21.421] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 17:58:21.422] Loading Stone Scenery: DS
+2: D [2025-04-12 17:58:21.422] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:58:21.498] Found stone image at 89, 486: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:58:21.499] Found Stone scenery : DS
+2: D [2025-04-12 17:58:21.499] Stone search (in 0.08 seconds)
+2: D [2025-04-12 17:58:21.500] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 17:58:21.555] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 17:58:21.639] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 17:58:21.697] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 17:58:21.732] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:58:21.817] Found tree image at 645, 108: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:58:21.817] Tree search (in 0.31 seconds)
+2: D [2025-04-12 17:58:21.818] Found Stone and Tree!
+2: D [2025-04-12 17:58:21.818] Village Size : 510.990342689681
+2: D [2025-04-12 17:58:21.818] Zoom Factor : 1.0227737287766
+2: D [2025-04-12 17:58:21.819] Offset : -3, -4
+2: D [2025-04-12 17:58:21.819] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 17:58:21.974] Main Village detected
+2: D [2025-04-12 17:58:21.975] ZoomOut Completed(in 2993.72 seconds)
+2: D [2025-04-12 17:58:21.977] Notify | NotifyPendingActions()
+2: D [2025-04-12 17:58:21.995] -- FirstCheck on Train --
+2: D [2025-04-12 17:58:22.010] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:22.019] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:22.029] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:22.402] Begin IsSearchAttackScheduled:
+2: D [2025-04-12 17:58:23.002] Main 1 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:23.012] Main 2 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: D [2025-04-12 17:58:23.021] Main 3 Pixel Color #1: AEDCF4, #2: 7ABDE3, #3: F4F4EC
+2: L [2025-04-12 17:58:23.294] Going to Attack
+2: D [2025-04-12 17:58:25.324] Multiplayer Tab is open
+2: D [2025-04-12 17:58:28.539] PrepareSearch exit check $g_bRestart= False, $g_bOutOfGold= False
+2: L [2025-04-12 17:58:30.611] =====================================================
+2: L [2025-04-12 17:58:30.613] Aim: [G]: 100000 [E]: 100000 [D]:    0 [TH]: 7 for: Dead Base
+2: L [2025-04-12 17:58:30.615] Aim: [G]: 100000 [E]: 100000 [D]:    0 [TH]: 7 for: Live Base
+2: L [2025-04-12 17:58:30.616] =====================================================
+2: D [2025-04-12 17:58:30.617] Begin WaitForClouds:
+2: D [2025-04-12 17:58:34.521] $g_sAndroidGamePackage: com.supercell.clashofclans
+2: D [2025-04-12 17:58:34.522] GetAndroidProcessPID StdOut :u0_a62        4322 com.supercell.clashofclans
+2: D [2025-04-12 17:58:34.566] QueryPerformanceFrequency is: 10000000
+2: D [2025-04-12 17:58:35.296] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 17:58:35.296] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 17:58:35.297] Searching ALL Stone files
+2: D [2025-04-12 17:58:35.298] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 17:58:35.514] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 17:58:35.882] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 17:58:36.095] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 17:58:36.170] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 17:58:36.387] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 17:58:36.717] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 17:58:36.776] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 17:58:36.985] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 17:58:37.201] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 17:58:37.298] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:58:37.626] Found stone image at 98, 468: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:58:37.626] Found Stone scenery : DS
+2: D [2025-04-12 17:58:37.627] Stone search (in 2.33 seconds)
+2: D [2025-04-12 17:58:37.627] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 17:58:37.841] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 17:58:38.174] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 17:58:38.388] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 17:58:38.482] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:58:38.809] Found tree image at 661, 86: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:58:38.810] Tree search (in 1.19 seconds)
+2: D [2025-04-12 17:58:38.811] Found Stone and Tree!
+2: D [2025-04-12 17:58:38.811] Village Size : 519.028419621648
+2: D [2025-04-12 17:58:38.812] Zoom Factor : 1.03886235752177
+2: D [2025-04-12 17:58:38.812] Offset : 12, -25
+2: D [2025-04-12 17:58:38.812] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 17:58:39.041] imgloc TH search Start
+2: D [2025-04-12 17:58:39.042] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 17:58:39.581] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 17:58:40.247] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 17:58:40.247] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 17:58:40.795] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 17:58:40.910] imgloc THSearch Notfound, Retry:  1
+2: L [2025-04-12 17:58:40.922]   1> [G]: 167007 [E]: 135141 [D]:  119 [T]:12 [TH]: -, -
+2: D [2025-04-12 17:58:40.934] Detections made in : 6ms
+2: D [2025-04-12 17:58:41.855] Begin WaitForClouds:
+2: L [2025-04-12 17:58:48.729]   2> [G]:  87360 [E]:  35885 [D]: 1252 [T]:11
+2: D [2025-04-12 17:58:48.730] Detections made in : 0ms
+2: D [2025-04-12 17:58:51.495] Begin WaitForClouds:
+2: D [2025-04-12 17:58:58.594] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 17:58:58.595] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 17:58:58.595] Searching ALL Stone files
+2: D [2025-04-12 17:58:58.596] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 17:58:58.809] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 17:58:59.142] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 17:58:59.357] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 17:58:59.433] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 17:58:59.658] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 17:58:59.878] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 17:58:59.932] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 17:59:00.137] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 17:59:00.361] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 17:59:00.578] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:59:00.908] Found stone image at 100, 479: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:59:00.908] Found Stone scenery : DS
+2: D [2025-04-12 17:59:00.909] Stone search (in 2.31 seconds)
+2: D [2025-04-12 17:59:00.910] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 17:59:01.125] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 17:59:01.450] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 17:59:01.669] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 17:59:01.771] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:59:02.093] Found tree image at 657, 102: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:59:02.093] Tree search (in 1.19 seconds)
+2: D [2025-04-12 17:59:02.094] Found Stone and Tree!
+2: D [2025-04-12 17:59:02.094] Village Size : 511.256530547176
+2: D [2025-04-12 17:59:02.094] Zoom Factor : 1.02330651760806
+2: D [2025-04-12 17:59:02.095] Offset : 9, -11
+2: D [2025-04-12 17:59:02.095] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 17:59:02.311] imgloc TH search Start
+2: D [2025-04-12 17:59:02.312] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 17:59:02.859] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 17:59:03.858] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 17:59:03.859] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 17:59:04.407] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 17:59:04.642] imgloc THSearch Notfound, Retry:  1
+2: L [2025-04-12 17:59:04.654]   3> [G]: 340000 [E]: 450000 [D]:  559 [T]:17 [TH]: -, -
+2: D [2025-04-12 17:59:04.655] Detections made in : 7ms
+2: D [2025-04-12 17:59:05.589] Begin WaitForClouds:
+2: D [2025-04-12 17:59:12.884] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 17:59:12.885] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 17:59:12.885] Searching ALL Stone files
+2: D [2025-04-12 17:59:12.886] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 17:59:13.093] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 17:59:13.424] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 17:59:13.643] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 17:59:13.720] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 17:59:13.934] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 17:59:14.154] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 17:59:14.208] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 17:59:14.423] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 17:59:14.638] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 17:59:14.731] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:59:14.954] Found stone image at 107, 496: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:59:14.954] Found Stone scenery : DS
+2: D [2025-04-12 17:59:14.955] Stone search (in 2.08 seconds)
+2: D [2025-04-12 17:59:14.956] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 17:59:15.170] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 17:59:15.501] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 17:59:15.720] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 17:59:15.817] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:59:16.139] Found tree image at 665, 118: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:59:16.140] Tree search (in 1.19 seconds)
+2: D [2025-04-12 17:59:16.140] Found Stone and Tree!
+2: D [2025-04-12 17:59:16.141] Village Size : 512.645244358983
+2: D [2025-04-12 17:59:16.141] Zoom Factor : 1.0260861004785
+2: D [2025-04-12 17:59:16.141] Offset : 16, 5
+2: D [2025-04-12 17:59:16.141] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 17:59:16.324] imgloc TH search Start
+2: D [2025-04-12 17:59:16.325] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 17:59:16.876] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 17:59:17.550] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 17:59:17.550] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 17:59:18.090] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 17:59:18.313] imgloc THSearch Notfound, Retry:  1
+2: L [2025-04-12 17:59:18.325]   4> [G]: 709241 [E]: 746690 [D]: 3210 [T]: 9 [TH]: -, -
+2: D [2025-04-12 17:59:18.326] Detections made in : 6ms
+2: D [2025-04-12 17:59:19.241] Begin WaitForClouds:
+2: L [2025-04-12 17:59:26.269]   5> [G]:  89226 [E]: 170861 [D]: 2604 [T]:13
+2: D [2025-04-12 17:59:26.269] Detections made in : 0ms
+2: D [2025-04-12 17:59:30.130] Begin WaitForClouds:
+2: D [2025-04-12 17:59:37.279] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 17:59:37.280] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 17:59:37.280] Searching ALL Stone files
+2: D [2025-04-12 17:59:37.281] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 17:59:37.499] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 17:59:37.827] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 17:59:38.049] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 17:59:38.112] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 17:59:38.330] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 17:59:38.549] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 17:59:38.601] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 17:59:38.697] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 17:59:38.908] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 17:59:39.004] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:59:39.329] Found stone image at 107, 488: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:59:39.330] Found Stone scenery : DS
+2: D [2025-04-12 17:59:39.330] Stone search (in 2.05 seconds)
+2: D [2025-04-12 17:59:39.331] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 17:59:39.543] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 17:59:39.877] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 17:59:40.095] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 17:59:40.191] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:59:40.517] Found tree image at 664, 110: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:59:40.518] Tree search (in 1.19 seconds)
+2: D [2025-04-12 17:59:40.518] Found Stone and Tree!
+2: D [2025-04-12 17:59:40.519] Village Size : 511.817559308824
+2: D [2025-04-12 17:59:40.519] Zoom Factor : 1.02442944583304
+2: D [2025-04-12 17:59:40.519] Offset : 16, -2
+2: D [2025-04-12 17:59:40.520] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 17:59:40.688] imgloc TH search Start
+2: D [2025-04-12 17:59:40.689] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 17:59:41.232] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 17:59:41.893] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 17:59:41.893] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 17:59:42.437] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 17:59:42.658] imgloc THSearch Notfound, Retry:  1
+2: L [2025-04-12 17:59:42.671]   6> [G]: 108122 [E]: 143897 [D]: 2155 [T]:10 [TH]: -, -
+2: D [2025-04-12 17:59:42.683] BlueStacks5 time lag is 0 sec/min (avg for 61 sec, Android suspend time was 0 sec)
+2: D [2025-04-12 17:59:42.683] Detections made in : 6ms
+2: D [2025-04-12 17:59:43.595] Begin WaitForClouds:
+2: D [2025-04-12 17:59:47.995] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 17:59:47.995] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 17:59:47.996] Searching ALL Stone files
+2: D [2025-04-12 17:59:47.996] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 17:59:48.111] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 17:59:48.435] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 17:59:48.544] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 17:59:48.611] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 17:59:48.830] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 17:59:49.044] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 17:59:49.090] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 17:59:49.190] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 17:59:49.292] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 17:59:49.382] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:59:49.592] Found stone image at 109, 495: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 17:59:49.592] Found Stone scenery : DS
+2: D [2025-04-12 17:59:49.593] Stone search (in 1.61 seconds)
+2: D [2025-04-12 17:59:49.594] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 17:59:49.816] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 17:59:50.140] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 17:59:50.357] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 17:59:50.447] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:59:50.767] Found tree image at 665, 117: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 17:59:50.767] Tree search (in 1.17 seconds)
+2: D [2025-04-12 17:59:50.768] Found Stone and Tree!
+2: D [2025-04-12 17:59:50.768] Village Size : 510.990342689681
+2: D [2025-04-12 17:59:50.768] Zoom Factor : 1.0227737287766
+2: D [2025-04-12 17:59:50.768] Offset : 17, 5
+2: D [2025-04-12 17:59:50.769] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 17:59:50.938] imgloc TH search Start
+2: D [2025-04-12 17:59:50.938] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 17:59:51.484] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 17:59:52.031] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 17:59:52.031] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 17:59:52.609] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 17:59:52.742] imgloc Found TH : 
+2: D [2025-04-12 17:59:52.742] imgloc Found : objectname - TownHall
+2: D [2025-04-12 17:59:52.743] imgloc Found : objectlevel - 8
+2: D [2025-04-12 17:59:52.743] imgloc Found : objectpoints - 431,347
+2: D [2025-04-12 17:59:52.744] imgloc Found : nearpoints - 
+2: D [2025-04-12 17:59:52.745] Dictionary Error: $g_oBldgAttackInfo imglocTHSearch Town Hall_NEARPOINTS code: 3
+2: D [2025-04-12 17:59:52.745] imgloc Found : farpoints - 
+2: D [2025-04-12 17:59:52.746] Dictionary Error: $g_oBldgAttackInfo imglocTHSearch Town Hall_FARPOINTS code: 3
+2: D [2025-04-12 17:59:52.746] imgloc Found : redlinedistance - 
+2: D [2025-04-12 17:59:52.746] Dictionary Error: $g_oBldgAttackInfo imglocTHSearch Town Hall_REDLINEDISTANCE code: 3
+2: L [2025-04-12 17:59:52.758]   7> [G]: 636075 [E]: 870658 [D]: 1346 [T]:11 [TH]: 8, In
+2: D [2025-04-12 17:59:52.759] Detections made in : 5ms
+2: D [2025-04-12 17:59:53.109] AdbScreencap: 106/97/94 ms (all/10/1),0,0,l=252,t=424,w=2,h=2, 703390DDD0FC09407357E102E6CE590BD292E7BC: w=860,h=732,f=1
+2: D [2025-04-12 17:59:53.110] AdbScreencap HostPath: C:\ProgramData\BlueStacks_nxt\Engine\UserData\SharedFolder\
+2: D [2025-04-12 17:59:53.110] AdbScreencap AndroidPath: /mnt/windows/BstSharedFolder/
+2: D [2025-04-12 17:59:53.775] Begin WaitForClouds:
+2: D [2025-04-12 18:00:00.871] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 18:00:00.871] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 18:00:00.872] Searching ALL Stone files
+2: D [2025-04-12 18:00:00.873] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 18:00:01.093] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 18:00:01.422] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 18:00:01.530] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 18:00:01.596] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 18:00:01.814] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 18:00:02.028] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 18:00:02.079] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 18:00:02.176] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 18:00:02.392] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 18:00:02.481] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:00:02.704] Found stone image at 113, 508: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:00:02.705] Found Stone scenery : DS
+2: D [2025-04-12 18:00:02.705] Stone search (in 1.83 seconds)
+2: D [2025-04-12 18:00:02.706] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 18:00:02.921] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 18:00:03.248] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 18:00:03.470] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 18:00:03.571] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:00:03.893] Found tree image at 670, 130: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:00:03.894] Tree search (in 1.19 seconds)
+2: D [2025-04-12 18:00:03.894] Found Stone and Tree!
+2: D [2025-04-12 18:00:03.895] Village Size : 511.817559308824
+2: D [2025-04-12 18:00:03.895] Zoom Factor : 1.02442944583304
+2: D [2025-04-12 18:00:03.895] Offset : 22, 18
+2: D [2025-04-12 18:00:03.896] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 18:00:04.196] imgloc TH search Start
+2: D [2025-04-12 18:00:04.196] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 18:00:04.747] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:00:05.640] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 18:00:05.640] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 18:00:06.187] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:00:06.316] imgloc THSearch Notfound, Retry:  1
+2: L [2025-04-12 18:00:06.328]   8> [G]: 158518 [E]: 163394 [D]:  373 [T]: 7 [TH]: -, -
+2: D [2025-04-12 18:00:06.329] Detections made in : 6ms
+2: D [2025-04-12 18:00:07.293] Begin WaitForClouds:
+2: D [2025-04-12 18:00:14.385] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 18:00:14.385] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 18:00:14.385] Searching ALL Stone files
+2: D [2025-04-12 18:00:14.387] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 18:00:14.609] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 18:00:14.939] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 18:00:15.044] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 18:00:15.113] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 18:00:15.330] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 18:00:15.548] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 18:00:15.596] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 18:00:15.696] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 18:00:15.905] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 18:00:15.993] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:00:16.311] Found stone image at 86, 471: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:00:16.312] Found Stone scenery : DS
+2: D [2025-04-12 18:00:16.312] Stone search (in 1.94 seconds)
+2: D [2025-04-12 18:00:16.313] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 18:00:16.529] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 18:00:16.860] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 18:00:17.076] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 18:00:17.164] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:00:17.488] Found tree image at 646, 92: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:00:17.488] Tree search (in 1.17 seconds)
+2: D [2025-04-12 18:00:17.488] Found Stone and Tree!
+2: D [2025-04-12 18:00:17.489] Village Size : 514.861993701896
+2: D [2025-04-12 18:00:17.489] Zoom Factor : 1.03052303950025
+2: D [2025-04-12 18:00:17.489] Offset : -3, -20
+2: D [2025-04-12 18:00:17.490] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 18:00:17.659] imgloc TH search Start
+2: D [2025-04-12 18:00:17.659] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 18:00:18.201] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:00:18.861] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 18:00:18.861] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 18:00:19.402] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:00:19.624] imgloc THSearch Notfound, Retry:  1
+2: L [2025-04-12 18:00:19.636]   9> [G]: 586134 [E]: 584188 [D]:  856 [T]: 9 [TH]: -, -
+2: D [2025-04-12 18:00:19.637] Detections made in : 6ms
+2: D [2025-04-12 18:00:20.577] Begin WaitForClouds:
+2: D [2025-04-12 18:00:27.698] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 18:00:27.698] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 18:00:27.698] Searching ALL Stone files
+2: D [2025-04-12 18:00:27.699] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 18:00:27.811] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 18:00:28.138] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 18:00:28.246] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 18:00:28.308] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 18:00:28.529] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 18:00:28.751] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 18:00:28.797] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 18:00:28.900] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 18:00:29.106] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 18:00:29.191] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:00:29.517] Found stone image at 83, 458: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:00:29.518] Found Stone scenery : DS
+2: D [2025-04-12 18:00:29.518] Stone search (in 1.83 seconds)
+2: D [2025-04-12 18:00:29.518] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 18:00:29.734] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 18:00:30.066] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 18:00:30.280] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 18:00:30.383] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:00:30.699] Found tree image at 645, 77: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:00:30.700] Tree search (in 1.19 seconds)
+2: D [2025-04-12 18:00:30.700] Found Stone and Tree!
+2: D [2025-04-12 18:00:30.701] Village Size : 517.639506102001
+2: D [2025-04-12 18:00:30.702] Zoom Factor : 1.0360823749257
+2: D [2025-04-12 18:00:30.702] Offset : -4, -34
+2: D [2025-04-12 18:00:30.703] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 18:00:30.878] imgloc TH search Start
+2: D [2025-04-12 18:00:30.878] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 18:00:31.422] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:00:32.095] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 18:00:32.096] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 18:00:32.638] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:00:32.859] imgloc THSearch Notfound, Retry:  1
+2: L [2025-04-12 18:00:32.873]  10> [G]: 521135 [E]: 495897 [D]: 1303 [T]:11 [TH]: -, -
+2: D [2025-04-12 18:00:32.874] Detections made in : 6ms
+2: D [2025-04-12 18:00:33.779] Begin WaitForClouds:
+2: D [2025-04-12 18:00:38.215] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 18:00:38.215] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 18:00:38.216] Searching ALL Stone files
+2: D [2025-04-12 18:00:38.216] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 18:00:38.437] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 18:00:38.763] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 18:00:38.984] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 18:00:39.067] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 18:00:39.280] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 18:00:39.497] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 18:00:39.556] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 18:00:39.762] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 18:00:39.872] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 18:00:39.969] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:00:40.299] Found stone image at 59, 495: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:00:40.299] Found Stone scenery : DS
+2: D [2025-04-12 18:00:40.300] Stone search (in 2.08 seconds)
+2: D [2025-04-12 18:00:40.300] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 18:00:40.517] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 18:00:40.844] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 18:00:41.063] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 18:00:41.610] Waiting for DLL async function FindTile ...
+2: D [2025-04-12 18:00:42.715] Waiting for DLL async function FindTile ...
+2: D [2025-04-12 18:00:43.815] Waiting for DLL async function FindTile ...
+2: D [2025-04-12 18:00:44.923] Waiting for DLL async function FindTile ...
+2: D [2025-04-12 18:00:46.035] Waiting for DLL async function FindTile ...
+2: D [2025-04-12 18:00:47.142] Waiting for DLL async function FindTile ...
+2: D [2025-04-12 18:00:48.249] Waiting for DLL async function FindTile ...
+2: D [2025-04-12 18:00:49.358] Waiting for DLL async function FindTile ...
+2: D [2025-04-12 18:00:50.470] Waiting for DLL async function FindTile ...
+2: D [2025-04-12 18:00:51.576] Waiting for DLL async function FindTile ...
+2: D [2025-04-12 18:00:52.688] Waiting for DLL async function FindTile ...
+2: D [2025-04-12 18:00:53.031] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:00:53.375] Found tree image at 624, 111: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:00:53.376] Tree search (in 13.08 seconds)
+2: D [2025-04-12 18:00:53.376] Found Stone and Tree!
+2: D [2025-04-12 18:00:53.376] Village Size : 521.80655810162
+2: D [2025-04-12 18:00:53.377] Zoom Factor : 1.04442294607862
+2: D [2025-04-12 18:00:53.377] Offset : -26, 2
+2: D [2025-04-12 18:00:53.377] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 18:00:53.603] imgloc TH search Start
+2: D [2025-04-12 18:00:53.604] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 18:00:54.137] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:00:54.689] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 18:00:54.690] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 18:00:55.234] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:00:55.345] imgloc THSearch Notfound, Retry:  1
+2: L [2025-04-12 18:00:55.357]  11> [G]: 193025 [E]: 216008 [D]: 1901 [T]:14 [TH]: -, -
+2: D [2025-04-12 18:00:55.369] BlueStacks5 time lag is 0 sec/min (avg for 72 sec, Android suspend time was 0 sec)
+2: D [2025-04-12 18:00:55.370] Detections made in : 18ms
+2: D [2025-04-12 18:00:56.251] Begin WaitForClouds:
+2: D [2025-04-12 18:01:03.337] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 18:01:03.337] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 18:01:03.338] Searching ALL Stone files
+2: D [2025-04-12 18:01:03.339] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 18:01:03.548] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 18:01:03.875] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 18:01:04.092] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 18:01:04.172] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 18:01:04.391] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 18:01:04.609] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 18:01:04.658] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 18:01:04.763] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 18:01:04.982] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 18:01:05.200] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:01:05.528] Found stone image at 115, 488: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:01:05.529] Found Stone scenery : DS
+2: D [2025-04-12 18:01:05.529] Stone search (in 2.2 seconds)
+2: D [2025-04-12 18:01:05.530] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 18:01:05.748] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 18:01:06.075] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 18:01:06.293] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 18:01:06.406] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:01:06.734] Found tree image at 671, 111: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:01:06.735] Tree search (in 1.2 seconds)
+2: D [2025-04-12 18:01:06.735] Found Stone and Tree!
+2: D [2025-04-12 18:01:06.736] Village Size : 510.428623070769
+2: D [2025-04-12 18:01:06.736] Zoom Factor : 1.0216494177649
+2: D [2025-04-12 18:01:06.736] Offset : 23, -2
+2: D [2025-04-12 18:01:06.737] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 18:01:06.919] imgloc TH search Start
+2: D [2025-04-12 18:01:06.920] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 18:01:07.470] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:01:08.137] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 18:01:08.138] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 18:01:08.706] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:01:08.934] imgloc THSearch Notfound, Retry:  1
+2: L [2025-04-12 18:01:08.947]  12> [G]: 540234 [E]: 411210 [D]: 1506 [T]:12 [TH]: -, -
+2: D [2025-04-12 18:01:08.948] Detections made in : 6ms
+2: D [2025-04-12 18:01:09.840] Begin WaitForClouds:
+2: D [2025-04-12 18:01:14.245] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 18:01:14.246] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 18:01:14.246] Searching ALL Stone files
+2: D [2025-04-12 18:01:14.248] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 18:01:14.466] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 18:01:14.793] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 18:01:15.018] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 18:01:15.086] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 18:01:15.300] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 18:01:15.514] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 18:01:15.563] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 18:01:15.672] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 18:01:15.887] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 18:01:15.986] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:01:16.309] Found stone image at 33, 481: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:01:16.309] Found Stone scenery : DS
+2: D [2025-04-12 18:01:16.310] Stone search (in 2.06 seconds)
+2: D [2025-04-12 18:01:16.310] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 18:01:16.529] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 18:01:16.862] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 18:01:17.081] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 18:01:17.178] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:01:17.501] Found tree image at 590, 103: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:01:17.501] Tree search (in 1.19 seconds)
+2: D [2025-04-12 18:01:17.502] Found Stone and Tree!
+2: D [2025-04-12 18:01:17.502] Village Size : 511.817559308824
+2: D [2025-04-12 18:01:17.502] Zoom Factor : 1.02442944583304
+2: D [2025-04-12 18:01:17.503] Offset : -58, -9
+2: D [2025-04-12 18:01:17.503] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 18:01:17.722] imgloc TH search Start
+2: D [2025-04-12 18:01:17.722] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 18:01:18.264] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:01:18.810] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 18:01:18.810] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 18:01:19.357] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:01:19.471] imgloc Found TH : 
+2: D [2025-04-12 18:01:19.471] imgloc Found : objectname - TownHall
+2: D [2025-04-12 18:01:19.472] imgloc Found : objectlevel - 8
+2: D [2025-04-12 18:01:19.472] imgloc Found : objectpoints - 381,326
+2: D [2025-04-12 18:01:19.472] imgloc Found : nearpoints - 
+2: D [2025-04-12 18:01:19.473] Dictionary Error: $g_oBldgAttackInfo imglocTHSearch Town Hall_NEARPOINTS code: 3
+2: D [2025-04-12 18:01:19.473] imgloc Found : farpoints - 
+2: D [2025-04-12 18:01:19.474] Dictionary Error: $g_oBldgAttackInfo imglocTHSearch Town Hall_FARPOINTS code: 3
+2: D [2025-04-12 18:01:19.475] imgloc Found : redlinedistance - 
+2: D [2025-04-12 18:01:19.475] Dictionary Error: $g_oBldgAttackInfo imglocTHSearch Town Hall_REDLINEDISTANCE code: 3
+2: L [2025-04-12 18:01:19.487]  13> [G]: 324603 [E]: 310889 [D]: 3237 [T]:11 [TH]: 8, In
+2: D [2025-04-12 18:01:19.488] Detections made in : 6ms
+2: D [2025-04-12 18:01:20.398] Begin WaitForClouds:
+2: D [2025-04-12 18:01:27.508] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 18:01:27.508] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 18:01:27.509] Searching ALL Stone files
+2: D [2025-04-12 18:01:27.509] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 18:01:27.719] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 18:01:28.049] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 18:01:28.268] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 18:01:28.345] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 18:01:28.559] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 18:01:28.782] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 18:01:28.831] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 18:01:29.049] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 18:01:29.264] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 18:01:29.483] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:01:29.810] Found stone image at 91, 488: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:01:29.811] Found Stone scenery : DS
+2: D [2025-04-12 18:01:29.811] Stone search (in 2.31 seconds)
+2: D [2025-04-12 18:01:29.812] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 18:01:30.029] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 18:01:30.363] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 18:01:30.580] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 18:01:30.674] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:01:31.002] Found tree image at 648, 111: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:01:31.003] Tree search (in 1.19 seconds)
+2: D [2025-04-12 18:01:31.003] Found Stone and Tree!
+2: D [2025-04-12 18:01:31.004] Village Size : 511.256530547176
+2: D [2025-04-12 18:01:31.004] Zoom Factor : 1.02330651760806
+2: D [2025-04-12 18:01:31.004] Offset : 0, -2
+2: D [2025-04-12 18:01:31.005] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 18:01:31.173] imgloc TH search Start
+2: D [2025-04-12 18:01:31.173] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 18:01:31.717] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:01:32.376] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 18:01:32.376] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 18:01:32.923] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:01:33.157] imgloc THSearch Notfound, Retry:  1
+2: L [2025-04-12 18:01:33.170]  14> [G]: 222283 [E]: 177761 [D]:  448 [T]:12 [TH]: -, -
+2: D [2025-04-12 18:01:33.171] Detections made in : 6ms
+2: D [2025-04-12 18:01:34.060] Begin WaitForClouds:
+2: D [2025-04-12 18:01:41.106] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 18:01:41.107] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 18:01:41.107] Searching ALL Stone files
+2: D [2025-04-12 18:01:41.108] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 18:01:41.325] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 18:01:41.656] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 18:01:41.873] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 18:01:41.942] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 18:01:42.158] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 18:01:42.375] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 18:01:42.420] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 18:01:42.517] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 18:01:42.623] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 18:01:42.713] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:01:42.924] Found stone image at 99, 508: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:01:42.924] Found Stone scenery : DS
+2: D [2025-04-12 18:01:42.925] Stone search (in 1.81 seconds)
+2: D [2025-04-12 18:01:42.925] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 18:01:43.138] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 18:01:43.467] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 18:01:43.688] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 18:01:43.781] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:01:44.113] Found tree image at 655, 130: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:01:44.113] Tree search (in 1.19 seconds)
+2: D [2025-04-12 18:01:44.144] Found Stone and Tree!
+2: D [2025-04-12 18:01:44.144] Village Size : 510.990342689681
+2: D [2025-04-12 18:01:44.145] Zoom Factor : 1.0227737287766
+2: D [2025-04-12 18:01:44.145] Offset : 7, 18
+2: D [2025-04-12 18:01:44.145] GetVillageSize calculations (in 0.03 seconds)
+2: D [2025-04-12 18:01:44.304] imgloc TH search Start
+2: D [2025-04-12 18:01:44.305] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 18:01:44.842] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:01:45.501] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 18:01:45.501] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 18:01:46.048] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:01:46.282] imgloc THSearch Notfound, Retry:  1
+2: L [2025-04-12 18:01:46.295]  15> [G]: 452610 [E]: 423598 [D]:  954 [T]: 9 [TH]: -, -
+2: D [2025-04-12 18:01:46.296] Detections made in : 6ms
+2: D [2025-04-12 18:01:47.218] Begin WaitForClouds:
+2: D [2025-04-12 18:01:54.323] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 18:01:54.324] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 18:01:54.324] Searching ALL Stone files
+2: D [2025-04-12 18:01:54.325] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 18:01:54.434] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 18:01:54.766] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 18:01:54.988] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 18:01:55.055] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 18:01:55.265] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 18:01:55.484] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 18:01:55.535] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 18:01:55.633] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 18:01:55.840] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 18:01:55.937] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:01:56.156] Found stone image at 104, 508: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:01:56.157] Found Stone scenery : DS
+2: D [2025-04-12 18:01:56.157] Stone search (in 1.83 seconds)
+2: D [2025-04-12 18:01:56.157] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 18:01:56.377] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 18:01:56.702] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 18:01:56.924] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 18:01:57.143] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:01:57.468] Found tree image at 661, 130: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:01:57.468] Tree search (in 1.31 seconds)
+2: D [2025-04-12 18:01:57.469] Found Stone and Tree!
+2: D [2025-04-12 18:01:57.469] Village Size : 511.817559308824
+2: D [2025-04-12 18:01:57.469] Zoom Factor : 1.02442944583304
+2: D [2025-04-12 18:01:57.470] Offset : 13, 18
+2: D [2025-04-12 18:01:57.470] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 18:01:57.676] imgloc TH search Start
+2: D [2025-04-12 18:01:57.677] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 18:01:58.220] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:01:58.779] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 18:01:58.779] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 18:01:59.328] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:01:59.455] imgloc THSearch Notfound, Retry:  1
+2: L [2025-04-12 18:01:59.467]  16> [G]: 126945 [E]: 125223 [D]: 1545 [T]:11 [TH]: -, -
+2: D [2025-04-12 18:01:59.479] BlueStacks5 time lag is 0 sec/min (avg for 64 sec, Android suspend time was 0 sec)
+2: D [2025-04-12 18:01:59.480] Detections made in : 6ms
+2: D [2025-04-12 18:02:00.411] Begin WaitForClouds:
+2: D [2025-04-12 18:02:05.787] AdbScreencap: 102/94/110 ms (all/10/1),0,0,l=252,t=424,w=2,h=2, 703390DDD0FC09407357E102E6CE590BD292E7BC: w=860,h=732,f=1
+2: D [2025-04-12 18:02:05.787] AdbScreencap HostPath: C:\ProgramData\BlueStacks_nxt\Engine\UserData\SharedFolder\
+2: D [2025-04-12 18:02:05.788] AdbScreencap AndroidPath: /mnt/windows/BstSharedFolder/
+2: D [2025-04-12 18:02:07.478] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 18:02:07.479] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 18:02:07.479] Searching ALL Stone files
+2: D [2025-04-12 18:02:07.480] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 18:02:07.702] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 18:02:08.030] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 18:02:08.250] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 18:02:08.318] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 18:02:08.532] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 18:02:08.750] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 18:02:08.804] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 18:02:09.017] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 18:02:09.259] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 18:02:09.468] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:02:09.796] Found stone image at 83, 508: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:02:09.796] Found Stone scenery : DS
+2: D [2025-04-12 18:02:09.797] Stone search (in 2.33 seconds)
+2: D [2025-04-12 18:02:09.798] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 18:02:10.014] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 18:02:10.341] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 18:02:10.559] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 18:02:10.783] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:02:11.106] Found tree image at 639, 130: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:02:11.107] Tree search (in 1.31 seconds)
+2: D [2025-04-12 18:02:11.107] Found Stone and Tree!
+2: D [2025-04-12 18:02:11.108] Village Size : 510.990342689681
+2: D [2025-04-12 18:02:11.108] Zoom Factor : 1.0227737287766
+2: D [2025-04-12 18:02:11.108] Offset : -9, 18
+2: D [2025-04-12 18:02:11.109] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 18:02:11.283] imgloc TH search Start
+2: D [2025-04-12 18:02:11.283] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 18:02:11.828] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:02:12.481] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 18:02:12.481] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 18:02:13.029] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:02:13.251] imgloc Found TH : 
+2: D [2025-04-12 18:02:13.251] imgloc Found : objectname - TownHall
+2: D [2025-04-12 18:02:13.252] imgloc Found : objectlevel - 8
+2: D [2025-04-12 18:02:13.252] imgloc Found : objectpoints - 414,366
+2: D [2025-04-12 18:02:13.252] imgloc Found : nearpoints - 
+2: D [2025-04-12 18:02:13.253] Dictionary Error: $g_oBldgAttackInfo imglocTHSearch Town Hall_NEARPOINTS code: 3
+2: D [2025-04-12 18:02:13.253] imgloc Found : farpoints - 
+2: D [2025-04-12 18:02:13.253] Dictionary Error: $g_oBldgAttackInfo imglocTHSearch Town Hall_FARPOINTS code: 3
+2: D [2025-04-12 18:02:13.253] imgloc Found : redlinedistance - 
+2: D [2025-04-12 18:02:13.254] Dictionary Error: $g_oBldgAttackInfo imglocTHSearch Town Hall_REDLINEDISTANCE code: 3
+2: L [2025-04-12 18:02:13.266]  17> [G]: 694695 [E]: 725925 [D]:  932 [T]:12 [TH]: 8, In
+2: D [2025-04-12 18:02:13.267] Detections made in : 6ms
+2: D [2025-04-12 18:02:14.169] Begin WaitForClouds:
+2: D [2025-04-12 18:02:21.196] GVZ using : \imgxml\village\NormalVillage\
+2: D [2025-04-12 18:02:21.196] Scenery routines completed (in 0 seconds)
+2: D [2025-04-12 18:02:21.196] Searching ALL Stone files
+2: D [2025-04-12 18:02:21.197] GetVillageSize check for image stone9C-90-467-78,9037940245139_0_92.xml
+2: D [2025-04-12 18:02:21.407] GetVillageSize check for image stoneAN-178-523-63,6260465693060_0_92.xml
+2: D [2025-04-12 18:02:21.731] GetVillageSize check for image stoneBK-135-467-39,558058597459_0_92.xml
+2: D [2025-04-12 18:02:21.835] GetVillageSize check for image stoneCC-129-490-75,7641614726777_0_93.xml
+2: D [2025-04-12 18:02:21.897] GetVillageSize check for image stoneCD-111-501-81,686045319871_0_92.xml
+2: D [2025-04-12 18:02:22.109] GetVillageSize check for image stoneCF-152-498-52,7480470288032_2_92.xml
+2: D [2025-04-12 18:02:22.330] GetVillageSize check for image stoneCH-62-488-78,044346367946_0_91.xml
+2: D [2025-04-12 18:02:22.378] GetVillageSize check for image stoneDA-68-477-89,802136942197_0_92.xml
+2: D [2025-04-12 18:02:22.476] GetVillageSize check for image stoneDO-68-545-131,358440916448_0_92.xml
+2: D [2025-04-12 18:02:22.688] GetVillageSize check for image stoneDP-135-517-60,335064431887_0_92.xml
+2: D [2025-04-12 18:02:22.776] GetVillageSize check for image stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:02:23.090] Found stone image at 107, 496: stoneDS-99-487-69,879896966152_0_92.xml
+2: D [2025-04-12 18:02:23.091] Found Stone scenery : DS
+2: D [2025-04-12 18:02:23.091] Stone search (in 1.91 seconds)
+2: D [2025-04-12 18:02:23.091] GetVillageSize check for image treeDA-567-49-83,202036842375_0_92.xml
+2: D [2025-04-12 18:02:23.316] GetVillageSize check for image treeDAS-648-117-97,8018707308159_0_92.xml
+2: D [2025-04-12 18:02:23.444] Restore bot window to 43, 16, caller: GUIControl_WM_NCACTIVATE
+2: D [2025-04-12 18:02:23.446] HideAndroidWindow: False, False, True, BotMinimizeRestore
+2: D [2025-04-12 18:02:23.686] BotShrinkExpandToggle: Bot expanded
+2: D [2025-04-12 18:02:23.687] GetVillageSize check for image treeDO-787-188-107,057974948156_0_92.xml
+2: D [2025-04-12 18:02:23.907] GetVillageSize check for image treeDP-704-158-86,744279350283_0_92.xml
+2: D [2025-04-12 18:02:24.002] GetVillageSize check for image treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:02:24.331] Found tree image at 664, 118: treeDSS-646-116-91,454086841431_0_92.xml
+2: D [2025-04-12 18:02:24.331] Tree search (in 1.24 seconds)
+2: D [2025-04-12 18:02:24.332] Found Stone and Tree!
+2: D [2025-04-12 18:02:24.332] Village Size : 511.817559308824
+2: D [2025-04-12 18:02:24.332] Zoom Factor : 1.02442944583304
+2: D [2025-04-12 18:02:24.333] Offset : 16, 6
+2: D [2025-04-12 18:02:24.333] GetVillageSize calculations (in 0 seconds)
+2: D [2025-04-12 18:02:24.549] imgloc TH search Start
+2: D [2025-04-12 18:02:24.549] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall
+2: D [2025-04-12 18:02:25.092] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:02:25.529] imgloc THSearch Notfound, Retry:  0
+2: D [2025-04-12 18:02:25.529] $xdirectory = Z:\Games\coc\MyBot-MBR_v8.1.9r4\imgxml\Buildings\Townhall2
+2: D [2025-04-12 18:02:26.081] Waiting for DLL async function SearchMultipleTilesBetweenLevels ...
+2: D [2025-04-12 18:02:26.203] imgloc THSearch Notfound, Retry:  1
+2: L [2025-04-12 18:02:26.218]  18> [G]: 197710 [E]: 140186 [D]:  578 [T]:11 [TH]: -, -
+2: D [2025-04-12 18:02:26.219] Detections made in : 6ms
+2: D [2025-04-12 18:02:26.901] Undocking Android Control...
+2: D [2025-04-12 18:02:26.904] Disable MyBot Window Redraw: _AndroidEmbed
+2: D [2025-04-12 18:02:26.951] CheckBotZOrder: Ajust docked Android Window
+2: D [2025-04-12 18:02:26.955] CheckBotZOrder: Ajust docked Android Window
+2: D [2025-04-12 18:02:26.980] Move Bot Buttons: 372, 0
+2: D [2025-04-12 18:02:26.997] Redraw MyBot Window: _AndroidEmbed
+2: D [2025-04-12 18:02:27.021] Undocked Android Window
+2: D [2025-04-12 18:02:27.144] Begin WaitForClouds:
+2: D [2025-04-12 18:02:30.004] Released Bot slot mutex: 0x00000950
+2: D [2025-04-12 18:02:30.040] Disable MyBot Window Redraw: ToggleGuiControls
+2: D [2025-04-12 18:02:30.041] Enable GUI Controls
+2: D [2025-04-12 18:02:30.734] Redraw MyBot Window: ToggleGuiControls
+2: D [2025-04-12 18:02:30.764] Opened BlueStacks5 System Bar: True
+2: L [2025-04-12 18:02:30.836] ===================== Bot Stop ======================

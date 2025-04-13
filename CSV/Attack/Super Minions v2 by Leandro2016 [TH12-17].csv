@@ -1,0 +1,183 @@
+NOTE  |Author: Leandro2016 v2 [12.03.2025]
+NOTE  |
+NOTE  |Townhall   TH12    TH13  TH14  TH15/7
+NOTE  |SMinion         20        25        25        25
+NOTE  |Loons             8           0          0         4
+NOTE  |LSpell           11         11        11        11
+NOTE  |
+NOTE  |
+NOTE  |Clan Castle
+NOTE  |Loons LSpell and Stone Slammer
+NOTE  |
+NOTE  |Script work on "External Edges"
+NOTE  |
+      |
+      |----------------------------------------------------------------------SUPERMINION Start--------------------------------------------------------------------------------|
+      |                                                                                                                                                                       |
+      |                                                                                                                                                                       |
+      |_TROOPNAME_|__FLEXIBLE_|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|____TH13___|____TH14___|____TH15___|____TH16___|____TH17___|
+TRAIN |SMini      |0          |0          |0          |0          |0          |0          |0          |20         |25         |25         |25         |25         |25         |
+TRAIN |Ball       |0          |0          |0          |0          |0          |0          |0          |8          |0          |0          |4          |4          |4          |
+      |                                                                                                                                                                       |
+TRAIN |LSpell     |0          |0          |0          |0          |0          |0          |0          |11         |11         |11         |11         |11         |11         |
+TRAIN |StoneS     |0          |0          |0          |0          |0          |0          |0          |3          |3          |3          |3          |3          |3          |
+      |                                                                                                                                                                       |
+      |_TROOPNAME_|___________|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|____TH13___|____TH14___|____TH15___|____TH16___|____TH17___|
+TRAIN |King       |0          |0          |1          |1          |1          |1          |0          |1          |1          |1          |1          |1          |1          |
+TRAIN |Queen      |0          |0          |0          |0          |1          |1          |0          |1          |1          |1          |1          |1          |1          |
+TRAIN |Warden     |0          |0          |0          |0          |0          |0          |0          |1          |1          |1          |1          |1          |1          |
+TRAIN |Champion   |0          |0          |0          |0          |0          |0          |0          |0          |1          |1          |1          |1          |1          |
+TRAIN |Prince     |0          |0          |0          |0          |0          |0          |1          |1          |1          |1          |1          |1          |1          |
+      |                                                                                                                                                                       |
+      |___________|___________|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|____TH13___|____TH14___|____TH15___|____TH16___|____TH17___|
+REDLN |0          |0          |0          |0          |0          |0          |0          |0          |4          |4          |4          |4          |4          |4          |
+DRPLN |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+      |                                                                                                                                                                       |
+      |___________|___________|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|____TH13___|____TH14___|____TH15___|____TH16___|____TH17___|	  
+WMODE |0	      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0  	      |0          |0          |0          |
+      |___________|___________|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|____TH13___|____TH14___|____TH15___|____TH16___|____TH17___|
+CCREQ |           |           |           |           |           |           |           |           |+++        |+++        |+++        |+++        |+++        |+++        |
+      |                                                                                                                                                                       |
+      |                                                                                                                                                                       |
+      |EXTR. GOLD |EXTR.ELIXIR|EXTR. DARK |DEPO. GOLD |DEPO.ELIXIR|DEPO. DARK |TOWNHALL   |FORCED SIDE|           |           |           |           |           |           |
+SIDE  |20         |20         |20         |0          |0          |0          |10         |           |           |           |           |           |           |           |
+      |EAGLE      |INFERNO    |XBOW       |WIZTOWER   |MORTAR     |AIRDEFENSE |SCATTER    |AIRSWEEPER |GEMBOX     |           |           |           |           |           |
+SIDEB |0          |0          |0          |0          |0          |0          |0          |0          |           |           |           |           |           |           |
+      |                                                                                                                                                                       |
+	  |                                                                                                                                                                       |
+      |------------------------------------------------Speel Start------------------------------------------------------------------------------------------------------------|
+      |                                                                                                                                                                       |	  
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|___________|___________|___________|___________|___________|
+MAKE  |Z          |FRONT-RIGHT|1          |0          |IGNORE     |0          |0          |AIRDEFENSE |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |20-60      |           |           |           |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |FRONT-RIGHT|1          |0          |IGNORE     |0          |0          |AIRDEFENSE |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |20-60      |           |           |           |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |FRONT-RIGHT|1          |0          |IGNORE     |0          |0          |AIRDEFENSE |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |300-360    |           |           |           |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |LEFT-FRONT |1          |0          |IGNORE     |0          |0          |AIRDEFENSE |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |20-60      |           |           |           |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |LEFT-FRONT |1          |0          |IGNORE     |0          |0          |AIRDEFENSE |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |20-60      |           |           |           |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |LEFT-FRONT |1          |0          |IGNORE     |0          |0          |AIRDEFENSE |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |300-360    |           |           |           |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |BACK-RIGHT |1          |0          |IGNORE     |0          |0          |AIRDEFENSE |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |20-60      |           |           |           |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |BACK-RIGHT |1          |0          |IGNORE     |0          |0          |AIRDEFENSE |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |20-60      |           |           |           |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |BACK-RIGHT |1          |0          |IGNORE     |0          |0          |AIRDEFENSE |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |300-360    |           |           |           |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |RIGHT-FRONT|1          |0          |IGNORE     |0          |0          |AIRDEFENSE |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |20-60      |           |           |           |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |RIGHT-FRONT|1          |0          |IGNORE     |0          |0          |AIRDEFENSE |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |20-60      |           |           |           |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |RIGHT-FRONT|1          |0          |IGNORE     |0          |0          |AIRDEFENSE |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |20-60      |           |           |           |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |FRONT-RIGHT|1          |0          |IGNORE     |0          |0          |AIRDEFENSE |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |20-60      |           |           |	          |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |RANDOM     |1          |0          |IGNORE     |0          |0          |WIZTOWER   |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |20-60      |           |           |	          |           |           |           |           |
+WAIT  |400-1000   |           |           |           |           |           |           |           |           |           |           |           |           |           |
+MAKE  |Z          |RANDOM     |1          |0          |IGNORE     |0          |0          |WIZTOWER   |           |           |           |           |           |           |
+DROP  |Z          |1          |1          |LSpell     |50-70      |0          |20-60      |           |           |	          |           |           |           |           |
+	  |                                                                                                                                                                       |
+	  |                                                                                                                                                                       |
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|___________|___________|___________|___________|___________|
+MAKE  |A          |BACK-RIGHT |10         |0          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |B          |BACK-RIGHT |10         |1          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |C          |BACK-RIGHT |10         |2          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |D          |BACK-LEFT  |10         |0          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |E          |BACK-LEFT  |10         |1          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |F          |BACK-LEFT  |10         |2          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |G          |LEFT-BACK  |10         |0          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |H          |LEFT-BACK  |10         |1          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |I          |LEFT-BACK  |10         |2          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |J          |LEFT-FRONT |10         |0          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |K          |LEFT-FRONT |10         |1          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |L          |LEFT-FRONT |10         |2          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |M          |FRONT-LEFT |10         |0          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |N          |FRONT-LEFT |10         |1          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |O          |FRONT-LEFT |10         |2          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |P          |FRONT-RIGHT|10         |0          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |Q          |FRONT-RIGHT|10         |1          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |R          |FRONT-RIGHT|10         |2          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |S          |RIGHT-FRONT|10         |0          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |T          |RIGHT-FRONT|10         |1          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |U          |RIGHT-FRONT|10         |2          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |V          |RIGHT-BACK |10         |0          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |W          |RIGHT-BACK |10         |1          |INT-EXT    |0          |0          |           |           |           |           |           |           |           |
+MAKE  |X          |RIGHT-BACK |10         |2          |INT-EXT    |0          |0          |           |           |	          |           |           |           |           |
+	  |                                                                                                                                                                       |
+	  |                                                                                                                                                                       |
+	  |------------------------------------------------Attack Start-----------------------------------------------------------------------------------------------------------|
+      |                                                                                                                                                                       |
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|___________|___________|___________|___________|___________|
+WAIT  |3000-6000  |           |           |           |           |           |           |           |           |           |           |           |           |           |
+DROP  |M          |1          |1          |StoneS     |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |N          |7          |1          |Ball       |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |N          |2          |1          |Ball       |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |Q          |6          |1          |Ball       |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |O          |8          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |O          |5          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |O          |2          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |R          |4          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |R          |7          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |O          |4          |1          |Warden     |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |O          |3          |1          |Queen      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |M          |4          |1          |King       |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |O          |3          |1          |Champion   |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |O          |3          |1          |Prince     |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |U          |6          |1          |Ball       |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |U          |1          |1          |Ball       |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |X          |6          |1          |Ball       |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |U          |7          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |U          |2          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |X          |4          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |X          |9          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |U          |5          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |C          |7          |1          |Ball       |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |C          |2          |1          |Ball       |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |F          |6          |1          |Ball       |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |C          |7          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |C          |3          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |F          |3          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |F          |8          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |C          |1          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |I          |6          |1          |Ball       |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |I          |2          |1          |Ball       |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |L          |5          |1          |Ball       |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |L          |7          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |L          |2          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |I          |3          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |I          |8          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |L          |4          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |L          |4          |1          |SMini      |50-70      |0          |100-120    |W4         |           |.	      |           |           |           |           |
+DROP  |L          |4          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |L          |4          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |L          |4          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |L          |4          |1          |SMini      |50-70      |0          |100-120    |W4         |           |	          |           |           |           |           |
+DROP  |L          |4          |1          |SMini      |50-70      |0          |10-20      |W4         |           |	          |           |           |           |           |
+RECALC|           |           |           |           |           |           |           |           |           |	          |           |           |           |           |
+DROP  |P-M        |1-8        |1          |REMAIN     |50-70      |100        |50-100     |           |           |	          |           |           |           |           |
+	
+	  
+
+
+
+
+
+      |------------------------------------------ This CSV created with ------------------------------------------|
+      |----------------------------------------------- @Leandro2016 ---------------------------------------------|
+      |------------------------------------------ www.mybot.run/forums -------------------------------------------|

@@ -1,0 +1,74 @@
+NOTE  |Script work on "EXTERNAL EDGES"
+NOTE  |TH-9  29 Hogs, 6 Witch, 9 Lightning (3x)
+
+      |EXTR. GOLD |EXTR.ELIXIR|EXTR. DARK |DEPO. GOLD |DEPO.ELIXIR|DEPO. DARK |TOWNHALL   |FORCED SIDE|___________|
+SIDE  |0          |0          |0          |0          |0          |0          |10         |           |           |
+      |EAGLE      |INFERNO    |XBOW       |WIZTOWER   |MORTAR     |AIRDEFENSE |AIRSWEEPER |GEMBOX     |           |
+SIDEB |0          |0          |0          |15         |5          |0          |0          |0          |           |
+
+      |-------------------------------------------HogMin Start----------------------------------------------------|
+      |                                                                                                           |
+
+      |_TROOPNAME_|__FLEXIBLE_|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|
+TRAIN |Hogs       |0          |0          |0          |0          |20         |0          |0          |0          |
+TRAIN |Witc       |0          |0          |0          |0          |10         |0          |0          |0          |
+
+TRAIN |LSpell     |0          |0          |0          |0          |9          |0          |0          |0          |
+
+      |_TROOPNAME_|___________|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|
+TRAIN |King       |0          |0          |0          |1          |1          |1          |1          |1          |
+TRAIN |Queen      |0          |0          |0          |1          |1          |1          |1          |1          |
+
+      |___________|___________|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|
+REDLN |0          |0          |0          |0          |4          |4          |4          |4          |4          |
+DRPLN |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|
+MAKE  |A          |FRONT-LEFT |10         |1          |EXT-INT    |0          |0          |           |           |
+MAKE  |B          |FRONT-RIGHT|10         |2          |INT-EXT    |0          |0          |           |           |
+MAKE  |Z          |FRONT-RIGHT|10         |1          |EXT-INT    |0          |0          |           |           |
+MAKE  |K          |FRONT-LEFT |10         |2          |INT-EXT    |0          |0          |           |           |
+MAKE  |R          |BACK-RIGHT |10         |1          |INT-EXT    |0          |0          |           |           |
+
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|
+MAKE  |D          |RANDOM     |1          |2          |IGNORE     |0          |0          |WIZTOWER   |           |
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|
+DROP  |D          |1          |3          |LSpell     |50-70   	  |0    	  |100-150    |           |           |
+WAIT  |2000-5000  |           |           |           |           |           |           |           |           |
+
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|
+MAKE  |D          |RANDOM     |1          |2          |IGNORE     |0          |0          |MORTAR     |           |
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|
+DROP  |D          |1          |3          |LSpell     |50-70   	  |0    	  |100-150    |           |           |
+WAIT  |2000-5000  |           |           |           |           |           |           |           |           |
+
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|
+MAKE  |D          |RANDOM     |1          |2          |IGNORE     |0          |0          |WIZTOWER   |           |
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|
+DROP  |D          |1          |3          |LSpell     |50-70   	  |0    	  |100-150    |           |           |
+WAIT  |2000-5000  |           |           |           |           |           |           |           |           |
+
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|
+DROP  |A          |4,4,6,6,8,8|6          |Hogs       |50-70      |27-50      |100-150    |           |           |
+WAIT  |500-800    |           |           |           |           |           |           |           |           |
+DROP  |B          |1,3,3,5,5,7|6          |Hogs       |50-70      |27-50      |100-150    |           |           |
+WAIT  |500-800    |           |           |           |           |           |           |           |           |
+DROP  |Z          |4,4,6,6,8,8|6          |Hogs       |55-70      |27-50      |100-150    |           |           |
+WAIT  |500-800    |           |           |           |           |           |           |           |           |
+DROP  |K          |8,10       |2          |Hogs       |55-70      |27-50      |100-150    |           |           |
+WAIT  |500-800    |           |           |           |           |           |           |           |           |
+
+WAIT  |2500-3500  |           |           |           |           |           |           |           |           |
+DROP  |A          |10,9,9,10  |4          |Witc       |50-70      |27-50      |100-150    |           |           |
+DROP  |B          |1,2,2,1	  |4          |Witc       |50-70      |27-50      |100-150    |           | 
+DROP  |A          |9,10		  |2          |Witc       |50-70      |27-50      |100-150    |           |           |
+
+WAIT  |1000-1500  |           |           |           |           |           |           |           |           |
+DROP  |A-B        |10         |1          |REMAIN     |50-70      |100        |100-150    |           |           |
+
+WAIT  |8000-10000 |           |           |           |           |           |           |           |           |
+DROP  |R          |10         |1          |King       |50-70      |0          |400-500    |           |           |
+WAIT  |1000-2000  |           |           |           |           |           |           |           |           |
+DROP  |R          |10         |1          |Queen      |50-70      |0          |500-700    |           |           |
+      |                                                                                                           |
+      |--------------------------------------------HogMin End-----------------------------------------------------|

@@ -1,0 +1,47 @@
+
+NOTE  |Townhall 		TH07-16
+NOTE  |LSpell           4
+NOTE  |Use 2 LSpell per Air Defense found randomly then release Queen skill.
+NOTE  |"Use External Edges"
+      |                                                                                                                                               			  |
+      |----------------------------------------------------------------------Lightning Spell----------------------------------------------------------------------|
+      |                                                                                                                                      		  			  |
+      |                                                                                                                                               			  |
+      |_TROOPNAME_|__FLEXIBLE_|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|____TH13___|____TH14___|____TH15___|____TH16___|
+TRAIN |LSpell     |0          |0          |4          |4          |4          |4          |4          |4          |4          |4          |4          |4          |
+
+      |_TROOPNAME_|__FLEXIBLE_|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|____TH13___|____TH14___|____TH15___|____TH16___|
+TRAIN |Queen      |0          |0          |0          |1          |1          |1          |1          |1          |1          |1          |1          |1          |                                                                                                                |           |
+
+	  |___________|___________|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|____TH13___|____TH14___|____TH15___|____TH16___|
+REDLN |0          |0          |0          |4          |4		  |4		  |4		  |4		  |4		  |4		  |4		  |4		  |4		  |
+DRPLN |0          |0          |0          |0          |0		  |0		  |0		  |0		  |0		  |0		  |0		  |0		  |0		  |																										  |
+
+      |EXTR. GOLD |EXTR.ELIXIR|EXTR. DARK |DEPO. GOLD |DEPO.ELIXIR|DEPO. DARK |TOWNHALL   |FORCED SIDE|___________|___________|___________|___________|___________|
+SIDE  |0          |0          |0          |0          |0          |0          |20         |           |           |           |           |           |           |
+      |EAGLE      |INFERNO    |XBOW       |WIZTOWER   |MORTAR     |AIRDEFENSE |GEMBOX     |GEMBOX     |           |           |           |           |           |
+SIDEB |0          |0          |0          |0          |0          |0          |0          |           |           |           |           |           |           |
+
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|___________|___________|___________|___________|
+MAKE  |A          |RANDOM     |1          |0          |IGNORE     |           |           |AIRDEFENSE |           |           |			  |           |		      | Get Airdef location
+
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|___________|___________|___________|___________|
+DROP  |A          |1          |2          |LSpell     |0          |0          |100-150    |           |           |           |			  |           |           | Use LSpell 2x
+WAIT  |2000-3000  |           |           |           |           |           |           |           |           |           |			  |           |           |
+
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|___________|___________|___________|___________|
+MAKE  |A          |RANDOM     |1          |0          |IGNORE     |           |           |AIRDEFENSE |           |           |			  |           |		      | Get Airdef location
+
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|___________|___________|___________|___________|
+DROP  |A          |1          |2          |LSpell     |0          |0          |100-150    |           |           |           |			  |           |           | Use LSpell 2x
+WAIT  |2000-3000  |           |           |           |           |           |           |           |           |           |			  |           |           |
+
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|___________|___________|___________|___________|
+MAKE  |Q          |FRONT-LEFT |10         |0          |EXT-INT    |10         |10         |           |           |           | 		  |           |           | Queen
+
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|___________|___________|___________|___________|
+DROP  |Q          |10         |1          |Queen      |0          |0          |100-150    |           |           |           | 		  |           |           | Drop Queen
+WAIT  |1000       |           |           |           |           |           |           |           |           |           |			  |           |           |
+DROP  |Q          |10         |1          |Queen      |0          |0          |100-150    |           |           |           | 		  |           |           | Activate skill
+WAIT  |2000-3000  |           |           |           |           |           |           |           |           |           |			  |           |           |
+      |--------------------------------------------------------------------------------Lightning Spell------------------------------------------------------------|   
