@@ -643,9 +643,9 @@ Func runBot() ;Bot that runs everything in order
             If $g_bRestart Then ContinueLoop
 
             If $g_bIsSearchLimit Then
-                Local $aRndFuncList = ['LabCheck', 'Collect']
+                Local $aRndFuncList = ['Collect']
             Else
-                Local $aRndFuncList = ['LabCheck', 'Collect', 'CollectCCGold', 'CheckTombs', 'CleanYard']
+                Local $aRndFuncList = ['Collect', 'CollectCCGold', 'CheckTombs', 'CleanYard']
             EndIf
             _ArrayShuffle($aRndFuncList)
             For $Index In $aRndFuncList
@@ -689,10 +689,9 @@ Func runBot() ;Bot that runs everything in order
             If $g_bRestart Then ContinueLoop
             If CheckAndroidReboot() Then ContinueLoop
             If Not $g_bRunState Then Return
-            ; MODIFIED: Force lab check with logging
+            ; MODIFIED: Use AutoUpgradeLaboratory
             SetLog("Checking Laboratory for auto-upgrade...", $COLOR_INFO)
-            $g_bAutoLabUpgradeEnable = True
-            _RunFunction('Laboratory')
+            AutoUpgradeLaboratory()
             If $g_bRestart Then ContinueLoop
             If CheckAndroidReboot() Then ContinueLoop
             If Not $g_bRunState Then Return
@@ -872,33 +871,295 @@ Func _Idle()
     WEnd
 EndFunc   ;==>_Idle
 
-; MODIFIED: New function to check storage and enable attacks
 Func CheckStorageForAttack()
-    ; TH9 max capacities
-    Local $GoldMax = 6000000
-    Local $ElixirMax = 6000000
-    Local $DarkElixirMax = 200000
-    ; 90% thresholds
-    Local $GoldThreshold = $GoldMax * 0.9 ; 5.4M
-    Local $ElixirThreshold = $ElixirMax * 0.9 ; 5.4M
-    Local $DarkElixirThreshold = $DarkElixirMax * 0.9 ; 180K
+    ; Set max capacities based on Town Hall level
+    Local $GoldMax, $ElixirMax, $DarkElixirMax
+    Switch $g_iTownHallLevel
+        Case 7
+            $GoldMax = 4000000
+            $ElixirMax = 4000000
+            $DarkElixirMax = 20000
+        Case 8
+            $GoldMax = 6000000
+            $ElixirMax = 6000000
+            $DarkElixirMax = 20000
+        Case 9
+            $GoldMax = 7000000
+            $ElixirMax = 7000000
+            $DarkElixirMax = 120000
+        Case 10
+            $GoldMax = 8500000
+            $ElixirMax = 8500000
+            $DarkElixirMax = 200000
+        Case 11
+            $GoldMax = 8000000
+            $ElixirMax = 8000000
+            $DarkElixirMax = 1000000
+        Case 12
+            $GoldMax = 12000000
+            $ElixirMax = 12000000
+            $DarkElixirMax = 1800000
+        Case 13
+            $GoldMax = 16000000
+            $ElixirMax = 16000000
+            $DarkElixirMax = 2800000
+        Case 14
+            $GoldMax = 18000000
+            $ElixirMax = 18000000
+            $DarkElixirMax = 3000000
+        Case 15
+            $GoldMax = 20000000
+            $ElixirMax = 20000000
+            $DarkElixirMax = 4000000
+        Case 16
+            $GoldMax = 22000000
+            $ElixirMax = 22000000
+            $DarkElixirMax = 5500000
+        Case 17
+            $GoldMax = 24000000
+            $ElixirMax = 24000000
+            $DarkElixirMax = 10000000
+        Case Else
+            ; Fallback for invalid/undetected TH level (use TH10 values)
+            SetLog("Warning: Unknown TH level (" & $g_iTownHallLevel & "), using TH10 values", $COLOR_WARNING)
+            $GoldMax = 8500000
+            $ElixirMax = 8500000
+            $DarkElixirMax = 200000
+    EndSwitch
     
     ; Get current resources
     $g_aiCurrentLoot[$eLootGold] = Number(getResourcesMainScreen(696, 23)) ; Gold
     $g_aiCurrentLoot[$eLootElixir] = Number(getResourcesMainScreen(696, 74)) ; Elixir
     $g_aiCurrentLoot[$eLootDarkElixir] = Number(getResourcesMainScreen(728, 123)) ; Dark Elixir
     
-    ; Check if any storage has space
-    If $g_aiCurrentLoot[$eLootGold] < $GoldThreshold Or _
-       $g_aiCurrentLoot[$eLootElixir] < $ElixirThreshold Or _
-       $g_aiCurrentLoot[$eLootDarkElixir] < $DarkElixirThreshold Then
-        SetLog("Storage space available (Gold: " & $g_aiCurrentLoot[$eLootGold] & ", Elixir: " & $g_aiCurrentLoot[$eLootElixir] & ", DE: " & $g_aiCurrentLoot[$eLootDarkElixir] & ")", $COLOR_SUCCESS)
-        $g_bHaltAttack = False
-    Else
-        SetLog("All storages near full (Gold: " & $g_aiCurrentLoot[$eLootGold] & ", Elixir: " & $g_aiCurrentLoot[$eLootElixir] & ", DE: " & $g_aiCurrentLoot[$eLootDarkElixir] & ")", $COLOR_WARNING)
+    ; Check if all storages are full
+    If $g_aiCurrentLoot[$eLootGold] >= $GoldMax And _
+       $g_aiCurrentLoot[$eLootElixir] >= $ElixirMax And _
+       $g_aiCurrentLoot[$eLootDarkElixir] >= $DarkElixirMax Then
+        SetLog("All storages full (TH" & $g_iTownHallLevel & "): Gold: " & $g_aiCurrentLoot[$eLootGold] & "/" & $GoldMax & _
+               ", Elixir: " & $g_aiCurrentLoot[$eLootElixir] & "/" & $ElixirMax & _
+               ", DE: " & $g_aiCurrentLoot[$eLootDarkElixir] & "/" & $DarkElixirMax, $COLOR_WARNING)
         $g_bHaltAttack = True
+    Else
+        Local $sLogMsg = "Storage space available (TH" & $g_iTownHallLevel & "): "
+        Local $bHasSpace = False
+        If $g_aiCurrentLoot[$eLootGold] < $GoldMax Then
+            $sLogMsg &= "Gold: " & $g_aiCurrentLoot[$eLootGold] & "/" & $GoldMax & " "
+            $bHasSpace = True
+        EndIf
+        If $g_aiCurrentLoot[$eLootElixir] < $ElixirMax Then
+            $sLogMsg &= "Elixir: " & $g_aiCurrentLoot[$eLootElixir] & "/" & $ElixirMax & " "
+            $bHasSpace = True
+        EndIf
+        If $g_aiCurrentLoot[$eLootDarkElixir] < $DarkElixirMax Then
+            $sLogMsg &= "DE: " & $g_aiCurrentLoot[$eLootDarkElixir] & "/" & $DarkElixirMax
+            $bHasSpace = True
+        EndIf
+        If Not $bHasSpace Then
+            $sLogMsg &= "None"
+        EndIf
+        SetLog($sLogMsg & " - proceeding to attack", $COLOR_SUCCESS)
+        $g_bHaltAttack = False
     EndIf
 EndFunc   ;==>CheckStorageForAttack
+
+Func AutoUpgradeLaboratory()
+    SetDebugLog("AutoUpgradeLaboratory: Starting...", $COLOR_DEBUG)
+    If Not $g_bRunState Then Return False
+    
+    ; Declare $bUpgradeAttempted at the top with a default value
+    Local $bUpgradeAttempted = False
+    
+    ; Ensure auto-upgrade is enabled
+    Local $bWasAutoLabUpgradeEnable = $g_bAutoLabUpgradeEnable
+    Local $iWasCmbLaboratory = $g_iCmbLaboratory
+    $g_bAutoLabUpgradeEnable = True
+    SetDebugLog("AutoUpgradeLaboratory: $g_bAutoLabUpgradeEnable set to " & $g_bAutoLabUpgradeEnable, $COLOR_DEBUG)
+    
+    ; Read GUI settings
+    Local $bAutoLabChecked = (GUICtrlRead($g_hChkAutoLabUpgrades) = $GUI_CHECKED)
+    Local $sTroopSelected = GUICtrlRead($g_hCmbLaboratory)
+    SetDebugLog("AutoUpgradeLaboratory: GUI AutoLabUpgrades=" & $bAutoLabChecked & ", TroopSelected=" & $sTroopSelected, $COLOR_DEBUG)
+    
+    ; Try native Laboratory() function
+    Local $bWasSilentSetLog = $g_bSilentSetLog
+    $g_bSilentSetLog = True
+    Local $bUpgradeStarted = Laboratory()
+    $g_bSilentSetLog = $bWasSilentSetLog
+    SetDebugLog("AutoUpgradeLaboratory: Native Laboratory() returned " & $bUpgradeStarted, $COLOR_DEBUG)
+    
+    If $bUpgradeStarted Then
+        SetLog("Laboratory upgrade started successfully.", $COLOR_SUCCESS)
+        ; Update Lab upgrade time
+        Local $sLabTimeOCR = getRemainTLaboratory2(250, 210)
+        If $sLabTimeOCR <> "" Then
+            Local $iLabFinishTime = ConvertOCRTime("Lab Time", $sLabTimeOCR, False) + 1
+            If $iLabFinishTime > 0 Then
+                $g_sLabUpgradeTime = _DateAdd('n', Ceiling($iLabFinishTime), _NowCalc())
+                SetLog("Research will finish in " & $sLabTimeOCR & " (" & $g_sLabUpgradeTime & ")", $COLOR_INFO)
+            EndIf
+        EndIf
+        Return True
+    EndIf
+    
+    ; Check for ongoing upgrade
+    Local $bUpgradeInProgress = False
+    If $g_sLabUpgradeTime <> "" Then
+        Local $iTimeDiff = _DateDiff("n", _NowCalc(), $g_sLabUpgradeTime)
+        If $iTimeDiff > 0 Then
+            SetLog("Laboratory upgrade in progress, finishes at " & $g_sLabUpgradeTime, $COLOR_INFO)
+            $bUpgradeInProgress = True
+        Else
+            SetLog("Stored Lab upgrade time expired, resetting...", $COLOR_DEBUG)
+            $g_sLabUpgradeTime = ""
+        EndIf
+    EndIf
+    
+    If Not $bUpgradeInProgress And isInsideDiamond($g_aiLaboratoryPos) Then
+        SetLog("Attempting manual Laboratory upgrade...", $COLOR_INFO)
+        SetDebugLog("Opening Laboratory at " & $g_aiLaboratoryPos[0] & "," & $g_aiLaboratoryPos[1], $COLOR_ACTION)
+        Click($g_aiLaboratoryPos[0], $g_aiLaboratoryPos[1], 1, 0, "Click Laboratory")
+        If _Sleep(2000) Then Return False
+        
+        ; Verify Laboratory window
+        If Not _ColorCheck(_GetPixelColor(820, 40, True), Hex(0xFFFFFF, 6), 20) Then
+            SetLog("Failed to open Laboratory window.", $COLOR_ERROR)
+            ClearScreen()
+            If _Sleep(1000) Then Return False
+            CheckMainScreen(True)
+            Return False
+        EndIf
+        SetLog("Laboratory window opened.", $COLOR_SUCCESS)
+        
+        ; Check for ongoing upgrade
+        Local $iGobBuilderOffset = 0
+        Local $iMidOffsetY = 0
+        If _ColorCheck(_GetPixelColor(775 - $iGobBuilderOffset, 135 + $iMidOffsetY, True), Hex(0xA1CA6B, 6), 20) Then
+            SetLog("Laboratory is upgrading, cannot start new upgrade.", $COLOR_INFO)
+            Local $sLabTimeOCR = getRemainTLaboratory2(250, 210 + $iMidOffsetY)
+            If $sLabTimeOCR <> "" Then
+                Local $iLabFinishTime = ConvertOCRTime("Lab Time", $sLabTimeOCR, False) + 1
+                If $iLabFinishTime > 0 Then
+                    $g_sLabUpgradeTime = _DateAdd('n', Ceiling($iLabFinishTime), _NowCalc())
+                    SetLog("Research will finish in " & $sLabTimeOCR & " (" & $g_sLabUpgradeTime & ")", $COLOR_INFO)
+                EndIf
+            EndIf
+            Click(820, 40, 1, 0, "Close Laboratory")
+            If _Sleep(1000) Then Return False
+            ClearScreen()
+            If _Sleep(1000) Then Return False
+            CheckMainScreen(True)
+            Return False
+        EndIf
+        
+        ; Click Research button
+        Local $aResearchButton = [430, 600]
+        SetDebugLog("Clicking Research button at " & $aResearchButton[0] & "," & $aResearchButton[1], $COLOR_ACTION)
+        ClickP($aResearchButton, 1, 0, "Click Research")
+        If _Sleep(3000) Then Return False
+        
+        ; Verify troop list
+        Local $bTroopListOpened = _ColorCheck(_GetPixelColor(150, 400, True), Hex(0xD8D8D0, 6), 20) Or _
+                                 _ColorCheck(_GetPixelColor(580, 400, True), Hex(0xD8D8D0, 6), 20)
+        If Not $bTroopListOpened Then
+            SetLog("Failed to open troop list.", $COLOR_ERROR)
+            Click(820, 40, 1, 0, "Close Laboratory")
+            If _Sleep(1000) Then Return False
+            ClearScreen()
+            If _Sleep(1000) Then Return False
+            CheckMainScreen(True)
+            Return False
+        EndIf
+        SetLog("Troop list opened.", $COLOR_SUCCESS)
+        
+        ; Select troop
+        If $sTroopSelected <> GetTranslatedFileIni("MBR Global GUI Design", "Any", "Any") Then
+            SetLog("Upgrading selected troop: " & $sTroopSelected, $COLOR_INFO)
+            Local $aTroopNames = StringSplit(GetTranslatedFileIni("MBR Global GUI Design", "Any", "Any") & "|" & _
+                "Barbarian|Archer|Giant|Goblin|Wall Breaker|Balloon|Wizard|Healer|Dragon|Pekka|Baby Dragon|Miner|" & _
+                "Electro Dragon|Yeti|Dragon Rider|Electro Titan|Root Rider|Thrower|Lightning Spell|Healing Spell|" & _
+                "Rage Spell|Jump Spell|Freeze Spell|Clone Spell|Invisibility Spell|Recall Spell|Revive Spell|" & _
+                "Poison Spell|EarthQuake Spell|Haste Spell|Skeleton Spell|Bat Spell|Overgrowth Spell|Minion|" & _
+                "Hog Rider|Valkyrie|Golem|Witch|Lava Hound|Bowler|Ice Golem|Headhunter|App. Warden|Druid|" & _
+                "Wall Wrecker|Battle Blimp|Stone Slammer|Siege Barrack|Log Launcher|Flame Flinger|Battle Drill", "|", 2)
+            Local $iTroopIndex = 0
+            For $i = 1 To UBound($aTroopNames) - 1
+                If $aTroopNames[$i] = $sTroopSelected Then
+                    $iTroopIndex = $i
+                    ExitLoop
+                EndIf
+            Next
+            If $iTroopIndex > 0 Then
+                Local $iPage = Ceiling($iTroopIndex / 12)
+                Local $iSlot = Mod($iTroopIndex - 1, 12)
+                Local $iRow = ($iSlot < 6) ? 420 : 543
+                Local $iCol = 70 + ($iSlot - ($iRow = 420 ? 0 : 6)) * 122
+                For $i = 1 To $iPage - 1
+                    ClickDrag(720, 475, 83, 475, 300)
+                    If _Sleep(2000) Then Return False
+                Next
+                SetDebugLog("Clicking troop at " & $iCol & "," & $iRow, $COLOR_ACTION)
+                Click($iCol, $iRow, 1, 0, "Select Troop")
+                If _Sleep(1000) Then Return False
+                $bUpgradeAttempted = True
+            Else
+                SetLog("Invalid troop selection: " & $sTroopSelected, $COLOR_ERROR)
+            EndIf
+        Else
+            SetLog("Selecting any available upgrade...", $COLOR_INFO)
+            Local $aTroopSlots[12][2] = [[70, 420], [192, 420], [314, 420], [436, 420], [558, 420], [680, 420], _
+                                        [70, 543], [192, 543], [314, 543], [436, 543], [558, 543], [680, 543]]
+            For $i = 0 To UBound($aTroopSlots) - 1
+                SetDebugLog("Checking slot " & ($i + 1) & " at " & $aTroopSlots[$i][0] & "," & $aTroopSlots[$i][1], $COLOR_ACTION)
+                Click($aTroopSlots[$i][0], $aTroopSlots[$i][1], 1, 0, "Select Troop")
+                If _Sleep(1000) Then Return False
+                If _ColorCheck(_GetPixelColor(630, 545, True), Hex(0xA1CA6B, 6), 20) Then
+                    SetLog("Found upgrade at slot " & ($i + 1), $COLOR_SUCCESS)
+                    $bUpgradeAttempted = True
+                    ExitLoop
+                EndIf
+            Next
+        EndIf
+        
+        ; Start upgrade if applicable
+        If $bUpgradeAttempted Then
+            Local $aUpgradeButton = [630, 545]
+            SetDebugLog("Clicking Upgrade button at " & $aUpgradeButton[0] & "," & $aUpgradeButton[1], $COLOR_ACTION)
+            ClickP($aUpgradeButton, 1, 0, "Start Upgrade")
+            If _Sleep(1000) Then Return False
+            SetLog("Laboratory upgrade started.", $COLOR_SUCCESS)
+            ; Read upgrade time
+            Local $sLabTimeOCR = getRemainTLaboratory2(250, 210)
+            If $sLabTimeOCR <> "" Then
+                Local $iLabFinishTime = ConvertOCRTime("Lab Time", $sLabTimeOCR, False) + 1
+                If $iLabFinishTime > 0 Then
+                    $g_sLabUpgradeTime = _DateAdd('n', Ceiling($iLabFinishTime), _NowCalc())
+                    SetLog("Research will finish in " & $sLabTimeOCR & " (" & $g_sLabUpgradeTime & ")", $COLOR_INFO)
+                EndIf
+            EndIf
+        ElseIf Not $bUpgradeInProgress Then
+            SetLog("No available upgrades found.", $COLOR_WARNING)
+        EndIf
+        
+        ; Close Laboratory
+        Click(820, 40, 1, 0, "Close Laboratory")
+        If _Sleep(1000) Then Return False
+        ClearScreen()
+        If _Sleep(1000) Then Return False
+        CheckMainScreen(True)
+    ElseIf Not $bUpgradeInProgress Then
+        SetLog("Laboratory position invalid.", $COLOR_ERROR)
+    EndIf
+    
+    ; Restore original settings
+    $g_bAutoLabUpgradeEnable = $bWasAutoLabUpgradeEnable
+    $g_iCmbLaboratory = $iWasCmbLaboratory
+    SetDebugLog("AutoUpgradeLaboratory: Restored $g_bAutoLabUpgradeEnable=" & $g_bAutoLabUpgradeEnable, $COLOR_DEBUG)
+    
+    VillageReport()
+    SetLog("Laboratory upgrade attempt completed.", $COLOR_INFO)
+    Return $bUpgradeAttempted
+EndFunc   ;==>AutoUpgradeLaboratory
 
 Func AttackMain()
     If ProfileSwitchAccountEnabled() And $g_abDonateOnly[$g_iCurAccount] Then Return
@@ -1031,7 +1292,6 @@ Func __RunFunction($action)
             BoostEverything()
         Case "DailyChallenge"
             DailyChallenges()
-        Case "LabCheck"
         Case "PetCheck"
             PetGuiDisplay()
         Case "RequestCC"
@@ -1127,198 +1387,21 @@ Func FirstCheck()
     If $g_bRestart Then Return
     If BotCommand() Then btnStop()
 
-        ; MODIFIED: Run auto-upgrades before attacking
+    ; MODIFIED: Run auto-upgrades before attacking
     SetLog("Running auto-upgrade for buildings...", $COLOR_INFO)
     AutoUpgrade()
     If Not $g_bRunState Then Return
     If $g_bRestart Then Return
 
     SetLog("Checking Laboratory for auto-upgrade...", $COLOR_INFO)
-    $g_bAutoLabUpgradeEnable = True
-    SetDebugLog("Calling Laboratory function with auto-upgrade enabled...", $COLOR_DEBUG)
-    _RunFunction('Laboratory')
-    SetDebugLog("Laboratory function completed.", $COLOR_DEBUG)
+    Local $bUpgradeAttempted = AutoUpgradeLaboratory()
     If Not $g_bRunState Then Return
     If $g_bRestart Then Return
-
-    ; Add a small delay to ensure the Laboratory upgrade has time to process
-    If _Sleep(2000) Then Return
-
-; Laboratory auto-upgrade
-If Not $g_bRunState Then Return
-If $g_bRestart Then Return
-SetLog("Checking Laboratory for auto-upgrade...", $COLOR_INFO)
-If isInsideDiamond($g_aiLaboratoryPos) Then
-    ; Try native Laboratory() function
-    Local $bWasAutoLabUpgradeEnable = $g_bAutoLabUpgradeEnable
-    Local $iWasCmbLaboratory = $g_iCmbLaboratory
-    $g_bAutoLabUpgradeEnable = (GUICtrlRead($g_hChkAutoLabUpgrades) = $GUI_CHECKED)
-    Local $sTroopSelected = GUICtrlRead($g_hCmbLaboratory)
-    If $sTroopSelected <> GetTranslatedFileIni("MBR Global GUI Design", "Any", "Any") Then
-        ; Map troop name to index (1-based, matching $sTxtNames order)
-        Local $aTroopNames = StringSplit(GetTranslatedFileIni("MBR Global GUI Design", "Any", "Any") & "|" & _
-            "Barbarian|Archer|Giant|Goblin|Wall Breaker|Balloon|Wizard|Healer|Dragon|Pekka|Baby Dragon|Miner|" & _
-            "Electro Dragon|Yeti|Dragon Rider|Electro Titan|Root Rider|Thrower|Lightning Spell|Healing Spell|" & _
-            "Rage Spell|Jump Spell|Freeze Spell|Clone Spell|Invisibility Spell|Recall Spell|Revive Spell|" & _
-            "Poison Spell|EarthQuake Spell|Haste Spell|Skeleton Spell|Bat Spell|Overgrowth Spell|Minion|" & _
-            "Hog Rider|Valkyrie|Golem|Witch|Lava Hound|Bowler|Ice Golem|Headhunter|App. Warden|Druid|" & _
-            "Wall Wrecker|Battle Blimp|Stone Slammer|Siege Barrack|Log Launcher|Flame Flinger|Battle Drill", "|", 2)
-        For $i = 1 To UBound($aTroopNames) - 1
-            If $aTroopNames[$i] = $sTroopSelected Then
-                $g_iCmbLaboratory = $i
-                ExitLoop
-            EndIf
-        Next
+    If $bUpgradeAttempted Then
+        SetLog("Laboratory upgrade successfully initiated.", $COLOR_SUCCESS)
     Else
-        $g_iCmbLaboratory = 0 ; "Any"
+        SetLog("No Laboratory upgrade started (e.g., in progress or no resources).", $COLOR_INFO)
     EndIf
-
-    ; Temporarily suppress Village Report logging during Laboratory()
-    Local $bWasSilentSetLog = $g_bSilentSetLog
-    $g_bSilentSetLog = True
-    Local $bUpgradeStarted = Laboratory()
-    $g_bSilentSetLog = $bWasSilentSetLog
-
-    $g_bAutoLabUpgradeEnable = $bWasAutoLabUpgradeEnable
-    $g_iCmbLaboratory = $iWasCmbLaboratory
-
-    If $bUpgradeStarted Then
-        SetLog("Laboratory upgrade successful.", $COLOR_SUCCESS)
-    Else
-        ; Check if Laboratory() failed due to an ongoing upgrade
-        Local $bUpgradeInProgress = False
-        If $g_sLabUpgradeTime <> "" Then
-            Local $iTimeDiff = _DateDiff("n", _NowCalc(), $g_sLabUpgradeTime)
-            If $iTimeDiff > 0 Then
-                SetLog("Laboratory upgrade already in progress, skipping manual upgrade.", $COLOR_INFO)
-                $bUpgradeInProgress = True
-            EndIf
-        EndIf
-
-        ; Only proceed with manual upgrade if no upgrade is in progress
-        If Not $bUpgradeInProgress Then
-            SetLog("Attempting manual Laboratory upgrade...", $COLOR_WARNING)
-            SetLog("Opening Laboratory at position: " & $g_aiLaboratoryPos[0] & "," & $g_aiLaboratoryPos[1], $COLOR_ACTION)
-            Click($g_aiLaboratoryPos[0], $g_aiLaboratoryPos[1], 1, 0, "Click Laboratory")
-            If _Sleep(2000) Then Return
-            SetLog("Laboratory window opened.", $COLOR_INFO)
-
-            If GUICtrlRead($g_hChkAutoLabUpgrades) = $GUI_CHECKED Then
-                SetLog("Attempting to auto-upgrade in Laboratory...", $COLOR_ACTION)
-
-                ; Double-check for ongoing upgrades
-                Local $iGobBuilderOffset = 0 ; Assume no Goblin Builder for simplicity
-                Local $iMidOffsetY = 0 ; Adjust if your setup uses a different offset
-                If _ColorCheck(_GetPixelColor(775 - $iGobBuilderOffset, 135 + $iMidOffsetY, True), Hex(0xA1CA6B, 6), 20) Then
-                    SetLog("Laboratory is currently upgrading, cannot start a new upgrade.", $COLOR_INFO)
-                    $bUpgradeInProgress = True
-                    Local $sLabTimeOCR = getRemainTLaboratory2(250, 210 + $iMidOffsetY)
-                    Local $iLabFinishTime = ConvertOCRTime("Lab Time", $sLabTimeOCR, False) + 1
-                    If $iLabFinishTime > 0 Then
-                        $g_sLabUpgradeTime = _DateAdd('n', Ceiling($iLabFinishTime), _NowCalc())
-                        SetLog("Research will finish in " & $sLabTimeOCR & " (" & $g_sLabUpgradeTime & ")")
-                    EndIf
-                    Click(820, 40, 1, 0, "Close Laboratory Window")
-                    If _Sleep(1000) Then Return
-                    ClearScreen()
-                    If _Sleep(1000) Then Return
-                    CheckMainScreen(True)
-                    Return
-                EndIf
-
-                ; Click the "Research" button
-                Local $aResearchButton = [430, 600] ; Adjusted for 860x732
-                SetLog("Clicking Research button at: " & $aResearchButton[0] & "," & $aResearchButton[1], $COLOR_ACTION)
-                ClickP($aResearchButton, 1, 0, "Click Research Button")
-                If _Sleep(3000) Then Return ; 3-second delay to ensure troop list loads
-
-                ; Check if the troop list opened
-                Local $bTroopListOpened = _ColorCheck(_GetPixelColor(150, 400, True), Hex(0xD8D8D0, 6), 20) Or _
-                                         _ColorCheck(_GetPixelColor(580, 400, True), Hex(0xD8D8D0, 6), 20)
-                If Not $bTroopListOpened Then
-                    SetLog("Failed to open troop list, aborting upgrade.", $COLOR_ERROR)
-                    Click(820, 40, 1, 0, "Close Laboratory Window")
-                    If _Sleep(1000) Then Return
-                    ClearScreen()
-                    If _Sleep(1000) Then Return
-                    CheckMainScreen(True)
-                    Return
-                EndIf
-                SetLog("Troop list opened successfully.", $COLOR_SUCCESS)
-
-                ; Start a new upgrade
-                Local $bUpgradeAttempted = False
-                If $sTroopSelected <> GetTranslatedFileIni("MBR Global GUI Design", "Any", "Any") Then
-                    ; Specific troop selected
-                    SetLog("Selected troop for upgrade: " & $sTroopSelected, $COLOR_INFO)
-                    Local $iTroopIndex = $g_iCmbLaboratory
-                    If $iTroopIndex > 0 Then
-                        Local $iPage = Ceiling($iTroopIndex / 12) ; 12 items per page
-                        Local $iSlot = Mod($iTroopIndex - 1, 12) ; 0-based slot on page
-                        Local $iRow = ($iSlot < 6) ? 420 : 543 ; Row 1 or 2
-                        Local $iCol = 70 + ($iSlot - ($iRow = 420 ? 0 : 6)) * 122 ; X position
-                        For $i = 1 To $iPage - 1
-                            ClickDrag(720, 475, 83, 475, 300) ; Drag to next page
-                            If _Sleep(2000) Then Return
-                        Next
-                        SetLog("Clicking troop at: " & $iCol & "," & $iRow, $COLOR_ACTION)
-                        Click($iCol, $iRow, 1, 0, "Select Troop")
-                        $bUpgradeAttempted = True
-                    Else
-                        SetLog("Troop index invalid.", $COLOR_ERROR)
-                    EndIf
-                Else
-                    ; "Any" selected - iterate through troops on the first page
-                    SetLog("No specific troop selected, attempting to find any available upgrade...", $COLOR_INFO)
-                    Local $aTroopSlots[12][2] = [[70, 420], [192, 420], [314, 420], [436, 420], [558, 420], [680, 420], _
-                                                [70, 543], [192, 543], [314, 543], [436, 543], [558, 543], [680, 543]]
-                    For $i = 0 To UBound($aTroopSlots) - 1
-                        SetLog("Checking troop slot " & ($i + 1) & " at: " & $aTroopSlots[$i][0] & "," & $aTroopSlots[$i][1], $COLOR_ACTION)
-                        Click($aTroopSlots[$i][0], $aTroopSlots[$i][1], 1, 0, "Select Troop")
-                        If _Sleep(1000) Then Return
-                        ; Check if the "Upgrade" button is clickable (look for green pixel)
-                        If _ColorCheck(_GetPixelColor(630, 545, True), Hex(0xA1CA6B, 6), 20) Then
-                            SetLog("Found an available upgrade at slot " & ($i + 1), $COLOR_SUCCESS)
-                            $bUpgradeAttempted = True
-                            ExitLoop
-                        EndIf
-                    Next
-                    If Not $bUpgradeAttempted Then
-                        SetLog("No available upgrades found on the first page.", $COLOR_WARNING)
-                    EndIf
-                EndIf
-
-                ; If an upgrade was attempted, click the "Upgrade" button
-                If $bUpgradeAttempted Then
-                    Local $aUpgradeButton = [630, 545] ; From Laboratory()
-                    SetLog("Clicking Upgrade button at: " & $aUpgradeButton[0] & "," & $aUpgradeButton[1], $COLOR_ACTION)
-                    ClickP($aUpgradeButton, 1, 0, "Start Upgrade")
-                    If _Sleep(1000) Then Return
-                    If $sTroopSelected <> GetTranslatedFileIni("MBR Global GUI Design", "Any", "Any") Then
-                        SetLog("Laboratory upgrade started for " & $sTroopSelected, $COLOR_SUCCESS)
-                    Else
-                        SetLog("Laboratory upgrade started for an available troop.", $COLOR_SUCCESS)
-                    EndIf
-                EndIf
-            Else
-                SetLog("Auto Laboratory upgrades not enabled, skipping.", $COLOR_INFO)
-            EndIf
-
-            ; Close the Laboratory window
-            Click(820, 40, 1, 0, "Close Laboratory Window")
-            If _Sleep(1000) Then Return
-            ClearScreen()
-            If _Sleep(1000) Then Return
-            CheckMainScreen(True)
-        EndIf
-    EndIf
-Else
-    SetLog("Laboratory position invalid, cannot open.", $COLOR_ERROR)
-EndIf
-
-; Log Village Report after the entire Laboratory process
-VillageReport()
-SetLog("Laboratory upgrade attempt completed.", $COLOR_INFO)
 
     If $g_iCommandStop <> 0 And $g_iCommandStop <> 3 Then
         SetDebugLog("-- FirstCheck on Train --")
